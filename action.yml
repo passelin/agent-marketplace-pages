@@ -23,6 +23,14 @@ inputs:
     description: 'Marketplace description (falls back to marketplace.json metadata.description)'
     required: false
     default: ''
+  marketplace-owner-name:
+    description: 'owner.name field in marketplace.json (falls back to GITHUB_REPOSITORY_OWNER)'
+    required: false
+    default: ''
+  marketplace-owner-email:
+    description: 'owner.email field in marketplace.json'
+    required: false
+    default: ''
   site-title:
     description: 'Browser title for the site (falls back to marketplace name)'
     required: false
@@ -75,6 +83,8 @@ runs:
         MARKETPLACE_OUTPUT: ${{ inputs.marketplace-json }}
         MARKETPLACE_NAME: ${{ inputs.marketplace-name }}
         MARKETPLACE_DESCRIPTION: ${{ inputs.marketplace-description }}
+        MARKETPLACE_OWNER_NAME: ${{ inputs.marketplace-owner-name }}
+        MARKETPLACE_OWNER_EMAIL: ${{ inputs.marketplace-owner-email }}
       run: node "${{ github.action_path }}/generator/generate-marketplace.mjs"
 
     - name: Commit marketplace.json back to repository

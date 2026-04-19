@@ -9,6 +9,8 @@
  *   MARKETPLACE_OUTPUT           Output path for marketplace.json (default: ".github/plugin/marketplace.json")
  *   MARKETPLACE_NAME             Marketplace name field (default: repo name from GITHUB_REPOSITORY)
  *   MARKETPLACE_DESCRIPTION      Marketplace description
+ *   MARKETPLACE_OWNER_NAME       owner.name field (default: GITHUB_REPOSITORY_OWNER)
+ *   MARKETPLACE_OWNER_EMAIL      owner.email field (default: "")
  *   GITHUB_WORKSPACE             Calling repo root (default: cwd)
  */
 
@@ -28,6 +30,8 @@ const repoName = process.env.GITHUB_REPOSITORY
   : path.basename(REPO_ROOT);
 const MARKETPLACE_NAME = process.env.MARKETPLACE_NAME || repoName;
 const MARKETPLACE_DESCRIPTION = process.env.MARKETPLACE_DESCRIPTION || "";
+const MARKETPLACE_OWNER_NAME = process.env.MARKETPLACE_OWNER_NAME || process.env.GITHUB_REPOSITORY_OWNER || "";
+const MARKETPLACE_OWNER_EMAIL = process.env.MARKETPLACE_OWNER_EMAIL || "";
 
 function validateExternalPlugin(plugin, index) {
   const errors = [];
@@ -196,7 +200,7 @@ function generateMarketplace() {
       pluginRoot: `./${PLUGIN_ROOT}`,
     },
     owner: {
-      name: process.env.GITHUB_REPOSITORY_OWNER || "",
+      name: MARKETPLACE_OWNER_NAME,
       email: "",
     },
     ...(remoteMarketplaces.length > 0 ? { remoteMarketplaces } : {}),
