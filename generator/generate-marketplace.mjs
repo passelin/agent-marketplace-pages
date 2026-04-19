@@ -201,7 +201,7 @@ function generateMarketplace() {
     },
     owner: {
       name: MARKETPLACE_OWNER_NAME,
-      email: "",
+      email: MARKETPLACE_OWNER_EMAIL,
     },
     ...(remoteMarketplaces.length > 0 ? { remoteMarketplaces } : {}),
     plugins,
