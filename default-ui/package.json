@@ -1,7 +1,7 @@
 {
-  "name": "marketplace-ui-default",
+  "name": "agent-marketplace-pages-ui",
   "version": "1.0.0",
-  "description": "Default Astro + Starlight UI for the marketplace UI generator",
+  "description": "Default Astro + Starlight UI for agent-marketplace-pages",
   "type": "module",
   "private": true,
   "scripts": {

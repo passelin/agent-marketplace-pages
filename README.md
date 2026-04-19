@@ -41,7 +41,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: your-org/marketplace-ui-generator@v1
+      - uses: your-org/agent-marketplace-pages@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           plugin-root: plugins
@@ -76,7 +76,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: your-org/marketplace-ui-generator@v1
+      - uses: your-org/agent-marketplace-pages@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           marketplace-json: .github/plugin/marketplace.json
@@ -90,7 +90,7 @@ jobs:
 
 When using `plugin-root`, the action scans subdirectories and reads a manifest from each one.
 
-```
+```text
 plugins/
 ├── my-plugin/
 │   └── .github/plugin/plugin.json   ← default path, configurable via plugin-json-path
@@ -131,7 +131,7 @@ Each `plugin.json`:
 ## Inputs
 
 | Input | Default | Description |
-|---|---|---|
+| --- | --- | --- |
 | `plugin-root` | `""` | Directory of plugin subdirectories. If set, `marketplace.json` is generated and committed back to the repo. |
 | `plugin-json-path` | `.github/plugin/plugin.json` | Relative path inside each plugin dir to its manifest |
 | `marketplace-json` | `.github/plugin/marketplace.json` | Path to `marketplace.json` (input when pre-committed, output when `plugin-root` is set) |
@@ -154,7 +154,7 @@ If your repo contains a directory with a `package.json` that has a `build` scrip
 Set `custom-ui-dir` to point at your directory:
 
 ```yaml
-- uses: your-org/marketplace-ui-generator@v1
+- uses: your-org/agent-marketplace-pages@v1
   with:
     custom-ui-dir: my-custom-site
 ```

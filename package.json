@@ -1,7 +1,7 @@
 {
-  "name": "marketplace-ui-generator",
+  "name": "agent-marketplace-pages",
   "version": "1.0.0",
-  "description": "Reusable GitHub Action for generating and deploying a static marketplace UI for GitHub Copilot CLI plugin marketplace repos",
+  "description": "Reusable GitHub Action for generating and deploying a static agent marketplace browser site to GitHub Pages",
   "type": "module",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/marketplace-ui-generator.git"
+    "url": "https://github.com/github/agent-marketplace-pages.git"
   },
   "keywords": ["github", "copilot", "marketplace", "plugins", "static-site"],
   "author": "GitHub",
