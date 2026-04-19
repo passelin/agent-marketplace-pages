@@ -1,0 +1,153 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import manifestData from '../../public/data/manifest.json';
+
+const marketplaceName = manifestData.marketplaceName || 'Plugin Marketplace';
+const description = manifestData.description || 'Browse and install plugins for your GitHub Copilot CLI experience';
+const totalPlugins = manifestData.counts?.total ?? 0;
+const localPlugins = manifestData.counts?.local ?? 0;
+const externalPlugins = manifestData.counts?.external ?? 0;
+---
+
+<StarlightPage frontmatter={{ title: marketplaceName, template: 'splash', prev: false, next: false, editUrl: false }}>
+  <div id="main-content">
+    <div class="page-content">
+      <div class="container">
+        <div class="marketplace-hero">
+          <h1>{marketplaceName}</h1>
+          <p class="marketplace-description">{description}</p>
+
+          <div class="stats-row">
+            <div class="stat-card">
+              <span class="stat-number">{totalPlugins}</span>
+              <span class="stat-label">Total Plugins</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">{localPlugins}</span>
+              <span class="stat-label">Curated</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">{externalPlugins}</span>
+              <span class="stat-label">Community</span>
+            </div>
+          </div>
+
+          <a href="plugins/" class="btn btn-primary browse-btn">Browse Plugins</a>
+        </div>
+
+        <div class="install-section">
+          <h2>Getting Started</h2>
+          <p>Install any plugin directly from the GitHub Copilot CLI:</p>
+          <code class="install-command">copilot plugin install &lt;plugin-name&gt;@{marketplaceName}</code>
+          <p class="install-hint">Replace <code>&lt;plugin-name&gt;</code> with the plugin you want to install.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .marketplace-hero {
+      text-align: center;
+      padding: 60px 0 48px;
+    }
+
+    .marketplace-hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      color: var(--color-text-emphasis);
+      margin-bottom: 16px;
+    }
+
+    .marketplace-description {
+      font-size: 1.1rem;
+      color: var(--color-text-muted);
+      max-width: 560px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .stat-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-glass-border);
+      border-radius: var(--border-radius-lg);
+      padding: 20px 32px;
+      min-width: 120px;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--color-accent);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      margin-top: 6px;
+    }
+
+    .browse-btn {
+      font-size: 1rem;
+      padding: 14px 32px;
+    }
+
+    .install-section {
+      background: var(--color-bg-secondary);
+      border: 1px solid var(--color-border);
+      border-radius: var(--border-radius-lg);
+      padding: 32px;
+      margin-top: 48px;
+      margin-bottom: 80px;
+    }
+
+    .install-section h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--color-text-emphasis);
+      margin-bottom: 8px;
+    }
+
+    .install-section p {
+      color: var(--color-text-muted);
+      margin-bottom: 16px;
+    }
+
+    .install-command {
+      display: block;
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--border-radius);
+      padding: 14px 18px;
+      font-family: var(--font-mono, monospace);
+      font-size: 0.95rem;
+      color: var(--color-text);
+      margin-bottom: 12px;
+      overflow-x: auto;
+    }
+
+    .install-hint {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      margin: 0;
+    }
+
+    .install-hint code {
+      background: var(--sl-color-bg-inline-code, var(--color-bg-tertiary));
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+  </style>
+</StarlightPage>

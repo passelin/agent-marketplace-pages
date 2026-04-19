@@ -1,0 +1,135 @@
+name: 'Marketplace UI Generator'
+description: 'Generate and deploy a static plugin marketplace browser site to GitHub Pages'
+author: 'GitHub'
+
+inputs:
+  plugin-root:
+    description: 'Directory containing plugin subdirectories. If set, marketplace.json is generated from this directory before building the UI.'
+    required: false
+    default: ''
+  plugin-json-path:
+    description: 'Relative path inside each plugin directory to its manifest (only used when plugin-root is set)'
+    required: false
+    default: '.github/plugin/plugin.json'
+  marketplace-json:
+    description: 'Path to marketplace.json relative to the repository root'
+    required: false
+    default: '.github/plugin/marketplace.json'
+  marketplace-name:
+    description: 'Marketplace name (falls back to repository name)'
+    required: false
+    default: ''
+  marketplace-description:
+    description: 'Marketplace description (falls back to marketplace.json metadata.description)'
+    required: false
+    default: ''
+  site-title:
+    description: 'Browser title for the site (falls back to marketplace name)'
+    required: false
+    default: ''
+  site-description:
+    description: 'Meta description for the site'
+    required: false
+    default: ''
+  base-path:
+    description: 'Base URL path (e.g. /my-repo/ for GitHub Pages project sites)'
+    required: false
+    default: '/'
+  deploy-branch:
+    description: 'Branch to deploy the built site to'
+    required: false
+    default: 'gh-pages'
+  custom-ui-dir:
+    description: 'Path to a custom UI directory. If it contains a package.json with a build script, it will be used instead of the default UI.'
+    required: false
+    default: 'ui'
+  github-token:
+    description: 'GitHub token for deploying to gh-pages branch'
+    required: true
+    default: ${{ github.token }}
+  dry-run:
+    description: 'Set to "true" to build without deploying (useful for CI validation)'
+    required: false
+    default: 'false'
+
+outputs:
+  page-url:
+    description: 'URL of the deployed marketplace site'
+    value: ${{ steps.deploy.outputs.page-url }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Generate marketplace.json from file structure
+      if: inputs.plugin-root != ''
+      shell: bash
+      env:
+        GITHUB_WORKSPACE: ${{ github.workspace }}
+        MARKETPLACE_PLUGIN_ROOT: ${{ inputs.plugin-root }}
+        MARKETPLACE_PLUGIN_JSON_PATH: ${{ inputs.plugin-json-path }}
+        MARKETPLACE_OUTPUT: ${{ inputs.marketplace-json }}
+        MARKETPLACE_NAME: ${{ inputs.marketplace-name }}
+        MARKETPLACE_DESCRIPTION: ${{ inputs.marketplace-description }}
+      run: node "${{ github.action_path }}/generator/generate-marketplace.mjs"
+
+    - name: Generate UI data files from marketplace.json
+      shell: bash
+      env:
+        GITHUB_WORKSPACE: ${{ github.workspace }}
+        MARKETPLACE_INPUT: ${{ inputs.marketplace-json }}
+        MARKETPLACE_DIST_DIR: ${{ github.workspace }}/_marketplace_dist/data
+        MARKETPLACE_SITE_TITLE: ${{ inputs.site-title }}
+        MARKETPLACE_SITE_DESCRIPTION: ${{ inputs.site-description }}
+      run: node "${{ github.action_path }}/generator/generate.mjs"
+
+    - name: Detect UI source
+      id: detect-ui
+      shell: bash
+      run: |
+        CUSTOM_UI="${{ github.workspace }}/${{ inputs.custom-ui-dir }}"
+        if [ -d "$CUSTOM_UI" ] && [ -f "$CUSTOM_UI/package.json" ]; then
+          echo "ui-path=$CUSTOM_UI" >> "$GITHUB_OUTPUT"
+          echo "ui-type=custom" >> "$GITHUB_OUTPUT"
+          echo "Using custom UI from $CUSTOM_UI"
+        else
+          echo "ui-path=${{ github.action_path }}/default-ui" >> "$GITHUB_OUTPUT"
+          echo "ui-type=default" >> "$GITHUB_OUTPUT"
+          echo "Using default UI"
+        fi
+
+    - name: Install UI dependencies
+      shell: bash
+      run: npm ci
+      working-directory: ${{ steps.detect-ui.outputs.ui-path }}
+
+    - name: Copy generated data into UI public directory
+      shell: bash
+      run: |
+        mkdir -p "${{ steps.detect-ui.outputs.ui-path }}/public/data"
+        cp -r "${{ github.workspace }}/_marketplace_dist/data/." \
+              "${{ steps.detect-ui.outputs.ui-path }}/public/data/"
+
+    - name: Build UI
+      shell: bash
+      env:
+        MARKETPLACE_SITE_TITLE: ${{ inputs.site-title }}
+        MARKETPLACE_SITE_DESCRIPTION: ${{ inputs.site-description }}
+        MARKETPLACE_BASE_PATH: ${{ inputs.base-path }}
+        MARKETPLACE_SITE_URL: 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/'
+      run: npm run build
+      working-directory: ${{ steps.detect-ui.outputs.ui-path }}
+
+    - name: Deploy to GitHub Pages branch
+      id: deploy
+      if: inputs.dry-run != 'true'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ inputs.github-token }}
+        publish_dir: ${{ steps.detect-ui.outputs.ui-path }}/dist
+        publish_branch: ${{ inputs.deploy-branch }}
+        full_commit_message: 'Deploy marketplace UI [skip ci]'

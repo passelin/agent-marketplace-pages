@@ -1,0 +1,20 @@
+{
+  "name": "marketplace-ui-default",
+  "version": "1.0.0",
+  "description": "Default Astro + Starlight UI for the marketplace UI generator",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/starlight": "^0.37.6",
+    "astro": "^5.16.15",
+    "choices.js": "^11.1.0",
+    "zod": "^3.25.76"
+  }
+}

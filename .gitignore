@@ -1,0 +1,7 @@
+node_modules/
+dist/
+default-ui/node_modules/
+default-ui/dist/
+_marketplace_dist/
+.astro/
+default-ui/.astro/

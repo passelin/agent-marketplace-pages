@@ -1,0 +1,11 @@
+{
+  "_schema": "marketplace-ui/1.0",
+  "generated": "2026-04-20T03:15:13.064Z",
+  "marketplaceName": "awesome-copilot",
+  "description": "Community-driven collection of GitHub Copilot plugins, agents, prompts, and skills",
+  "counts": {
+    "total": 70,
+    "local": 61,
+    "external": 9
+  }
+}

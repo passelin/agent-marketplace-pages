@@ -1,0 +1,20 @@
+{
+  "name": "marketplace-ui-generator",
+  "version": "1.0.0",
+  "description": "Reusable GitHub Action for generating and deploying a static marketplace UI for GitHub Copilot CLI plugin marketplace repos",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate-marketplace": "node generator/generate-marketplace.mjs",
+    "generate": "node generator/generate.mjs",
+    "dev": "npm run generate && npm run --prefix default-ui dev",
+    "build": "npm run generate && npm run --prefix default-ui build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/github/marketplace-ui-generator.git"
+  },
+  "keywords": ["github", "copilot", "marketplace", "plugins", "static-site"],
+  "author": "GitHub",
+  "license": "MIT"
+}
