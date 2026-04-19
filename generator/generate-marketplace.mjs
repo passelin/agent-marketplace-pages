@@ -76,11 +76,15 @@ function readRemoteMarketplaces() {
     const valid = [];
     for (let i = 0; i < remotes.length; i++) {
       const r = remotes[i];
-      if (!r.name || !r.url) {
-        console.warn(`Warning: remotes.json[${i}] missing required "name" or "url" — skipped`);
+      if (!r.name || (!r.url && !r.repo)) {
+        console.warn(`Warning: remotes.json[${i}] missing required "name" and either "url" or "repo" — skipped`);
         continue;
       }
-      valid.push({ name: r.name, ...(r.label ? { label: r.label } : {}), url: r.url });
+      valid.push({
+        name: r.name,
+        ...(r.label ? { label: r.label } : {}),
+        ...(r.repo ? { repo: r.repo } : { url: r.url }),
+      });
     }
     return valid;
   } catch (error) {
@@ -180,7 +184,7 @@ function generateMarketplace() {
   const remoteMarketplaces = readRemoteMarketplaces();
   if (remoteMarketplaces.length > 0) {
     console.log(`\nFound ${remoteMarketplaces.length} remote marketplace(s)`);
-    for (const r of remoteMarketplaces) console.log(`  ✓ ${r.name} (${r.url})`);
+    for (const r of remoteMarketplaces) console.log(`  ✓ ${r.name} (${r.repo ? `github:${r.repo}` : r.url})`);
   }
 
   const externalPlugins = readExternalPlugins();

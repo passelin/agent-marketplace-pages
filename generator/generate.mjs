@@ -92,28 +92,45 @@ function getRemotePluginUrl(plugin, remoteData, remoteUrl) {
   return null;
 }
 
-async function fetchRemotePlugins(remote) {
-  try {
-    const response = await fetch(remote.url);
-    if (!response.ok) {
-      console.warn(`Warning: Failed to fetch remote marketplace "${remote.name}": HTTP ${response.status}`);
-      return [];
-    }
-    const data = await response.json();
-    if (!Array.isArray(data.plugins)) {
-      console.warn(`Warning: Remote marketplace "${remote.name}" has no plugins array`);
-      return [];
-    }
-    console.log(`  ✓ ${remote.name}: ${data.plugins.length} plugins`);
-    return data.plugins.map((plugin) => ({
-      ...plugin,
-      _remoteData: data,
-      _remote: remote,
-    }));
-  } catch (error) {
-    console.warn(`Warning: Failed to fetch remote marketplace "${remote.name}": ${error.message}`);
-    return [];
+const MARKETPLACE_PATHS = [".github/plugin/marketplace.json", ".claude-plugin/marketplace.json"];
+
+function candidateUrls(remote) {
+  if (remote.repo) {
+    const base = `https://raw.githubusercontent.com/${remote.repo}/main`;
+    return MARKETPLACE_PATHS.map((p) => `${base}/${p}`);
   }
+  // Direct URL: try it first, then swap between the two known paths as fallback
+  const urls = [remote.url];
+  for (const known of MARKETPLACE_PATHS) {
+    if (remote.url.includes(known)) {
+      const other = MARKETPLACE_PATHS.find((p) => p !== known);
+      urls.push(remote.url.replace(known, other));
+      break;
+    }
+  }
+  return urls;
+}
+
+async function fetchRemotePlugins(remote) {
+  const urls = candidateUrls(remote);
+  let lastStatus;
+  for (const url of urls) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) { lastStatus = response.status; continue; }
+      const data = await response.json();
+      if (!Array.isArray(data.plugins)) {
+        console.warn(`Warning: Remote marketplace "${remote.name}" has no plugins array`);
+        return [];
+      }
+      console.log(`  ✓ ${remote.name}: ${data.plugins.length} plugins (${url})`);
+      return data.plugins.map((plugin) => ({ ...plugin, _remoteData: data, _remote: { ...remote, url } }));
+    } catch (error) {
+      lastStatus = error.message;
+    }
+  }
+  console.warn(`Warning: Failed to fetch remote marketplace "${remote.name}": ${lastStatus}`);
+  return [];
 }
 
 async function generateData() {

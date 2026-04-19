@@ -114,13 +114,12 @@ Each `plugin.json`:
 
 ```json
 [
-  {
-    "name": "awesome-copilot",
-    "label": "GitHub Copilot Extensions",
-    "url": "https://raw.githubusercontent.com/github/awesome-copilot/main/.github/plugin/marketplace.json"
-  }
+  { "name": "awesome-copilot", "label": "GitHub Copilot Extensions", "repo": "github/awesome-copilot" },
+  { "name": "my-team", "url": "https://raw.githubusercontent.com/acme/plugins/main/.github/plugin/marketplace.json" }
 ]
 ```
+
+Use `repo` for GitHub repos — the generator tries `.github/plugin/marketplace.json` then `.claude-plugin/marketplace.json` automatically. Use `url` when you need an exact path; if that URL returns 404 the other standard path is tried as a fallback.
 
 Plugins from remote marketplaces appear in the site with a "From: X" badge linking back to the source. If a plugin name conflicts with a local one, the local plugin wins. Remote plugins are fetched at build time — no runtime requests.
 
