@@ -110,7 +110,21 @@ Each `plugin.json`:
 }
 ```
 
-`external.json` — an array of externally-hosted plugins:
+`remotes.json` — pull in all plugins from other marketplace repos:
+
+```json
+[
+  {
+    "name": "awesome-copilot",
+    "label": "GitHub Copilot Extensions",
+    "url": "https://raw.githubusercontent.com/github/awesome-copilot/main/.github/plugin/marketplace.json"
+  }
+]
+```
+
+Plugins from remote marketplaces appear in the site with a "From: X" badge linking back to the source. If a plugin name conflicts with a local one, the local plugin wins. Remote plugins are fetched at build time — no runtime requests.
+
+`external.json` — individual externally-hosted plugins:
 
 ```json
 [

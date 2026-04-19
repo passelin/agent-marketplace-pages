@@ -11,6 +11,12 @@ interface PluginSource {
   path?: string;
 }
 
+interface SourceMarketplace {
+  name: string;
+  label?: string;
+  url?: string;
+}
+
 export interface RenderablePlugin {
   id: string;
   name: string;
@@ -24,6 +30,7 @@ export interface RenderablePlugin {
   author?: PluginAuthor | null;
   license?: string | null;
   source?: PluginSource | null;
+  sourceMarketplace?: SourceMarketplace | null;
   pluginUrl?: string | null;
   lastUpdated?: string | null;
 }
@@ -57,6 +64,15 @@ export function renderPluginsHtml(
         ? `<span class="resource-tag resource-tag-external">External</span>`
         : "";
 
+      const sourceMarketplaceLabel = item.sourceMarketplace
+        ? item.sourceMarketplace.label || item.sourceMarketplace.name
+        : null;
+      const sourceMarketplaceBadge = sourceMarketplaceLabel
+        ? item.sourceMarketplace!.url
+          ? `<span class="resource-tag resource-tag-remote">From: <a href="${sanitizeUrl(item.sourceMarketplace!.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceMarketplaceLabel)}</a></span>`
+          : `<span class="resource-tag resource-tag-remote">From: ${escapeHtml(sourceMarketplaceLabel)}</span>`
+        : "";
+
       const authorTag =
         isExternal && item.author?.name
           ? `<span class="resource-tag">by ${escapeHtml(item.author.name)}</span>`
@@ -84,6 +100,7 @@ export function renderPluginsHtml(
             <div class="resource-description">${escapeHtml(item.description || "No description")}</div>
             <div class="resource-meta">
               ${externalBadge}
+              ${sourceMarketplaceBadge}
               ${authorTag}
               ${tagChips}
               ${extraTags}

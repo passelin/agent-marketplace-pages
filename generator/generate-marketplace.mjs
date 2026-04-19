@@ -52,6 +52,32 @@ function validateExternalPlugin(plugin, index) {
   return errors;
 }
 
+function readRemoteMarketplaces() {
+  const remotesPath = path.join(REPO_ROOT, PLUGIN_ROOT, "remotes.json");
+  if (!fs.existsSync(remotesPath)) return [];
+
+  try {
+    const remotes = JSON.parse(fs.readFileSync(remotesPath, "utf8"));
+    if (!Array.isArray(remotes)) {
+      console.warn("Warning: remotes.json must be a JSON array");
+      return [];
+    }
+    const valid = [];
+    for (let i = 0; i < remotes.length; i++) {
+      const r = remotes[i];
+      if (!r.name || !r.url) {
+        console.warn(`Warning: remotes.json[${i}] missing required "name" or "url" — skipped`);
+        continue;
+      }
+      valid.push({ name: r.name, ...(r.label ? { label: r.label } : {}), url: r.url });
+    }
+    return valid;
+  } catch (error) {
+    console.error(`Error reading remotes.json: ${error.message}`);
+    return [];
+  }
+}
+
 function readExternalPlugins() {
   const externalPath = path.join(REPO_ROOT, EXTERNAL_FILE);
   if (!fs.existsSync(externalPath)) return [];
@@ -140,6 +166,12 @@ function generateMarketplace() {
     }
   }
 
+  const remoteMarketplaces = readRemoteMarketplaces();
+  if (remoteMarketplaces.length > 0) {
+    console.log(`\nFound ${remoteMarketplaces.length} remote marketplace(s)`);
+    for (const r of remoteMarketplaces) console.log(`  ✓ ${r.name} (${r.url})`);
+  }
+
   const externalPlugins = readExternalPlugins();
   if (externalPlugins.length > 0) {
     console.log(`\nFound ${externalPlugins.length} external plugins`);
@@ -167,6 +199,7 @@ function generateMarketplace() {
       name: process.env.GITHUB_REPOSITORY_OWNER || "",
       email: "",
     },
+    ...(remoteMarketplaces.length > 0 ? { remoteMarketplaces } : {}),
     plugins,
   };
 

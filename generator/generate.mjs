@@ -71,7 +71,52 @@ function getPluginUrl(plugin, pluginRoot) {
   return plugin.repository || plugin.homepage || null;
 }
 
-function generateData() {
+function getRemotePluginUrl(plugin, remoteData, remoteUrl) {
+  if (plugin.source && typeof plugin.source === "object") {
+    if (plugin.source.source === "github" && plugin.source.repo) {
+      const base = `https://github.com/${plugin.source.repo}`;
+      return plugin.source.path ? `${base}/tree/main/${plugin.source.path}` : base;
+    }
+    return plugin.repository || plugin.homepage || null;
+  }
+  if (plugin.repository) return plugin.repository;
+  if (plugin.homepage) return plugin.homepage;
+  // Local plugin in remote repo — derive GitHub URL from the raw content URL
+  if (typeof plugin.source === "string") {
+    const match = remoteUrl.match(/raw\.githubusercontent\.com\/([^/]+\/[^/]+)\//);
+    if (match) {
+      const pluginRoot = (remoteData.metadata?.pluginRoot || "plugins").replace(/^\.\//, "");
+      return `https://github.com/${match[1]}/tree/main/${pluginRoot}/${plugin.source}`;
+    }
+  }
+  return null;
+}
+
+async function fetchRemotePlugins(remote) {
+  try {
+    const response = await fetch(remote.url);
+    if (!response.ok) {
+      console.warn(`Warning: Failed to fetch remote marketplace "${remote.name}": HTTP ${response.status}`);
+      return [];
+    }
+    const data = await response.json();
+    if (!Array.isArray(data.plugins)) {
+      console.warn(`Warning: Remote marketplace "${remote.name}" has no plugins array`);
+      return [];
+    }
+    console.log(`  ✓ ${remote.name}: ${data.plugins.length} plugins`);
+    return data.plugins.map((plugin) => ({
+      ...plugin,
+      _remoteData: data,
+      _remote: remote,
+    }));
+  } catch (error) {
+    console.warn(`Warning: Failed to fetch remote marketplace "${remote.name}": ${error.message}`);
+    return [];
+  }
+}
+
+async function generateData() {
   const inputPath = path.isAbsolute(MARKETPLACE_INPUT) ? MARKETPLACE_INPUT : path.join(REPO_ROOT, MARKETPLACE_INPUT);
   if (!fs.existsSync(inputPath)) {
     console.error(`Error: marketplace.json not found at ${inputPath}`);
@@ -150,11 +195,77 @@ function generateData() {
       author: plugin.author || null,
       license: plugin.license || null,
       source: isExternal ? plugin.source : null,
+      sourceMarketplace: null,
       pluginUrl,
       lastUpdated,
       searchText,
     };
   });
+
+  // Fetch and merge remote marketplace plugins
+  const remoteMarketplaces = marketplace.remoteMarketplaces || [];
+  if (remoteMarketplaces.length > 0) {
+    console.log(`\nFetching ${remoteMarketplaces.length} remote marketplace(s)...`);
+    const localIds = new Set(items.map((i) => i.id));
+
+    for (const remote of remoteMarketplaces) {
+      if (!remote.name || !remote.url) {
+        console.warn(`Warning: Skipping remote marketplace with missing name or url`);
+        continue;
+      }
+      const remotePlugins = await fetchRemotePlugins(remote);
+
+      for (const plugin of remotePlugins) {
+        const { _remoteData, _remote, ...cleanPlugin } = plugin;
+        const id = cleanPlugin.name.toLowerCase().replace(/[^a-z0-9-]/g, "-");
+        if (localIds.has(id)) {
+          console.warn(`  ⚠ "${cleanPlugin.name}" from "${remote.name}" skipped — conflicts with local plugin`);
+          continue;
+        }
+        localIds.add(id);
+
+        const tags = cleanPlugin.keywords || cleanPlugin.tags || [];
+        const categories = deriveCategories(cleanPlugin.name, cleanPlugin.description || "", tags);
+        const pluginUrl = getRemotePluginUrl(cleanPlugin, _remoteData, remote.url);
+        const sourceMarketplace = { name: remote.name, label: remote.label || remote.name, url: remote.url };
+
+        const searchText = [
+          cleanPlugin.name,
+          cleanPlugin.description || "",
+          ...tags,
+          ...categories,
+          cleanPlugin.author?.name || "",
+          "external",
+          remote.name,
+          remote.label || "",
+        ]
+          .join(" ")
+          .toLowerCase()
+          .trim();
+
+        items.push({
+          id,
+          name: cleanPlugin.name,
+          description: cleanPlugin.description || "",
+          version: cleanPlugin.version || "",
+          tags,
+          categories,
+          external: true,
+          repository: cleanPlugin.repository || null,
+          homepage: cleanPlugin.homepage || null,
+          author: cleanPlugin.author || null,
+          license: cleanPlugin.license || null,
+          source: typeof cleanPlugin.source === "object" ? cleanPlugin.source : null,
+          sourceMarketplace,
+          pluginUrl,
+          lastUpdated: null,
+          searchText,
+        });
+      }
+    }
+
+    items.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+  }
 
   // Build filters
   const allTags = [...new Set(items.flatMap((i) => i.tags))].sort();
@@ -169,7 +280,8 @@ function generateData() {
   }
 
   const localCount = items.filter((i) => !i.external).length;
-  const externalCount = items.filter((i) => i.external).length;
+  const externalCount = items.filter((i) => i.external && !i.sourceMarketplace).length;
+  const remoteCount = items.filter((i) => i.sourceMarketplace !== null).length;
 
   const outputDir = path.isAbsolute(DIST_DIR) ? DIST_DIR : path.join(REPO_ROOT, DIST_DIR);
   fs.mkdirSync(outputDir, { recursive: true });
@@ -233,7 +345,7 @@ function generateData() {
         generated,
         marketplaceName: marketplace.name,
         description: marketplace.metadata?.description || "",
-        counts: { total: items.length, local: localCount, external: externalCount },
+        counts: { total: items.length, local: localCount, external: externalCount, remote: remoteCount },
       },
       null,
       2
@@ -251,4 +363,7 @@ function generateData() {
   console.log(`  marketplace.json`);
 }
 
-generateData();
+generateData().catch((err) => {
+  console.error("Fatal error:", err.message);
+  process.exit(1);
+});

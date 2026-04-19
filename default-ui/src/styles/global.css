@@ -216,6 +216,8 @@
   border-radius: 12px; color: var(--color-text-muted);
 }
 .resource-tag-external { background: var(--color-accent); color: white; font-weight: 500; }
+.resource-tag-remote { background: var(--sl-color-purple, #7c3aed); color: white; font-weight: 500; }
+.resource-tag-remote a { color: inherit; text-decoration: underline; }
 .resource-actions { display: flex; gap: 8px; flex-shrink: 0; }
 
 .last-updated { font-size: 12px; color: var(--color-text-muted); cursor: default; margin-left: auto; }
