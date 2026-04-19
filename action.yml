@@ -77,6 +77,23 @@ runs:
         MARKETPLACE_DESCRIPTION: ${{ inputs.marketplace-description }}
       run: node "${{ github.action_path }}/generator/generate-marketplace.mjs"
 
+    - name: Commit marketplace.json back to repository
+      if: inputs.plugin-root != ''
+      shell: bash
+      env:
+        MARKETPLACE_OUTPUT: ${{ inputs.marketplace-json }}
+      run: |
+        cd "${{ github.workspace }}"
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add "$MARKETPLACE_OUTPUT"
+        if git diff --cached --quiet; then
+          echo "marketplace.json unchanged, skipping commit"
+        else
+          git commit -m "chore: update marketplace.json [skip ci]"
+          git push
+        fi
+
     - name: Generate UI data files from marketplace.json
       shell: bash
       env:
