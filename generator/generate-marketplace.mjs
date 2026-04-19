@@ -6,7 +6,8 @@
  *   MARKETPLACE_PLUGIN_ROOT      Directory containing plugin subdirectories (default: "plugins")
  *   MARKETPLACE_PLUGIN_JSON_PATH Relative path within each plugin dir to its manifest (default: ".github/plugin/plugin.json")
  *   MARKETPLACE_EXTERNAL_FILE    Path to external plugins JSON array (default: "{pluginRoot}/external.json")
- *   MARKETPLACE_OUTPUT           Output path for marketplace.json (default: ".github/plugin/marketplace.json")
+ *   MARKETPLACE_OUTPUT           Output path for Copilot CLI marketplace.json (default: ".github/plugin/marketplace.json")
+ *   MARKETPLACE_CLAUDE_OUTPUT    Output path for Claude Code marketplace.json (default: ".claude-plugin/marketplace.json"; set to "" to skip)
  *   MARKETPLACE_NAME             Marketplace name field (default: repo name from GITHUB_REPOSITORY)
  *   MARKETPLACE_DESCRIPTION      Marketplace description
  *   MARKETPLACE_OWNER_NAME       owner.name field (default: GITHUB_REPOSITORY_OWNER)
@@ -21,6 +22,9 @@ const REPO_ROOT = process.env.GITHUB_WORKSPACE || process.cwd();
 const PLUGIN_ROOT = process.env.MARKETPLACE_PLUGIN_ROOT || "plugins";
 const PLUGIN_JSON_PATH = process.env.MARKETPLACE_PLUGIN_JSON_PATH || ".github/plugin/plugin.json";
 const OUTPUT = process.env.MARKETPLACE_OUTPUT || ".github/plugin/marketplace.json";
+const CLAUDE_OUTPUT = "MARKETPLACE_CLAUDE_OUTPUT" in process.env
+  ? process.env.MARKETPLACE_CLAUDE_OUTPUT
+  : ".claude-plugin/marketplace.json";
 
 const EXTERNAL_FILE_DEFAULT = path.join(PLUGIN_ROOT, "external.json");
 const EXTERNAL_FILE = process.env.MARKETPLACE_EXTERNAL_FILE || EXTERNAL_FILE_DEFAULT;
@@ -49,8 +53,11 @@ function validateExternalPlugin(plugin, index) {
   } else if (typeof plugin.source === "string") {
     errors.push(`${prefix}: "source" must be an object (local paths not allowed for external plugins)`);
   } else if (typeof plugin.source === "object") {
+    const VALID_SOURCE_TYPES = ["github", "url", "git-subdir", "npm"];
     if (!plugin.source.source)
-      errors.push(`${prefix}: "source.source" is required (e.g. "github", "npm")`);
+      errors.push(`${prefix}: "source.source" is required (one of: ${VALID_SOURCE_TYPES.join(", ")})`);
+    else if (!VALID_SOURCE_TYPES.includes(plugin.source.source))
+      errors.push(`${prefix}: "source.source" must be one of: ${VALID_SOURCE_TYPES.join(", ")}`);
   }
 
   return errors;
@@ -207,17 +214,21 @@ function generateMarketplace() {
     plugins,
   };
 
-  const outputPath = path.join(REPO_ROOT, OUTPUT);
-  const outputDir = path.dirname(outputPath);
-  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+  const json = JSON.stringify(marketplace, null, 2) + "\n";
+  const outputs = [OUTPUT, ...(CLAUDE_OUTPUT ? [CLAUDE_OUTPUT] : [])];
 
-  fs.writeFileSync(outputPath, JSON.stringify(marketplace, null, 2) + "\n");
+  for (const outRelPath of outputs) {
+    const outPath = path.join(REPO_ROOT, outRelPath);
+    const outDir = path.dirname(outPath);
+    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(outPath, json);
+    console.log(`  → ${outPath}`);
+  }
 
   const localCount = plugins.length - externalPlugins.length;
   console.log(
     `\n✓ Generated marketplace.json: ${plugins.length} plugins (${localCount} local, ${externalPlugins.length} external)`
   );
-  console.log(`  → ${outputPath}`);
 }
 
 generateMarketplace();

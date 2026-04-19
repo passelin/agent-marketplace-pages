@@ -31,6 +31,10 @@ inputs:
     description: 'owner.email field in marketplace.json'
     required: false
     default: ''
+  claude-marketplace-json:
+    description: 'Output path for Claude Code marketplace.json. Defaults to .claude-plugin/marketplace.json. Set to empty string to skip.'
+    required: false
+    default: '.claude-plugin/marketplace.json'
   site-title:
     description: 'Browser title for the site (falls back to marketplace name)'
     required: false
@@ -85,6 +89,7 @@ runs:
         MARKETPLACE_DESCRIPTION: ${{ inputs.marketplace-description }}
         MARKETPLACE_OWNER_NAME: ${{ inputs.marketplace-owner-name }}
         MARKETPLACE_OWNER_EMAIL: ${{ inputs.marketplace-owner-email }}
+        MARKETPLACE_CLAUDE_OUTPUT: ${{ inputs.claude-marketplace-json }}
       run: node "${{ github.action_path }}/generator/generate-marketplace.mjs"
 
     - name: Commit marketplace.json back to repository
@@ -92,11 +97,13 @@ runs:
       shell: bash
       env:
         MARKETPLACE_OUTPUT: ${{ inputs.marketplace-json }}
+        MARKETPLACE_CLAUDE_OUTPUT: ${{ inputs.claude-marketplace-json }}
       run: |
         cd "${{ github.workspace }}"
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add "$MARKETPLACE_OUTPUT"
+        [ -n "$MARKETPLACE_CLAUDE_OUTPUT" ] && git add "$MARKETPLACE_CLAUDE_OUTPUT" || true
         if git diff --cached --quiet; then
           echo "marketplace.json unchanged, skipping commit"
         else
