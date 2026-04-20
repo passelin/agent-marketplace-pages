@@ -1,6 +1,9 @@
-# Marketplace UI Generator
+# Agent Marketplace Pages
 
-A reusable GitHub Action that generates and deploys a static plugin marketplace browser site to GitHub Pages for any GitHub Copilot CLI plugin marketplace repository.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Agent%20Marketplace%20Pages-blue?logo=github)](https://github.com/marketplace/actions/agent-marketplace-pages)
+
+A reusable GitHub Action that generates and deploys a static plugin marketplace browser site to GitHub Pages — works with any repository that conforms to the [GitHub Copilot CLI](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference) or [Claude Code](https://code.claude.com/docs/en/plugin-marketplaces) plugin marketplace spec.
 
 ## How it works
 
@@ -41,7 +44,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: your-org/agent-marketplace-pages@v1
+      - uses: passelin/agent-marketplace-pages@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           plugin-root: plugins
@@ -76,7 +79,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: your-org/agent-marketplace-pages@v1
+      - uses: passelin/agent-marketplace-pages@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           marketplace-json: .github/plugin/marketplace.json
@@ -167,7 +170,7 @@ If your repo contains a directory with a `package.json` that has a `build` scrip
 Set `custom-ui-dir` to point at your directory:
 
 ```yaml
-- uses: your-org/agent-marketplace-pages@v1
+- uses: passelin/agent-marketplace-pages@v1
   with:
     custom-ui-dir: my-custom-site
 ```

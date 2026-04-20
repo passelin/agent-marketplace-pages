@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Reusable GitHub Action for generating and deploying a static agent marketplace browser site to GitHub Pages",
   "type": "module",
-  "private": true,
   "scripts": {
     "generate-marketplace": "node generator/generate-marketplace.mjs",
     "generate": "node generator/generate.mjs",
@@ -12,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/agent-marketplace-pages.git"
+    "url": "https://github.com/passelin/agent-marketplace-pages.git"
   },
-  "keywords": ["github", "copilot", "marketplace", "plugins", "static-site"],
-  "author": "GitHub",
+  "keywords": ["github-actions", "copilot", "claude-code", "marketplace", "plugins", "static-site", "github-pages"],
+  "author": "passelin",
   "license": "MIT"
 }

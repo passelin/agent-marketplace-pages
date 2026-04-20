@@ -1,6 +1,10 @@
-name: 'Marketplace UI Generator'
-description: 'Generate and deploy a static plugin marketplace browser site to GitHub Pages'
-author: 'GitHub'
+name: 'Agent Marketplace Pages'
+description: 'Generate and deploy a static agent marketplace browser site to GitHub Pages — works with GitHub Copilot CLI and Claude Code'
+author: 'passelin'
+
+branding:
+  icon: 'package'
+  color: 'blue'
 
 inputs:
   plugin-root:
