@@ -175,6 +175,8 @@ Set `custom-ui-dir` to point at your directory:
     custom-ui-dir: my-custom-site
 ```
 
+For the full data contract, environment variables, and a worked example, see [docs/custom-ui.md](docs/custom-ui.md).
+
 ---
 
 ## GitHub Pages setup
