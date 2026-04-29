@@ -207,6 +207,7 @@ async function generateData() {
       tags,
       categories,
       external: isExternal,
+      sourceType: isExternal ? "external" : "local",
       repository: plugin.repository || null,
       homepage: plugin.homepage || null,
       author: plugin.author || null,
@@ -268,6 +269,7 @@ async function generateData() {
           tags,
           categories,
           external: true,
+          sourceType: "remote",
           repository: cleanPlugin.repository || null,
           homepage: cleanPlugin.homepage || null,
           author: cleanPlugin.author || null,
@@ -287,6 +289,7 @@ async function generateData() {
   // Build filters
   const allTags = [...new Set(items.flatMap((i) => i.tags))].sort();
   const allCategories = [...new Set(items.flatMap((i) => i.categories))].sort();
+  const allSourceTypes = [...new Set(items.map((i) => i.sourceType))].sort();
 
   // Build category counts
   const categoryCounts = {};
@@ -311,7 +314,7 @@ async function generateData() {
         _schema: SCHEMA_VERSION,
         generated,
         items,
-        filters: { tags: allTags, categories: allCategories },
+        filters: { tags: allTags, categories: allCategories, sourceTypes: allSourceTypes },
       },
       null,
       2
@@ -340,6 +343,7 @@ async function generateData() {
     path.join(outputDir, "search-index.json"),
     JSON.stringify(
       items.map((item) => ({
+        type: "plugin",
         id: item.id,
         title: item.name,
         description: item.description,

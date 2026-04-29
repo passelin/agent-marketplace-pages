@@ -1,0 +1,77 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import agentsData from '../../public/data/agents.json';
+import manifestData from '../../public/data/manifest.json';
+import EmbeddedPageData from '../components/EmbeddedPageData.astro';
+import ResourceNav from '../components/ResourceNav.astro';
+import { renderAgentsHtml } from '../scripts/agents-render';
+
+const initialItems = agentsData.items;
+const marketplaceName = manifestData.marketplaceName || 'this marketplace';
+---
+
+<StarlightPage frontmatter={{ title: 'Agents', description: 'Custom agents for specialized AI experiences', template: 'splash', prev: false, next: false, editUrl: false }}>
+  <div id="main-content">
+    <div class="page-content">
+      <div class="container">
+        <ResourceNav currentType="agent" />
+        <div class="page-header">
+          <div class="page-header-row">
+            <div>
+              <h1>Agents</h1>
+              <p>Custom agents for specialized AI experiences in {marketplaceName}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-toolbar">
+          <div class="search-bar">
+            <label for="search-input" class="sr-only">Search agents</label>
+            <input type="text" id="search-input" placeholder="Search agents..." autocomplete="off" />
+          </div>
+          <div class="filters-bar" id="filters-bar">
+            <div class="filter-group">
+              <label for="filter-model">Model:</label>
+              <select id="filter-model" multiple aria-label="Filter by model"></select>
+            </div>
+            <div class="filter-group">
+              <label for="filter-tool">Tool:</label>
+              <select id="filter-tool" multiple aria-label="Filter by tool"></select>
+            </div>
+            <div class="filter-group filter-group-check">
+              <label class="filter-checkbox-label" for="filter-handoffs">
+                <input type="checkbox" id="filter-handoffs" />
+                Has Handoffs
+              </label>
+            </div>
+            <div class="filter-group">
+              <label for="filter-sort" class="sr-only">Sort</label>
+              <select id="filter-sort" class="filter-sort-native" aria-label="Sort agents">
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="updated">Recently Updated</option>
+              </select>
+            </div>
+            <button id="clear-filters" class="btn btn-secondary btn-small">Clear Filters</button>
+          </div>
+        </div>
+
+        <div class="results-count" id="results-count" aria-live="polite">
+          {initialItems.length} of {initialItems.length} agents
+        </div>
+        <div class="resource-list" id="resource-list" role="list" set:html={renderAgentsHtml(initialItems)}></div>
+      </div>
+    </div>
+  </div>
+
+  <EmbeddedPageData filename="agents.json" data={agentsData} />
+  <script>import '../scripts/agents';</script>
+
+  <style>
+    .resource-tag-model {
+      background: var(--color-accent);
+      color: white;
+      font-weight: 500;
+    }
+  </style>
+</StarlightPage>

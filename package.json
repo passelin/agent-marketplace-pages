@@ -4,9 +4,12 @@
   "description": "Reusable GitHub Action for generating and deploying a static agent marketplace browser site to GitHub Pages",
   "type": "module",
   "scripts": {
+    "postinstall": "[ -d test/awesome-copilot ] || git clone --depth 1 https://github.com/github/awesome-copilot.git test/awesome-copilot",
     "generate-marketplace": "node generator/generate-marketplace.mjs",
     "generate": "node generator/generate.mjs",
-    "dev": "npm run generate && npm run --prefix default-ui dev",
+    "dev": "MARKETPLACE_DIST_DIR=default-ui/public/data MARKETPLACE_REPO=test/awesome-copilot MARKETPLACE_REMOTES_FILE=remotes.local.json node generator/generate-from-repo.mjs && npm run --prefix default-ui dev",
+    "preview": "MARKETPLACE_DIST_DIR=default-ui/public/data MARKETPLACE_REPO=test/awesome-copilot MARKETPLACE_REMOTES_FILE=remotes.local.json node generator/generate-from-repo.mjs && npm run --prefix default-ui build && npm run --prefix default-ui preview",
+    "fixtures:regen": "MARKETPLACE_PLUGIN_ROOT=fixtures/plugins MARKETPLACE_OUTPUT=fixtures/marketplace.json MARKETPLACE_CLAUDE_OUTPUT= MARKETPLACE_NAME=fixture-marketplace MARKETPLACE_DESCRIPTION='Local development fixture for testing the marketplace UI' node generator/generate-marketplace.mjs",
     "build": "npm run generate && npm run --prefix default-ui build"
   },
   "repository": {

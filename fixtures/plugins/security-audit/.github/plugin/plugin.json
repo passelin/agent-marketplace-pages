@@ -1,0 +1,9 @@
+{
+  "name": "security-audit",
+  "description": "Scans code for OWASP Top 10 vulnerabilities, insecure JWT configs, and secrets accidentally committed to git history.",
+  "version": "1.1.0",
+  "keywords": ["security", "owasp", "jwt", "auth", "vulnerability"],
+  "author": { "name": "Dev Fixture" },
+  "license": "MIT",
+  "repository": "https://github.com/example/security-audit"
+}

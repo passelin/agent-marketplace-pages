@@ -1,0 +1,8 @@
+{
+  "name": "react-helper",
+  "description": "Scaffolds React components, hooks, and context providers. Supports TypeScript, Tailwind CSS, and Storybook.",
+  "version": "1.0.0",
+  "keywords": ["react", "typescript", "javascript", "tailwind", "storybook"],
+  "author": { "name": "Dev Fixture" },
+  "license": "MIT"
+}

@@ -1,0 +1,61 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import workflowsData from '../../public/data/workflows.json';
+import manifestData from '../../public/data/manifest.json';
+import EmbeddedPageData from '../components/EmbeddedPageData.astro';
+import ResourceNav from '../components/ResourceNav.astro';
+import { renderWorkflowsHtml } from '../scripts/workflows-render';
+
+const initialItems = workflowsData.items;
+const marketplaceName = manifestData.marketplaceName || 'this marketplace';
+---
+
+<StarlightPage frontmatter={{ title: 'Workflows', description: 'AI-powered automations for GitHub Actions', template: 'splash', prev: false, next: false, editUrl: false }}>
+  <div id="main-content">
+    <div class="page-content">
+      <div class="container">
+        <ResourceNav currentType="workflow" />
+        <div class="page-header">
+          <div class="page-header-row">
+            <div>
+              <h1>Workflows</h1>
+              <p>AI-powered automations from {marketplaceName}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-toolbar">
+          <div class="search-bar">
+            <label for="search-input" class="sr-only">Search workflows</label>
+            <input type="text" id="search-input" placeholder="Search workflows..." autocomplete="off" />
+          </div>
+          <div class="filters-bar" id="filters-bar">
+            <div class="filter-group">
+              <label for="filter-trigger">Trigger:</label>
+              <select id="filter-trigger" multiple aria-label="Filter by trigger"></select>
+            </div>
+            <button id="clear-filters" class="btn btn-secondary btn-small">Clear Filters</button>
+          </div>
+        </div>
+
+        <div class="results-count" id="results-count" aria-live="polite">
+          {initialItems.length} of {initialItems.length} workflows
+        </div>
+        <div class="resource-list" id="resource-list" role="list" set:html={renderWorkflowsHtml(initialItems)}></div>
+      </div>
+    </div>
+  </div>
+
+  <EmbeddedPageData filename="workflows.json" data={workflowsData} />
+  <script>import '../scripts/workflows';</script>
+
+  <style>
+    .resource-tag-trigger {
+      background: color-mix(in srgb, #10b981 15%, transparent);
+      border: 1px solid color-mix(in srgb, #10b981 30%, transparent);
+      color: #10b981;
+      font-family: var(--font-mono, monospace);
+      font-size: 11px;
+    }
+  </style>
+</StarlightPage>

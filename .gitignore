@@ -5,3 +5,5 @@ default-ui/dist/
 _marketplace_dist/
 .astro/
 default-ui/.astro/
+test/
+remotes.local.json

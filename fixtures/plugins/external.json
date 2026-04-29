@@ -1,0 +1,90 @@
+[
+  {
+    "name": "go-tester",
+    "description": "Writes table-driven Go tests for your functions, covering edge cases and generating benchmarks automatically.",
+    "version": "1.0.0",
+    "keywords": ["go", "golang", "testing"],
+    "source": { "source": "github", "repo": "example/go-tester" },
+    "repository": "https://github.com/example/go-tester"
+  },
+  {
+    "name": "dotnet-migrator",
+    "description": "Automates .NET Framework to .NET 8 migration: updates project files, NuGet packages, and flags breaking API changes.",
+    "version": "3.0.0",
+    "keywords": ["dotnet", "csharp", "nuget", "migration"],
+    "source": { "source": "github", "repo": "example/dotnet-migrator" },
+    "repository": "https://github.com/example/dotnet-migrator"
+  },
+  {
+    "name": "sql-optimizer",
+    "description": "Analyzes slow SQL queries, suggests indexes, and rewrites N+1 patterns. Supports Postgres, MySQL, and SQLite.",
+    "version": "1.3.0",
+    "keywords": ["database", "sql", "postgres", "mysql", "performance"],
+    "source": { "source": "github", "repo": "example/sql-optimizer" },
+    "repository": "https://github.com/example/sql-optimizer"
+  },
+  {
+    "name": "github-pr-coach",
+    "description": "Reviews pull requests like a senior engineer: checks for missing tests, unclear naming, and leaves actionable inline comments.",
+    "version": "2.1.0",
+    "keywords": ["github", "pull request", "code-review", "git"],
+    "source": { "source": "github", "repo": "example/github-pr-coach" },
+    "repository": "https://github.com/example/github-pr-coach"
+  },
+  {
+    "name": "aws-cost-analyzer",
+    "description": "Connects to AWS Cost Explorer and explains your bill in plain English, highlighting anomalies and recommending savings.",
+    "version": "1.0.0",
+    "keywords": ["aws", "cloud", "cost", "devops"],
+    "source": { "source": "github", "repo": "example/aws-cost-analyzer" },
+    "repository": "https://github.com/example/aws-cost-analyzer"
+  },
+  {
+    "name": "jest-writer",
+    "description": "Generates Jest test suites for JavaScript and TypeScript modules, including mock setup and snapshot tests.",
+    "version": "1.5.0",
+    "keywords": ["jest", "test", "javascript", "typescript", "node"],
+    "source": { "source": "github", "repo": "example/jest-writer" },
+    "repository": "https://github.com/example/jest-writer"
+  },
+  {
+    "name": "rust-refactor",
+    "description": "Identifies unsafe Rust patterns and rewrites them using idiomatic ownership and borrowing, with lifetime annotations.",
+    "version": "0.9.0",
+    "keywords": ["rust", "cargo", "refactor"],
+    "source": { "source": "github", "repo": "example/rust-refactor" },
+    "repository": "https://github.com/example/rust-refactor"
+  },
+  {
+    "name": "mcp-server-gen",
+    "description": "Scaffolds a fully typed MCP server with tools, resources, and prompts. Generates OpenAPI specs and client SDKs.",
+    "version": "1.0.0",
+    "keywords": ["mcp", "model context protocol", "sdk"],
+    "source": { "source": "github", "repo": "example/mcp-server-gen" },
+    "repository": "https://github.com/example/mcp-server-gen"
+  },
+  {
+    "name": "figma-to-code",
+    "description": "Converts Figma frames into React + Tailwind CSS components, preserving spacing, typography, and color tokens.",
+    "version": "2.0.0",
+    "keywords": ["figma", "design", "react", "tailwind", "ui"],
+    "source": { "source": "github", "repo": "example/figma-to-code" },
+    "repository": "https://github.com/example/figma-to-code"
+  },
+  {
+    "name": "spring-boot-helper",
+    "description": "Generates Spring Boot REST controllers, JPA repositories, and service layers from a simple domain description.",
+    "version": "1.0.0",
+    "keywords": ["java", "spring", "maven", "gradle", "rest"],
+    "source": { "source": "github", "repo": "example/spring-boot-helper" },
+    "repository": "https://github.com/example/spring-boot-helper"
+  },
+  {
+    "name": "ci-pipeline-gen",
+    "description": "Generates GitHub Actions, GitLab CI, and CircleCI pipelines tailored to your project's language and framework.",
+    "version": "1.2.0",
+    "keywords": ["ci", "cd", "github", "devops", "pipeline", "docker"],
+    "source": { "source": "github", "repo": "example/ci-pipeline-gen" },
+    "repository": "https://github.com/example/ci-pipeline-gen"
+  }
+]

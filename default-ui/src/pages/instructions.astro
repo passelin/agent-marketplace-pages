@@ -1,0 +1,60 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import instructionsData from '../../public/data/instructions.json';
+import manifestData from '../../public/data/manifest.json';
+import EmbeddedPageData from '../components/EmbeddedPageData.astro';
+import ResourceNav from '../components/ResourceNav.astro';
+import { renderInstructionsHtml } from '../scripts/instructions-render';
+
+const initialItems = instructionsData.items;
+const marketplaceName = manifestData.marketplaceName || 'this marketplace';
+---
+
+<StarlightPage frontmatter={{ title: 'Instructions', description: 'Coding standards and best practices', template: 'splash', prev: false, next: false, editUrl: false }}>
+  <div id="main-content">
+    <div class="page-content">
+      <div class="container">
+        <ResourceNav currentType="instruction" />
+        <div class="page-header">
+          <div class="page-header-row">
+            <div>
+              <h1>Instructions</h1>
+              <p>Coding standards and best practices from {marketplaceName}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-toolbar">
+          <div class="search-bar">
+            <label for="search-input" class="sr-only">Search instructions</label>
+            <input type="text" id="search-input" placeholder="Search instructions..." autocomplete="off" />
+          </div>
+          <div class="filters-bar" id="filters-bar">
+            <div class="filter-group">
+              <label for="filter-ext">Extension:</label>
+              <select id="filter-ext" multiple aria-label="Filter by file extension"></select>
+            </div>
+            <button id="clear-filters" class="btn btn-secondary btn-small">Clear Filters</button>
+          </div>
+        </div>
+
+        <div class="results-count" id="results-count" aria-live="polite">
+          {initialItems.length} of {initialItems.length} instructions
+        </div>
+        <div class="resource-list" id="resource-list" role="list" set:html={renderInstructionsHtml(initialItems)}></div>
+      </div>
+    </div>
+  </div>
+
+  <EmbeddedPageData filename="instructions.json" data={instructionsData} />
+  <script>import '../scripts/instructions';</script>
+
+  <style>
+    .resource-tag-apply {
+      background: var(--color-bg-tertiary);
+      border: 1px solid var(--color-border);
+      font-family: var(--font-mono, monospace);
+      font-size: 11px;
+    }
+  </style>
+</StarlightPage>

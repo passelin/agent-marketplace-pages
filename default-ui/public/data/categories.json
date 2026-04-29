@@ -4,62 +4,57 @@
     {
       "id": "-net",
       "label": ".NET",
-      "count": 7
+      "count": 1
     },
     {
       "id": "cloud",
       "label": "Cloud",
-      "count": 5
+      "count": 1
     },
     {
       "id": "data",
       "label": "Data",
-      "count": 2
+      "count": 1
     },
     {
       "id": "design",
       "label": "Design",
-      "count": 5
+      "count": 2
     },
     {
       "id": "devops",
       "label": "DevOps",
-      "count": 4
+      "count": 3
     },
     {
       "id": "git---github",
       "label": "Git & GitHub",
-      "count": 6
+      "count": 3
     },
     {
       "id": "go",
       "label": "Go",
-      "count": 3
+      "count": 1
     },
     {
       "id": "java",
       "label": "Java",
-      "count": 4
+      "count": 1
     },
     {
       "id": "javascript---typescript",
       "label": "JavaScript / TypeScript",
-      "count": 6
+      "count": 3
     },
     {
       "id": "mcp",
       "label": "MCP",
-      "count": 17
-    },
-    {
-      "id": "other",
-      "label": "Other",
-      "count": 22
+      "count": 1
     },
     {
       "id": "python",
       "label": "Python",
-      "count": 5
+      "count": 1
     },
     {
       "id": "rust",
@@ -69,12 +64,12 @@
     {
       "id": "security",
       "label": "Security",
-      "count": 3
+      "count": 1
     },
     {
       "id": "testing",
       "label": "Testing",
-      "count": 5
+      "count": 1
     }
   ]
 }

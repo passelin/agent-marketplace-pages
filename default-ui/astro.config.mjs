@@ -52,6 +52,11 @@ export default defineConfig({
           items: [
             { label: "Home", link: "/" },
             { label: "Plugins", link: "/plugins/" },
+            { label: "Agents", link: "/agents/" },
+            { label: "Instructions", link: "/instructions/" },
+            { label: "Skills", link: "/skills/" },
+            { label: "Hooks", link: "/hooks/" },
+            { label: "Workflows", link: "/workflows/" },
           ],
         },
       ],

@@ -1,0 +1,61 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import hooksData from '../../public/data/hooks.json';
+import manifestData from '../../public/data/manifest.json';
+import EmbeddedPageData from '../components/EmbeddedPageData.astro';
+import ResourceNav from '../components/ResourceNav.astro';
+import { renderHooksHtml } from '../scripts/hooks-render';
+
+const initialItems = hooksData.items;
+const marketplaceName = manifestData.marketplaceName || 'this marketplace';
+---
+
+<StarlightPage frontmatter={{ title: 'Hooks', description: 'Automated workflows triggered by agent events', template: 'splash', prev: false, next: false, editUrl: false }}>
+  <div id="main-content">
+    <div class="page-content">
+      <div class="container">
+        <ResourceNav currentType="hook" />
+        <div class="page-header">
+          <div class="page-header-row">
+            <div>
+              <h1>Hooks</h1>
+              <p>Automated workflows triggered by agent events in {marketplaceName}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-toolbar">
+          <div class="search-bar">
+            <label for="search-input" class="sr-only">Search hooks</label>
+            <input type="text" id="search-input" placeholder="Search hooks..." autocomplete="off" />
+          </div>
+          <div class="filters-bar" id="filters-bar">
+            <div class="filter-group">
+              <label for="filter-event">Event:</label>
+              <select id="filter-event" multiple aria-label="Filter by event"></select>
+            </div>
+            <button id="clear-filters" class="btn btn-secondary btn-small">Clear Filters</button>
+          </div>
+        </div>
+
+        <div class="results-count" id="results-count" aria-live="polite">
+          {initialItems.length} of {initialItems.length} hooks
+        </div>
+        <div class="resource-list" id="resource-list" role="list" set:html={renderHooksHtml(initialItems)}></div>
+      </div>
+    </div>
+  </div>
+
+  <EmbeddedPageData filename="hooks.json" data={hooksData} />
+  <script>import '../scripts/hooks';</script>
+
+  <style>
+    .resource-tag-event {
+      background: color-mix(in srgb, var(--color-accent) 15%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);
+      color: var(--color-accent-hover);
+      font-family: var(--font-mono, monospace);
+      font-size: 11px;
+    }
+  </style>
+</StarlightPage>

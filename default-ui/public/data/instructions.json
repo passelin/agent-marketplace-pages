@@ -1,0 +1,2497 @@
+{
+  "items": [
+    {
+      "id": "dotnet-upgrade",
+      "title": ".NET Framework Upgrade Specialist",
+      "description": "Specialized agent for comprehensive .NET framework upgrades with progressive tracking and validation",
+      "applyTo": null,
+      "extensions": [],
+      "path": "instructions/dotnet-upgrade.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dotnet-upgrade.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dotnet-upgrade.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": ".net framework upgrade specialist specialized agent for comprehensive .net framework upgrades with progressive tracking and validation "
+    },
+    {
+      "id": "a11y",
+      "title": "A11y",
+      "description": "Comprehensive web accessibility standards based on WCAG 2.2 AA, with 38+ anti-patterns, legal enforcement context (EAA, ADA Title II), WAI-ARIA patterns, and framework-specific fixes for modern web frameworks and libraries.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/a11y.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/a11y.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/a11y.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "a11y comprehensive web accessibility standards based on wcag 2.2 aa, with 38+ anti-patterns, legal enforcement context (eaa, ada title ii), wai-aria patterns, and framework-specific fixes for modern web frameworks and libraries. **"
+    },
+    {
+      "id": "agent-safety",
+      "title": "Agent Safety",
+      "description": "Guidelines for building safe, governed AI agent systems. Apply when writing code that uses agent frameworks, tool-calling LLMs, or multi-agent orchestration to ensure proper safety boundaries, policy enforcement, and auditability.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/agent-safety.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/agent-safety.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/agent-safety.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "agent safety guidelines for building safe, governed ai agent systems. apply when writing code that uses agent frameworks, tool-calling llms, or multi-agent orchestration to ensure proper safety boundaries, policy enforcement, and auditability. **"
+    },
+    {
+      "id": "agent-skills",
+      "title": "Agent Skills",
+      "description": "Guidelines for creating high-quality Agent Skills for GitHub Copilot",
+      "applyTo": "**/skills/**/SKILL.md",
+      "extensions": [],
+      "path": "instructions/agent-skills.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/agent-skills.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/agent-skills.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "agent skills guidelines for creating high-quality agent skills for github copilot **/skills/**/skill.md"
+    },
+    {
+      "id": "agents",
+      "title": "Agents",
+      "description": "Guidelines for creating custom agent files for GitHub Copilot",
+      "applyTo": "**/*.agent.md",
+      "extensions": [],
+      "path": "instructions/agents.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/agents.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/agents.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "agents guidelines for creating custom agent files for github copilot **/*.agent.md"
+    },
+    {
+      "id": "ai-prompt-engineering-safety-best-practices",
+      "title": "Ai Prompt Engineering Safety Best Practices",
+      "description": "Comprehensive best practices for AI prompt engineering, safety frameworks, bias mitigation, and responsible AI usage for Copilot and LLMs.",
+      "applyTo": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/ai-prompt-engineering-safety-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/ai-prompt-engineering-safety-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/ai-prompt-engineering-safety-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ai prompt engineering safety best practices comprehensive best practices for ai prompt engineering, safety frameworks, bias mitigation, and responsible ai usage for copilot and llms. *"
+    },
+    {
+      "id": "ansible",
+      "title": "Ansible",
+      "description": "Ansible conventions and best practices",
+      "applyTo": "**/*.yaml, **/*.yml",
+      "extensions": [
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/ansible.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/ansible.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/ansible.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ansible ansible conventions and best practices **/*.yaml, **/*.yml"
+    },
+    {
+      "id": "apex",
+      "title": "Apex",
+      "description": "Guidelines and best practices for Apex development on the Salesforce Platform",
+      "applyTo": "**/*.cls, **/*.trigger",
+      "extensions": [
+        ".cls",
+        ".trigger"
+      ],
+      "path": "instructions/apex.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/apex.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/apex.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "apex guidelines and best practices for apex development on the salesforce platform **/*.cls, **/*.trigger"
+    },
+    {
+      "id": "arch-linux",
+      "title": "Arch Linux",
+      "description": "Guidance for Arch Linux administration, pacman workflows, and rolling-release best practices.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/arch-linux.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/arch-linux.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/arch-linux.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "arch linux guidance for arch linux administration, pacman workflows, and rolling-release best practices. **"
+    },
+    {
+      "id": "aspnet-rest-apis",
+      "title": "Aspnet Rest Apis",
+      "description": "Guidelines for building REST APIs with ASP.NET",
+      "applyTo": "**/*.cs, **/*.json",
+      "extensions": [
+        ".cs",
+        ".json"
+      ],
+      "path": "instructions/aspnet-rest-apis.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/aspnet-rest-apis.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/aspnet-rest-apis.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "aspnet rest apis guidelines for building rest apis with asp.net **/*.cs, **/*.json"
+    },
+    {
+      "id": "astro",
+      "title": "Astro",
+      "description": "Astro development standards and best practices for content-driven websites",
+      "applyTo": "**/*.astro, **/*.ts, **/*.js, **/*.md, **/*.mdx",
+      "extensions": [
+        ".astro",
+        ".js",
+        ".md",
+        ".mdx",
+        ".ts"
+      ],
+      "path": "instructions/astro.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/astro.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/astro.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "astro astro development standards and best practices for content-driven websites **/*.astro, **/*.ts, **/*.js, **/*.md, **/*.mdx"
+    },
+    {
+      "id": "aws-appsync",
+      "title": "Aws Appsync",
+      "description": "Production-grade guidance for AWS AppSync Event API handlers using APPSYNC_JS runtime restrictions, utilities, modules, and datasource patterns",
+      "applyTo": "**/*.{graphql,gql,vtl,ts,js,mjs,cjs,json,yml,yaml}",
+      "extensions": [],
+      "path": "instructions/aws-appsync.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/aws-appsync.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/aws-appsync.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "aws appsync production-grade guidance for aws appsync event api handlers using appsync_js runtime restrictions, utilities, modules, and datasource patterns **/*.{graphql,gql,vtl,ts,js,mjs,cjs,json,yml,yaml}"
+    },
+    {
+      "id": "azure-devops-pipelines",
+      "title": "Azure Devops Pipelines",
+      "description": "Best practices for Azure DevOps Pipeline YAML files",
+      "applyTo": "**/azure-pipelines.yml, **/azure-pipelines*.yml, **/*.pipeline.yml",
+      "extensions": [
+        ".yml"
+      ],
+      "path": "instructions/azure-devops-pipelines.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/azure-devops-pipelines.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/azure-devops-pipelines.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "azure devops pipelines best practices for azure devops pipeline yaml files **/azure-pipelines.yml, **/azure-pipelines*.yml, **/*.pipeline.yml"
+    },
+    {
+      "id": "azure-durable-functions-csharp",
+      "title": "Azure Durable Functions Csharp",
+      "description": "Guidelines and best practices for building Azure Durable Functions in C# using the isolated worker model",
+      "applyTo": "**/*.cs, **/host.json, **/local.settings.json, **/*.csproj",
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/azure-durable-functions-csharp.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/azure-durable-functions-csharp.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/azure-durable-functions-csharp.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "azure durable functions csharp guidelines and best practices for building azure durable functions in c# using the isolated worker model **/*.cs, **/host.json, **/local.settings.json, **/*.csproj"
+    },
+    {
+      "id": "azure-functions-csharp",
+      "title": "Azure Functions Csharp",
+      "description": "Guidelines and best practices for building Azure Functions in C# using the isolated worker model",
+      "applyTo": "**/*.cs, **/host.json, **/local.settings.json, **/*.csproj",
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/azure-functions-csharp.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/azure-functions-csharp.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/azure-functions-csharp.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "azure functions csharp guidelines and best practices for building azure functions in c# using the isolated worker model **/*.cs, **/host.json, **/local.settings.json, **/*.csproj"
+    },
+    {
+      "id": "azure-functions-typescript",
+      "title": "Azure Functions Typescript",
+      "description": "TypeScript patterns for Azure Functions",
+      "applyTo": "**/*.ts, **/*.js, **/*.json",
+      "extensions": [
+        ".js",
+        ".json",
+        ".ts"
+      ],
+      "path": "instructions/azure-functions-typescript.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/azure-functions-typescript.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/azure-functions-typescript.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "azure functions typescript typescript patterns for azure functions **/*.ts, **/*.js, **/*.json"
+    },
+    {
+      "id": "azure-logic-apps-power-automate",
+      "title": "Azure Logic Apps Power Automate",
+      "description": "Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation",
+      "applyTo": "**/*.json,**/*.logicapp.json,**/workflow.json,**/*-definition.json,**/*.flow.json",
+      "extensions": [
+        ".json"
+      ],
+      "path": "instructions/azure-logic-apps-power-automate.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/azure-logic-apps-power-automate.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/azure-logic-apps-power-automate.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "azure logic apps power automate guidelines for developing azure logic apps and power automate workflows with best practices for workflow definition language (wdl), integration patterns, and enterprise automation **/*.json,**/*.logicapp.json,**/workflow.json,**/*-definition.json,**/*.flow.json"
+    },
+    {
+      "id": "azure-verified-modules-bicep",
+      "title": "Azure Verified Modules Bicep",
+      "description": "Azure Verified Modules (AVM) and Bicep",
+      "applyTo": "**/*.bicep, **/*.bicepparam",
+      "extensions": [
+        ".bicep",
+        ".bicepparam"
+      ],
+      "path": "instructions/azure-verified-modules-bicep.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/azure-verified-modules-bicep.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/azure-verified-modules-bicep.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "azure verified modules bicep azure verified modules (avm) and bicep **/*.bicep, **/*.bicepparam"
+    },
+    {
+      "id": "azure-verified-modules-terraform",
+      "title": "Azure Verified Modules Terraform",
+      "description": " Azure Verified Modules (AVM) and Terraform",
+      "applyTo": "**/*.terraform, **/*.tf, **/*.tfvars, **/*.tfstate, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json",
+      "extensions": [
+        ".terraform",
+        ".tf",
+        ".tfstate",
+        ".tfvars"
+      ],
+      "path": "instructions/azure-verified-modules-terraform.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/azure-verified-modules-terraform.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/azure-verified-modules-terraform.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "azure verified modules terraform  azure verified modules (avm) and terraform **/*.terraform, **/*.tf, **/*.tfvars, **/*.tfstate, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json"
+    },
+    {
+      "id": "bicep-code-best-practices",
+      "title": "Bicep Code Best Practices",
+      "description": "Infrastructure as Code with Bicep",
+      "applyTo": "**/*.bicep",
+      "extensions": [
+        ".bicep"
+      ],
+      "path": "instructions/bicep-code-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/bicep-code-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/bicep-code-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "bicep code best practices infrastructure as code with bicep **/*.bicep"
+    },
+    {
+      "id": "blazor",
+      "title": "Blazor",
+      "description": "Blazor component and application patterns",
+      "applyTo": "**/*.razor, **/*.razor.cs, **/*.razor.css",
+      "extensions": [
+        ".razor"
+      ],
+      "path": "instructions/blazor.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/blazor.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/blazor.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "blazor blazor component and application patterns **/*.razor, **/*.razor.cs, **/*.razor.css"
+    },
+    {
+      "id": "centos-linux",
+      "title": "Centos Linux",
+      "description": "Guidance for CentOS administration, RHEL-compatible tooling, and SELinux-aware operations.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/centos-linux.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/centos-linux.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/centos-linux.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "centos linux guidance for centos administration, rhel-compatible tooling, and selinux-aware operations. **"
+    },
+    {
+      "id": "clojure",
+      "title": "Clojure",
+      "description": "Clojure-specific coding patterns, inline def usage, code block templates, and namespace handling for Clojure development.",
+      "applyTo": "**/*.{clj,cljs,cljc,bb,edn.mdx?}",
+      "extensions": [],
+      "path": "instructions/clojure.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/clojure.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/clojure.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "clojure clojure-specific coding patterns, inline def usage, code block templates, and namespace handling for clojure development. **/*.{clj,cljs,cljc,bb,edn.mdx?}"
+    },
+    {
+      "id": "cmake-vcpkg",
+      "title": "Cmake Vcpkg",
+      "description": "C++ project configuration and package management",
+      "applyTo": "**/*.cmake, **/CMakeLists.txt, **/*.cpp, **/*.h, **/*.hpp",
+      "extensions": [
+        ".cmake",
+        ".cpp",
+        ".h",
+        ".hpp"
+      ],
+      "path": "instructions/cmake-vcpkg.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/cmake-vcpkg.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/cmake-vcpkg.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "cmake vcpkg c++ project configuration and package management **/*.cmake, **/cmakelists.txt, **/*.cpp, **/*.h, **/*.hpp"
+    },
+    {
+      "id": "code-review-generic",
+      "title": "Code Review Generic",
+      "description": "Generic code review instructions that can be customized for any project using GitHub Copilot",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/code-review-generic.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/code-review-generic.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/code-review-generic.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "code review generic generic code review instructions that can be customized for any project using github copilot **"
+    },
+    {
+      "id": "codexer",
+      "title": "Codexer",
+      "description": "Advanced Python research assistant with Context 7 MCP integration, focusing on speed, reliability, and 10+ years of software development expertise",
+      "applyTo": null,
+      "extensions": [],
+      "path": "instructions/codexer.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/codexer.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/codexer.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "codexer advanced python research assistant with context 7 mcp integration, focusing on speed, reliability, and 10+ years of software development expertise "
+    },
+    {
+      "id": "coldfusion-cfc",
+      "title": "Coldfusion Cfc",
+      "description": "ColdFusion Coding Standards for CFC component and application patterns",
+      "applyTo": "**/*.cfc",
+      "extensions": [
+        ".cfc"
+      ],
+      "path": "instructions/coldfusion-cfc.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/coldfusion-cfc.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/coldfusion-cfc.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "coldfusion cfc coldfusion coding standards for cfc component and application patterns **/*.cfc"
+    },
+    {
+      "id": "coldfusion-cfm",
+      "title": "Coldfusion Cfm",
+      "description": "ColdFusion cfm files and application patterns",
+      "applyTo": "**/*.cfm",
+      "extensions": [
+        ".cfm"
+      ],
+      "path": "instructions/coldfusion-cfm.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/coldfusion-cfm.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/coldfusion-cfm.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "coldfusion cfm coldfusion cfm files and application patterns **/*.cfm"
+    },
+    {
+      "id": "containerization-docker-best-practices",
+      "title": "Containerization Docker Best Practices",
+      "description": "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
+      "applyTo": "**/Dockerfile,**/Dockerfile.*,**/*.dockerfile,**/docker-compose*.yml,**/docker-compose*.yaml,**/compose*.yml,**/compose*.yaml",
+      "extensions": [
+        ".dockerfile",
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/containerization-docker-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/containerization-docker-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/containerization-docker-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "containerization docker best practices comprehensive best practices for creating optimized, secure, and efficient docker images and managing containers. covers multi-stage builds, image layer optimization, security scanning, and runtime best practices. **/dockerfile,**/dockerfile.*,**/*.dockerfile,**/docker-compose*.yml,**/docker-compose*.yaml,**/compose*.yml,**/compose*.yaml"
+    },
+    {
+      "id": "context-engineering",
+      "title": "Context Engineering",
+      "description": "Guidelines for structuring code and projects to maximize GitHub Copilot effectiveness through better context management",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/context-engineering.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/context-engineering.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/context-engineering.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "context engineering guidelines for structuring code and projects to maximize github copilot effectiveness through better context management **"
+    },
+    {
+      "id": "context7",
+      "title": "Context7",
+      "description": "Use Context7 for authoritative external docs and API references when local context is insufficient",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/context7.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/context7.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/context7.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "context7 use context7 for authoritative external docs and api references when local context is insufficient **"
+    },
+    {
+      "id": "convert-cassandra-to-spring-data-cosmos",
+      "title": "Convert Cassandra To Spring Data Cosmos",
+      "description": "Step-by-step guide for converting Spring Boot Cassandra applications to use Azure Cosmos DB with Spring Data Cosmos",
+      "applyTo": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties,**/application*.yml,**/application*.conf",
+      "extensions": [
+        ".conf",
+        ".java",
+        ".properties",
+        ".yml"
+      ],
+      "path": "instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "convert cassandra to spring data cosmos step-by-step guide for converting spring boot cassandra applications to use azure cosmos db with spring data cosmos **/*.java,**/pom.xml,**/build.gradle,**/application*.properties,**/application*.yml,**/application*.conf"
+    },
+    {
+      "id": "convert-jpa-to-spring-data-cosmos",
+      "title": "Convert Jpa To Spring Data Cosmos",
+      "description": "Step-by-step guide for converting Spring Boot JPA applications to use Azure Cosmos DB with Spring Data Cosmos",
+      "applyTo": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties",
+      "extensions": [
+        ".java",
+        ".properties"
+      ],
+      "path": "instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "convert jpa to spring data cosmos step-by-step guide for converting spring boot jpa applications to use azure cosmos db with spring data cosmos **/*.java,**/pom.xml,**/build.gradle,**/application*.properties"
+    },
+    {
+      "id": "copilot-thought-logging",
+      "title": "Copilot Thought Logging",
+      "description": "See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/copilot-thought-logging.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/copilot-thought-logging.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/copilot-thought-logging.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "copilot thought logging see process copilot is following where you can edit this to reshape the interaction or save when follow up may be needed **"
+    },
+    {
+      "id": "cpp-language-service-tools",
+      "title": "Cpp Language Service Tools",
+      "description": "You are an expert at using C++ language service tools (GetSymbolReferences_CppTools, GetSymbolInfo_CppTools, GetSymbolCallHierarchy_CppTools). Instructions for calling C++ Tools for Copilot. When working with C++ code, you have access to powerful language service tools that provide accurate, IntelliSense-powered analysis. **Always prefer these tools over manual code inspection, text search, or guessing.**",
+      "applyTo": "**/*.cpp, **/*.h, **/*.hpp, **/*.cc, **/*.cxx, **/*.c",
+      "extensions": [
+        ".c",
+        ".cc",
+        ".cpp",
+        ".cxx",
+        ".h",
+        ".hpp"
+      ],
+      "path": "instructions/cpp-language-service-tools.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/cpp-language-service-tools.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/cpp-language-service-tools.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "cpp language service tools you are an expert at using c++ language service tools (getsymbolreferences_cpptools, getsymbolinfo_cpptools, getsymbolcallhierarchy_cpptools). instructions for calling c++ tools for copilot. when working with c++ code, you have access to powerful language service tools that provide accurate, intellisense-powered analysis. **always prefer these tools over manual code inspection, text search, or guessing.** **/*.cpp, **/*.h, **/*.hpp, **/*.cc, **/*.cxx, **/*.c"
+    },
+    {
+      "id": "csharp",
+      "title": "Csharp",
+      "description": "Guidelines for building C# applications",
+      "applyTo": "**/*.cs",
+      "extensions": [
+        ".cs"
+      ],
+      "path": "instructions/csharp.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/csharp.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/csharp.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "csharp guidelines for building c# applications **/*.cs"
+    },
+    {
+      "id": "csharp-ja",
+      "title": "Csharp Ja",
+      "description": "C# アプリケーション構築指針 by @tsubakimoto",
+      "applyTo": "**/*.cs",
+      "extensions": [
+        ".cs"
+      ],
+      "path": "instructions/csharp-ja.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/csharp-ja.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/csharp-ja.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "csharp ja c# アプリケーション構築指針 by @tsubakimoto **/*.cs"
+    },
+    {
+      "id": "csharp-ko",
+      "title": "Csharp Ko",
+      "description": "C# 애플리케이션 개발을 위한 코드 작성 규칙 by @jgkim999",
+      "applyTo": "**/*.cs",
+      "extensions": [
+        ".cs"
+      ],
+      "path": "instructions/csharp-ko.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/csharp-ko.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/csharp-ko.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "csharp ko c# 애플리케이션 개발을 위한 코드 작성 규칙 by @jgkim999 **/*.cs"
+    },
+    {
+      "id": "csharp-mcp-server",
+      "title": "Csharp Mcp Server",
+      "description": "Instructions for building Model Context Protocol (MCP) servers using the C# SDK",
+      "applyTo": "**/*.cs, **/*.csproj",
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/csharp-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/csharp-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/csharp-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "csharp mcp server instructions for building model context protocol (mcp) servers using the c# sdk **/*.cs, **/*.csproj"
+    },
+    {
+      "id": "dart-n-flutter",
+      "title": "Dart N Flutter",
+      "description": "Instructions for writing Dart and Flutter code following the official recommendations.",
+      "applyTo": "**/*.dart",
+      "extensions": [
+        ".dart"
+      ],
+      "path": "instructions/dart-n-flutter.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dart-n-flutter.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dart-n-flutter.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dart n flutter instructions for writing dart and flutter code following the official recommendations. **/*.dart"
+    },
+    {
+      "id": "dataverse-python",
+      "title": "Dataverse Python",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python  **"
+    },
+    {
+      "id": "dataverse-python-advanced-features",
+      "title": "Dataverse Python Advanced Features",
+      "description": "",
+      "applyTo": null,
+      "extensions": [],
+      "path": "instructions/dataverse-python-advanced-features.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-advanced-features.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-advanced-features.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python advanced features  "
+    },
+    {
+      "id": "dataverse-python-agentic-workflows",
+      "title": "Dataverse Python Agentic Workflows",
+      "description": "",
+      "applyTo": null,
+      "extensions": [],
+      "path": "instructions/dataverse-python-agentic-workflows.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-agentic-workflows.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-agentic-workflows.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python agentic workflows  "
+    },
+    {
+      "id": "dataverse-python-api-reference",
+      "title": "Dataverse Python Api Reference",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-api-reference.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-api-reference.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-api-reference.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python api reference  **"
+    },
+    {
+      "id": "dataverse-python-authentication-security",
+      "title": "Dataverse Python Authentication Security",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-authentication-security.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-authentication-security.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-authentication-security.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python authentication security  **"
+    },
+    {
+      "id": "dataverse-python-best-practices",
+      "title": "Dataverse Python Best Practices",
+      "description": "",
+      "applyTo": null,
+      "extensions": [],
+      "path": "instructions/dataverse-python-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python best practices  "
+    },
+    {
+      "id": "dataverse-python-error-handling",
+      "title": "Dataverse Python Error Handling",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-error-handling.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-error-handling.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-error-handling.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python error handling  **"
+    },
+    {
+      "id": "dataverse-python-file-operations",
+      "title": "Dataverse Python File Operations",
+      "description": "",
+      "applyTo": null,
+      "extensions": [],
+      "path": "instructions/dataverse-python-file-operations.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-file-operations.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-file-operations.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python file operations  "
+    },
+    {
+      "id": "dataverse-python-modules",
+      "title": "Dataverse Python Modules",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-modules.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-modules.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-modules.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python modules  **"
+    },
+    {
+      "id": "dataverse-python-pandas-integration",
+      "title": "Dataverse Python Pandas Integration",
+      "description": "",
+      "applyTo": null,
+      "extensions": [],
+      "path": "instructions/dataverse-python-pandas-integration.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-pandas-integration.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-pandas-integration.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python pandas integration  "
+    },
+    {
+      "id": "dataverse-python-performance-optimization",
+      "title": "Dataverse Python Performance Optimization",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-performance-optimization.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-performance-optimization.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-performance-optimization.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python performance optimization  **"
+    },
+    {
+      "id": "dataverse-python-real-world-usecases",
+      "title": "Dataverse Python Real World Usecases",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-real-world-usecases.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-real-world-usecases.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-real-world-usecases.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python real world usecases  **"
+    },
+    {
+      "id": "dataverse-python-sdk",
+      "title": "Dataverse Python Sdk",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-sdk.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-sdk.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-sdk.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python sdk  **"
+    },
+    {
+      "id": "dataverse-python-testing-debugging",
+      "title": "Dataverse Python Testing Debugging",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/dataverse-python-testing-debugging.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dataverse-python-testing-debugging.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dataverse-python-testing-debugging.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dataverse python testing debugging  **"
+    },
+    {
+      "id": "debian-linux",
+      "title": "Debian Linux",
+      "description": "Guidance for Debian-based Linux administration, apt workflows, and Debian policy conventions.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/debian-linux.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/debian-linux.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/debian-linux.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "debian linux guidance for debian-based linux administration, apt workflows, and debian policy conventions. **"
+    },
+    {
+      "id": "declarative-agents-microsoft365",
+      "title": "Declarative Agents Microsoft365",
+      "description": "Comprehensive development guidelines for Microsoft 365 Copilot declarative agents with schema v1.5, TypeSpec integration, and Microsoft 365 Agents Toolkit workflows",
+      "applyTo": "**.json, **.ts, **.tsp, **manifest.json, **agent.json, **declarative-agent.json",
+      "extensions": [
+        ".json",
+        ".ts",
+        ".tsp"
+      ],
+      "path": "instructions/declarative-agents-microsoft365.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/declarative-agents-microsoft365.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/declarative-agents-microsoft365.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "declarative agents microsoft365 comprehensive development guidelines for microsoft 365 copilot declarative agents with schema v1.5, typespec integration, and microsoft 365 agents toolkit workflows **.json, **.ts, **.tsp, **manifest.json, **agent.json, **declarative-agent.json"
+    },
+    {
+      "id": "devbox-image-definition",
+      "title": "Devbox Image Definition",
+      "description": "Authoring recommendations for creating YAML based image definition files for use with Microsoft Dev Box Team Customizations",
+      "applyTo": "**/*.yaml",
+      "extensions": [
+        ".yaml"
+      ],
+      "path": "instructions/devbox-image-definition.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/devbox-image-definition.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/devbox-image-definition.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "devbox image definition authoring recommendations for creating yaml based image definition files for use with microsoft dev box team customizations **/*.yaml"
+    },
+    {
+      "id": "devops-core-principles",
+      "title": "Devops Core Principles",
+      "description": "Foundational instructions covering core DevOps principles, culture (CALMS), and key metrics (DORA) to guide GitHub Copilot in understanding and promoting effective software delivery.",
+      "applyTo": "*",
+      "extensions": [],
+      "path": "instructions/devops-core-principles.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/devops-core-principles.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/devops-core-principles.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "devops core principles foundational instructions covering core devops principles, culture (calms), and key metrics (dora) to guide github copilot in understanding and promoting effective software delivery. *"
+    },
+    {
+      "id": "dotnet-architecture-good-practices",
+      "title": "Dotnet Architecture Good Practices",
+      "description": "DDD and .NET architecture guidelines",
+      "applyTo": "**/*.cs,**/*.csproj,**/Program.cs,**/*.razor",
+      "extensions": [
+        ".cs",
+        ".csproj",
+        ".razor"
+      ],
+      "path": "instructions/dotnet-architecture-good-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dotnet-architecture-good-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dotnet-architecture-good-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dotnet architecture good practices ddd and .net architecture guidelines **/*.cs,**/*.csproj,**/program.cs,**/*.razor"
+    },
+    {
+      "id": "dotnet-framework",
+      "title": "Dotnet Framework",
+      "description": "Guidance for working with .NET Framework projects. Includes project structure, C# language version, NuGet management, and best practices.",
+      "applyTo": "**/*.csproj, **/*.cs",
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/dotnet-framework.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dotnet-framework.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dotnet-framework.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dotnet framework guidance for working with .net framework projects. includes project structure, c# language version, nuget management, and best practices. **/*.csproj, **/*.cs"
+    },
+    {
+      "id": "dotnet-maui",
+      "title": "Dotnet Maui",
+      "description": ".NET MAUI component and application patterns",
+      "applyTo": "**/*.xaml, **/*.cs",
+      "extensions": [
+        ".cs",
+        ".xaml"
+      ],
+      "path": "instructions/dotnet-maui.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dotnet-maui.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dotnet-maui.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dotnet maui .net maui component and application patterns **/*.xaml, **/*.cs"
+    },
+    {
+      "id": "dotnet-maui-9-to-dotnet-maui-10-upgrade",
+      "title": "Dotnet Maui 9 To Dotnet Maui 10 Upgrade",
+      "description": "Instructions for upgrading .NET MAUI applications from version 9 to version 10, including breaking changes, deprecated APIs, and migration strategies for ListView to CollectionView.",
+      "applyTo": "**/*.csproj, **/*.cs, **/*.xaml",
+      "extensions": [
+        ".cs",
+        ".csproj",
+        ".xaml"
+      ],
+      "path": "instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dotnet maui 9 to dotnet maui 10 upgrade instructions for upgrading .net maui applications from version 9 to version 10, including breaking changes, deprecated apis, and migration strategies for listview to collectionview. **/*.csproj, **/*.cs, **/*.xaml"
+    },
+    {
+      "id": "dotnet-wpf",
+      "title": "Dotnet Wpf",
+      "description": ".NET WPF component and application patterns",
+      "applyTo": "**/*.xaml, **/*.cs",
+      "extensions": [
+        ".cs",
+        ".xaml"
+      ],
+      "path": "instructions/dotnet-wpf.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/dotnet-wpf.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/dotnet-wpf.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dotnet wpf .net wpf component and application patterns **/*.xaml, **/*.cs"
+    },
+    {
+      "id": "draw-io",
+      "title": "Draw Io",
+      "description": "Use when creating, editing, or reviewing draw.io diagrams and mxGraph XML in .drawio, .drawio.svg, or .drawio.png files.",
+      "applyTo": "**/*.drawio,**/*.drawio.svg,**/*.drawio.png",
+      "extensions": [
+        ".drawio"
+      ],
+      "path": "instructions/draw-io.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/draw-io.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/draw-io.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "draw io use when creating, editing, or reviewing draw.io diagrams and mxgraph xml in .drawio, .drawio.svg, or .drawio.png files. **/*.drawio,**/*.drawio.svg,**/*.drawio.png"
+    },
+    {
+      "id": "fedora-linux",
+      "title": "Fedora Linux",
+      "description": "Guidance for Fedora (Red Hat family) systems, dnf workflows, SELinux, and modern systemd practices.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/fedora-linux.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/fedora-linux.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/fedora-linux.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "fedora linux guidance for fedora (red hat family) systems, dnf workflows, selinux, and modern systemd practices. **"
+    },
+    {
+      "id": "genaiscript",
+      "title": "Genaiscript",
+      "description": "AI-powered script generation guidelines",
+      "applyTo": "**/*.genai.*",
+      "extensions": [],
+      "path": "instructions/genaiscript.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/genaiscript.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/genaiscript.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "genaiscript ai-powered script generation guidelines **/*.genai.*"
+    },
+    {
+      "id": "generate-modern-terraform-code-for-azure",
+      "title": "Generate Modern Terraform Code For Azure",
+      "description": "Guidelines for generating modern Terraform code for Azure",
+      "applyTo": "**/*.tf",
+      "extensions": [
+        ".tf"
+      ],
+      "path": "instructions/generate-modern-terraform-code-for-azure.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/generate-modern-terraform-code-for-azure.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/generate-modern-terraform-code-for-azure.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "generate modern terraform code for azure guidelines for generating modern terraform code for azure **/*.tf"
+    },
+    {
+      "id": "gilfoyle-code-review",
+      "title": "Gilfoyle Code Review",
+      "description": "Gilfoyle-style code review instructions that channel the sardonic technical supremacy of Silicon Valley''s most arrogant systems architect.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/gilfoyle-code-review.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/gilfoyle-code-review.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/gilfoyle-code-review.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "gilfoyle code review gilfoyle-style code review instructions that channel the sardonic technical supremacy of silicon valley''s most arrogant systems architect. **"
+    },
+    {
+      "id": "github-actions-ci-cd-best-practices",
+      "title": "Github Actions Ci Cd Best Practices",
+      "description": "Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions. Covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies, testing, and deployment strategies.",
+      "applyTo": ".github/workflows/*.yml,.github/workflows/*.yaml",
+      "extensions": [
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/github-actions-ci-cd-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/github-actions-ci-cd-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/github-actions-ci-cd-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "github actions ci cd best practices comprehensive guide for building robust, secure, and efficient ci/cd pipelines using github actions. covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies, testing, and deployment strategies. .github/workflows/*.yml,.github/workflows/*.yaml"
+    },
+    {
+      "id": "copilot-sdk-csharp",
+      "title": "GitHub Copilot SDK C# Instructions",
+      "description": "This file provides guidance on building C# applications using GitHub Copilot SDK.",
+      "applyTo": "**.cs, **.csproj",
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/copilot-sdk-csharp.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/copilot-sdk-csharp.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/copilot-sdk-csharp.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "github copilot sdk c# instructions this file provides guidance on building c# applications using github copilot sdk. **.cs, **.csproj"
+    },
+    {
+      "id": "copilot-sdk-go",
+      "title": "GitHub Copilot SDK Go Instructions",
+      "description": "This file provides guidance on building Go applications using GitHub Copilot SDK.",
+      "applyTo": "**.go, go.mod",
+      "extensions": [
+        ".go"
+      ],
+      "path": "instructions/copilot-sdk-go.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/copilot-sdk-go.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/copilot-sdk-go.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "github copilot sdk go instructions this file provides guidance on building go applications using github copilot sdk. **.go, go.mod"
+    },
+    {
+      "id": "copilot-sdk-nodejs",
+      "title": "GitHub Copilot SDK Node.js Instructions",
+      "description": "This file provides guidance on building Node.js/TypeScript applications using GitHub Copilot SDK.",
+      "applyTo": "**.ts, **.js, package.json",
+      "extensions": [
+        ".js",
+        ".ts"
+      ],
+      "path": "instructions/copilot-sdk-nodejs.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/copilot-sdk-nodejs.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/copilot-sdk-nodejs.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "github copilot sdk node.js instructions this file provides guidance on building node.js/typescript applications using github copilot sdk. **.ts, **.js, package.json"
+    },
+    {
+      "id": "copilot-sdk-python",
+      "title": "GitHub Copilot SDK Python Instructions",
+      "description": "This file provides guidance on building Python applications using GitHub Copilot SDK.",
+      "applyTo": "**.py, pyproject.toml, setup.py",
+      "extensions": [
+        ".py"
+      ],
+      "path": "instructions/copilot-sdk-python.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/copilot-sdk-python.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/copilot-sdk-python.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "github copilot sdk python instructions this file provides guidance on building python applications using github copilot sdk. **.py, pyproject.toml, setup.py"
+    },
+    {
+      "id": "go",
+      "title": "Go",
+      "description": "Instructions for writing Go code following idiomatic Go practices and community standards",
+      "applyTo": "**/*.go,**/go.mod,**/go.sum",
+      "extensions": [
+        ".go"
+      ],
+      "path": "instructions/go.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/go.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/go.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "go instructions for writing go code following idiomatic go practices and community standards **/*.go,**/go.mod,**/go.sum"
+    },
+    {
+      "id": "go-mcp-server",
+      "title": "Go Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Go using the official github.com/modelcontextprotocol/go-sdk package.",
+      "applyTo": "**/*.go, **/go.mod, **/go.sum",
+      "extensions": [
+        ".go"
+      ],
+      "path": "instructions/go-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/go-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/go-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "go mcp server best practices and patterns for building model context protocol (mcp) servers in go using the official github.com/modelcontextprotocol/go-sdk package. **/*.go, **/go.mod, **/go.sum"
+    },
+    {
+      "id": "html-css-style-color-guide",
+      "title": "Html Css Style Color Guide",
+      "description": "Color usage guidelines and styling rules for HTML elements to ensure accessible, professional designs.",
+      "applyTo": "**/*.html, **/*.css, **/*.js",
+      "extensions": [
+        ".css",
+        ".html",
+        ".js"
+      ],
+      "path": "instructions/html-css-style-color-guide.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/html-css-style-color-guide.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/html-css-style-color-guide.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "html css style color guide color usage guidelines and styling rules for html elements to ensure accessible, professional designs. **/*.html, **/*.css, **/*.js"
+    },
+    {
+      "id": "instructions",
+      "title": "Instructions",
+      "description": "Guidelines for creating high-quality custom instruction files for GitHub Copilot",
+      "applyTo": "**/*.instructions.md",
+      "extensions": [],
+      "path": "instructions/instructions.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/instructions.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/instructions.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "instructions guidelines for creating high-quality custom instruction files for github copilot **/*.instructions.md"
+    },
+    {
+      "id": "java-11-to-java-17-upgrade",
+      "title": "Java 11 To Java 17 Upgrade",
+      "description": "Comprehensive best practices for adopting new Java 17 features since the release of Java 11.",
+      "applyTo": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/java-11-to-java-17-upgrade.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/java-11-to-java-17-upgrade.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/java-11-to-java-17-upgrade.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "java 11 to java 17 upgrade comprehensive best practices for adopting new java 17 features since the release of java 11. *"
+    },
+    {
+      "id": "java-17-to-java-21-upgrade",
+      "title": "Java 17 To Java 21 Upgrade",
+      "description": "Comprehensive best practices for adopting new Java 21 features since the release of Java 17.",
+      "applyTo": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/java-17-to-java-21-upgrade.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/java-17-to-java-21-upgrade.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/java-17-to-java-21-upgrade.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "java 17 to java 21 upgrade comprehensive best practices for adopting new java 21 features since the release of java 17. *"
+    },
+    {
+      "id": "java-21-to-java-25-upgrade",
+      "title": "Java 21 To Java 25 Upgrade",
+      "description": "Comprehensive best practices for adopting new Java 25 features since the release of Java 21.",
+      "applyTo": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/java-21-to-java-25-upgrade.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/java-21-to-java-25-upgrade.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/java-21-to-java-25-upgrade.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "java 21 to java 25 upgrade comprehensive best practices for adopting new java 25 features since the release of java 21. *"
+    },
+    {
+      "id": "java-mcp-server",
+      "title": "Java Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Java using the official MCP Java SDK with reactive streams and Spring integration.",
+      "applyTo": "**/*.java, **/pom.xml, **/build.gradle, **/build.gradle.kts",
+      "extensions": [
+        ".java"
+      ],
+      "path": "instructions/java-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/java-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/java-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "java mcp server best practices and patterns for building model context protocol (mcp) servers in java using the official mcp java sdk with reactive streams and spring integration. **/*.java, **/pom.xml, **/build.gradle, **/build.gradle.kts"
+    },
+    {
+      "id": "joyride-user-project",
+      "title": "Joyride User Project",
+      "description": "Expert assistance for Joyride User Script projects - REPL-driven ClojureScript and user space automation of VS Code",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/joyride-user-project.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/joyride-user-project.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/joyride-user-project.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "joyride user project expert assistance for joyride user script projects - repl-driven clojurescript and user space automation of vs code **"
+    },
+    {
+      "id": "joyride-workspace-automation",
+      "title": "Joyride Workspace Automation",
+      "description": "Expert assistance for Joyride Workspace automation - REPL-driven and user space ClojureScript automation within specific VS Code workspaces",
+      "applyTo": "**/.joyride/**",
+      "extensions": [],
+      "path": "instructions/joyride-workspace-automation.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/joyride-workspace-automation.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/joyride-workspace-automation.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "joyride workspace automation expert assistance for joyride workspace automation - repl-driven and user space clojurescript automation within specific vs code workspaces **/.joyride/**"
+    },
+    {
+      "id": "kotlin-mcp-server",
+      "title": "Kotlin Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Kotlin using the official io.modelcontextprotocol:kotlin-sdk library.",
+      "applyTo": "**/*.kt, **/*.kts, **/build.gradle.kts, **/settings.gradle.kts",
+      "extensions": [
+        ".kt",
+        ".kts"
+      ],
+      "path": "instructions/kotlin-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/kotlin-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/kotlin-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "kotlin mcp server best practices and patterns for building model context protocol (mcp) servers in kotlin using the official io.modelcontextprotocol:kotlin-sdk library. **/*.kt, **/*.kts, **/build.gradle.kts, **/settings.gradle.kts"
+    },
+    {
+      "id": "kubernetes-deployment-best-practices",
+      "title": "Kubernetes Deployment Best Practices",
+      "description": "Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.",
+      "applyTo": "*",
+      "extensions": [],
+      "path": "instructions/kubernetes-deployment-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/kubernetes-deployment-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/kubernetes-deployment-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "kubernetes deployment best practices comprehensive best practices for deploying and managing applications on kubernetes. covers pods, deployments, services, ingress, configmaps, secrets, health checks, resource limits, scaling, and security contexts. *"
+    },
+    {
+      "id": "kubernetes-manifests",
+      "title": "Kubernetes Manifests",
+      "description": "Best practices for Kubernetes YAML manifests including labeling conventions, security contexts, pod security, resource management, probes, and validation commands",
+      "applyTo": "k8s/**/*.yaml,k8s/**/*.yml,manifests/**/*.yaml,manifests/**/*.yml,deploy/**/*.yaml,deploy/**/*.yml,charts/**/templates/**/*.yaml,charts/**/templates/**/*.yml",
+      "extensions": [
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/kubernetes-manifests.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/kubernetes-manifests.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/kubernetes-manifests.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "kubernetes manifests best practices for kubernetes yaml manifests including labeling conventions, security contexts, pod security, resource management, probes, and validation commands k8s/**/*.yaml,k8s/**/*.yml,manifests/**/*.yaml,manifests/**/*.yml,deploy/**/*.yaml,deploy/**/*.yml,charts/**/templates/**/*.yaml,charts/**/templates/**/*.yml"
+    },
+    {
+      "id": "langchain-python",
+      "title": "Langchain Python",
+      "description": "Instructions for using LangChain with Python",
+      "applyTo": "**/*.py",
+      "extensions": [
+        ".py"
+      ],
+      "path": "instructions/langchain-python.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/langchain-python.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/langchain-python.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "langchain python instructions for using langchain with python **/*.py"
+    },
+    {
+      "id": "localization",
+      "title": "Localization",
+      "description": "Guidelines for localizing markdown documents",
+      "applyTo": "**/*.md",
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/localization.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/localization.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/localization.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "localization guidelines for localizing markdown documents **/*.md"
+    },
+    {
+      "id": "lwc",
+      "title": "Lwc",
+      "description": "Guidelines and best practices for developing Lightning Web Components (LWC) on Salesforce Platform.",
+      "applyTo": "force-app/main/default/lwc/**",
+      "extensions": [],
+      "path": "instructions/lwc.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/lwc.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/lwc.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "lwc guidelines and best practices for developing lightning web components (lwc) on salesforce platform. force-app/main/default/lwc/**"
+    },
+    {
+      "id": "makefile",
+      "title": "Makefile",
+      "description": "Best practices for authoring GNU Make Makefiles",
+      "applyTo": "**/Makefile, **/makefile, **/*.mk, **/GNUmakefile",
+      "extensions": [
+        ".mk"
+      ],
+      "path": "instructions/makefile.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/makefile.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/makefile.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "makefile best practices for authoring gnu make makefiles **/makefile, **/makefile, **/*.mk, **/gnumakefile"
+    },
+    {
+      "id": "markdown",
+      "title": "Markdown",
+      "description": "Markdown formatting aligned to the CommonMark specification (0.31.2)",
+      "applyTo": "**/*.md",
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/markdown.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/markdown.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "markdown markdown formatting aligned to the commonmark specification (0.31.2) **/*.md"
+    },
+    {
+      "id": "markdown-accessibility",
+      "title": "Markdown Accessibility",
+      "description": "Markdown accessibility guidelines based on GitHub''s 5 best practices for inclusive documentation",
+      "applyTo": "**/*.md",
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown-accessibility.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/markdown-accessibility.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/markdown-accessibility.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "markdown accessibility markdown accessibility guidelines based on github''s 5 best practices for inclusive documentation **/*.md"
+    },
+    {
+      "id": "markdown-content-creation",
+      "title": "Markdown Content Creation",
+      "description": "Markdown guidelines and content creation standards for blog posts",
+      "applyTo": "**/*.md",
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown-content-creation.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/markdown-content-creation.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/markdown-content-creation.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "markdown content creation markdown guidelines and content creation standards for blog posts **/*.md"
+    },
+    {
+      "id": "markdown-gfm",
+      "title": "Markdown Gfm",
+      "description": "Markdown formatting for GitHub-flavored markdown (GFM) files",
+      "applyTo": "**/*.md",
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown-gfm.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/markdown-gfm.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/markdown-gfm.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "markdown gfm markdown formatting for github-flavored markdown (gfm) files **/*.md"
+    },
+    {
+      "id": "mcp-m365-copilot",
+      "title": "Mcp M365 Copilot",
+      "description": "Best practices for building MCP-based declarative agents and API plugins for Microsoft 365 Copilot with Model Context Protocol integration",
+      "applyTo": "**/{*mcp*,*agent*,*plugin*,declarativeAgent.json,ai-plugin.json,mcp.json,manifest.json}",
+      "extensions": [],
+      "path": "instructions/mcp-m365-copilot.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/mcp-m365-copilot.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/mcp-m365-copilot.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "mcp m365 copilot best practices for building mcp-based declarative agents and api plugins for microsoft 365 copilot with model context protocol integration **/{*mcp*,*agent*,*plugin*,declarativeagent.json,ai-plugin.json,mcp.json,manifest.json}"
+    },
+    {
+      "id": "memory-bank",
+      "title": "Memory Bank",
+      "description": "",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/memory-bank.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/memory-bank.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/memory-bank.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "memory bank  **"
+    },
+    {
+      "id": "mongo-dba",
+      "title": "Mongo Dba",
+      "description": "Instructions for customizing GitHub Copilot behavior for MONGODB DBA chat mode.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/mongo-dba.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/mongo-dba.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/mongo-dba.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "mongo dba instructions for customizing github copilot behavior for mongodb dba chat mode. **"
+    },
+    {
+      "id": "moodle",
+      "title": "Moodle",
+      "description": "Instructions for GitHub Copilot to generate code in a Moodle project context.",
+      "applyTo": "**/*.php, **/*.js, **/*.mustache, **/*.xml, **/*.css, **/*.scss",
+      "extensions": [
+        ".css",
+        ".js",
+        ".mustache",
+        ".php",
+        ".scss",
+        ".xml"
+      ],
+      "path": "instructions/moodle.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/moodle.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/moodle.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "moodle instructions for github copilot to generate code in a moodle project context. **/*.php, **/*.js, **/*.mustache, **/*.xml, **/*.css, **/*.scss"
+    },
+    {
+      "id": "ms-sql-dba",
+      "title": "Ms Sql Dba",
+      "description": "Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/ms-sql-dba.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/ms-sql-dba.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/ms-sql-dba.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ms sql dba instructions for customizing github copilot behavior for ms-sql dba chat mode. **"
+    },
+    {
+      "id": "nestjs",
+      "title": "Nestjs",
+      "description": "NestJS development standards and best practices for building scalable Node.js server-side applications",
+      "applyTo": "**/*.ts, **/*.js, **/*.json, **/*.spec.ts, **/*.e2e-spec.ts",
+      "extensions": [
+        ".js",
+        ".json",
+        ".ts"
+      ],
+      "path": "instructions/nestjs.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/nestjs.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/nestjs.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "nestjs nestjs development standards and best practices for building scalable node.js server-side applications **/*.ts, **/*.js, **/*.json, **/*.spec.ts, **/*.e2e-spec.ts"
+    },
+    {
+      "id": "nextjs",
+      "title": "Nextjs",
+      "description": "Best practices for building Next.js (App Router) apps with modern caching, tooling, and server/client boundaries (aligned with Next.js 16.1.1).",
+      "applyTo": "**/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css",
+      "extensions": [
+        ".css",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx"
+      ],
+      "path": "instructions/nextjs.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/nextjs.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/nextjs.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "nextjs best practices for building next.js (app router) apps with modern caching, tooling, and server/client boundaries (aligned with next.js 16.1.1). **/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css"
+    },
+    {
+      "id": "nextjs-tailwind",
+      "title": "Nextjs Tailwind",
+      "description": "Next.js + Tailwind development standards and instructions",
+      "applyTo": "**/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css",
+      "extensions": [
+        ".css",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx"
+      ],
+      "path": "instructions/nextjs-tailwind.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/nextjs-tailwind.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/nextjs-tailwind.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "nextjs tailwind next.js + tailwind development standards and instructions **/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css"
+    },
+    {
+      "id": "no-heredoc",
+      "title": "No Heredoc File Operations",
+      "description": "Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools instead of shell redirections",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/no-heredoc.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/no-heredoc.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/no-heredoc.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "no heredoc file operations prevents terminal heredoc file corruption in vs code copilot by enforcing use of file editing tools instead of shell redirections **"
+    },
+    {
+      "id": "nodejs-javascript-vitest",
+      "title": "Nodejs Javascript Vitest",
+      "description": "Guidelines for writing Node.js and JavaScript code with Vitest testing",
+      "applyTo": "**/*.js, **/*.mjs, **/*.cjs",
+      "extensions": [
+        ".cjs",
+        ".js",
+        ".mjs"
+      ],
+      "path": "instructions/nodejs-javascript-vitest.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/nodejs-javascript-vitest.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/nodejs-javascript-vitest.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "nodejs javascript vitest guidelines for writing node.js and javascript code with vitest testing **/*.js, **/*.mjs, **/*.cjs"
+    },
+    {
+      "id": "object-calisthenics",
+      "title": "Object Calisthenics",
+      "description": "Enforces Object Calisthenics principles for business domain code to ensure clean, maintainable, and robust code",
+      "applyTo": "**/*.{cs,ts,java}",
+      "extensions": [],
+      "path": "instructions/object-calisthenics.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/object-calisthenics.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/object-calisthenics.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "object calisthenics enforces object calisthenics principles for business domain code to ensure clean, maintainable, and robust code **/*.{cs,ts,java}"
+    },
+    {
+      "id": "oop-design-patterns",
+      "title": "Oop Design Patterns",
+      "description": "Best practices for applying Object-Oriented Programming (OOP) design patterns, including Gang of Four (GoF) patterns and SOLID principles, to ensure clean, maintainable, and scalable code.",
+      "applyTo": "**/*.py, **/*.java, **/*.ts, **/*.js, **/*.cs",
+      "extensions": [
+        ".cs",
+        ".java",
+        ".js",
+        ".py",
+        ".ts"
+      ],
+      "path": "instructions/oop-design-patterns.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/oop-design-patterns.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/oop-design-patterns.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "oop design patterns best practices for applying object-oriented programming (oop) design patterns, including gang of four (gof) patterns and solid principles, to ensure clean, maintainable, and scalable code. **/*.py, **/*.java, **/*.ts, **/*.js, **/*.cs"
+    },
+    {
+      "id": "oqtane",
+      "title": "Oqtane",
+      "description": "Oqtane Module patterns",
+      "applyTo": "**/*.razor, **/*.razor.cs, **/*.razor.css",
+      "extensions": [
+        ".razor"
+      ],
+      "path": "instructions/oqtane.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/oqtane.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/oqtane.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "oqtane oqtane module patterns **/*.razor, **/*.razor.cs, **/*.razor.css"
+    },
+    {
+      "id": "pcf-alm",
+      "title": "Pcf Alm",
+      "description": "Application lifecycle management (ALM) for PCF code components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj,sln}",
+      "extensions": [],
+      "path": "instructions/pcf-alm.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-alm.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-alm.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf alm application lifecycle management (alm) for pcf code components **/*.{ts,tsx,js,json,xml,pcfproj,csproj,sln}"
+    },
+    {
+      "id": "pcf-api-reference",
+      "title": "Pcf Api Reference",
+      "description": "Complete PCF API reference with all interfaces and their availability in model-driven and canvas apps",
+      "applyTo": "**/*.{ts,tsx,js}",
+      "extensions": [],
+      "path": "instructions/pcf-api-reference.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-api-reference.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-api-reference.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf api reference complete pcf api reference with all interfaces and their availability in model-driven and canvas apps **/*.{ts,tsx,js}"
+    },
+    {
+      "id": "pcf-best-practices",
+      "title": "Pcf Best Practices",
+      "description": "Best practices and guidance for developing PCF code components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj,css,html}",
+      "extensions": [],
+      "path": "instructions/pcf-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf best practices best practices and guidance for developing pcf code components **/*.{ts,tsx,js,json,xml,pcfproj,csproj,css,html}"
+    },
+    {
+      "id": "pcf-canvas-apps",
+      "title": "Pcf Canvas Apps",
+      "description": "Code components for canvas apps implementation, security, and configuration",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-canvas-apps.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-canvas-apps.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-canvas-apps.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf canvas apps code components for canvas apps implementation, security, and configuration **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-code-components",
+      "title": "Pcf Code Components",
+      "description": "Understanding code components structure and implementation",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-code-components.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-code-components.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-code-components.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf code components understanding code components structure and implementation **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-community-resources",
+      "title": "Pcf Community Resources",
+      "description": "PCF community resources including gallery, videos, blogs, and development tools",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/pcf-community-resources.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-community-resources.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-community-resources.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf community resources pcf community resources including gallery, videos, blogs, and development tools **"
+    },
+    {
+      "id": "pcf-dependent-libraries",
+      "title": "Pcf Dependent Libraries",
+      "description": "Using dependent libraries in PCF components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-dependent-libraries.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-dependent-libraries.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-dependent-libraries.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf dependent libraries using dependent libraries in pcf components **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-events",
+      "title": "Pcf Events",
+      "description": "Define and handle custom events in PCF components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-events.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-events.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-events.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf events define and handle custom events in pcf components **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-fluent-modern-theming",
+      "title": "Pcf Fluent Modern Theming",
+      "description": "Style components with modern theming using Fluent UI",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-fluent-modern-theming.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-fluent-modern-theming.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-fluent-modern-theming.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf fluent modern theming style components with modern theming using fluent ui **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-limitations",
+      "title": "Pcf Limitations",
+      "description": "Limitations and restrictions of Power Apps Component Framework",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-limitations.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-limitations.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-limitations.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf limitations limitations and restrictions of power apps component framework **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-manifest-schema",
+      "title": "Pcf Manifest Schema",
+      "description": "Complete manifest schema reference for PCF components with all available XML elements",
+      "applyTo": "**/*.xml",
+      "extensions": [
+        ".xml"
+      ],
+      "path": "instructions/pcf-manifest-schema.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-manifest-schema.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-manifest-schema.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf manifest schema complete manifest schema reference for pcf components with all available xml elements **/*.xml"
+    },
+    {
+      "id": "pcf-model-driven-apps",
+      "title": "Pcf Model Driven Apps",
+      "description": "Code components for model-driven apps implementation and configuration",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-model-driven-apps.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-model-driven-apps.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-model-driven-apps.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf model driven apps code components for model-driven apps implementation and configuration **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-overview",
+      "title": "Pcf Overview",
+      "description": "Power Apps Component Framework overview and fundamentals",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-overview.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-overview.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-overview.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf overview power apps component framework overview and fundamentals **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-power-pages",
+      "title": "Pcf Power Pages",
+      "description": "Using code components in Power Pages sites",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-power-pages.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-power-pages.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-power-pages.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf power pages using code components in power pages sites **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-react-platform-libraries",
+      "title": "Pcf React Platform Libraries",
+      "description": "React controls and platform libraries for PCF components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-react-platform-libraries.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-react-platform-libraries.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-react-platform-libraries.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf react platform libraries react controls and platform libraries for pcf components **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-sample-components",
+      "title": "Pcf Sample Components",
+      "description": "How to use and run PCF sample components from the PowerApps-Samples repository",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-sample-components.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-sample-components.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-sample-components.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf sample components how to use and run pcf sample components from the powerapps-samples repository **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "pcf-tooling",
+      "title": "Pcf Tooling",
+      "description": "Get Microsoft Power Platform CLI tooling for Power Apps Component Framework",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "extensions": [],
+      "path": "instructions/pcf-tooling.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/pcf-tooling.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/pcf-tooling.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "pcf tooling get microsoft power platform cli tooling for power apps component framework **/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+    },
+    {
+      "id": "performance-optimization",
+      "title": "Performance Optimization",
+      "description": "Comprehensive web performance standards based on Core Web Vitals (LCP, INP, CLS), with 50+ anti-patterns, detection regex, framework-specific fixes for modern web frameworks, and modern API guidance.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/performance-optimization.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/performance-optimization.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/performance-optimization.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "performance optimization comprehensive web performance standards based on core web vitals (lcp, inp, cls), with 50+ anti-patterns, detection regex, framework-specific fixes for modern web frameworks, and modern api guidance. **"
+    },
+    {
+      "id": "php-mcp-server",
+      "title": "Php Mcp Server",
+      "description": "Best practices for building Model Context Protocol servers in PHP using the official PHP SDK with attribute-based discovery and multiple transport options",
+      "applyTo": "**/*.php",
+      "extensions": [
+        ".php"
+      ],
+      "path": "instructions/php-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/php-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/php-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "php mcp server best practices for building model context protocol servers in php using the official php sdk with attribute-based discovery and multiple transport options **/*.php"
+    },
+    {
+      "id": "php-symfony",
+      "title": "Php Symfony",
+      "description": "Symfony development standards aligned with official Symfony Best Practices",
+      "applyTo": "**/*.php, **/*.yaml, **/*.yml, **/*.xml, **/*.twig",
+      "extensions": [
+        ".php",
+        ".twig",
+        ".xml",
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/php-symfony.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/php-symfony.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/php-symfony.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "php symfony symfony development standards aligned with official symfony best practices **/*.php, **/*.yaml, **/*.yml, **/*.xml, **/*.twig"
+    },
+    {
+      "id": "playwright-dotnet",
+      "title": "Playwright Dotnet",
+      "description": "Playwright .NET test generation instructions",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/playwright-dotnet.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/playwright-dotnet.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/playwright-dotnet.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "playwright dotnet playwright .net test generation instructions **"
+    },
+    {
+      "id": "playwright-python",
+      "title": "Playwright Python",
+      "description": "Playwright Python AI test generation instructions based on official documentation.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/playwright-python.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/playwright-python.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/playwright-python.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "playwright python playwright python ai test generation instructions based on official documentation. **"
+    },
+    {
+      "id": "playwright-typescript",
+      "title": "Playwright Typescript",
+      "description": "Playwright test generation instructions",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/playwright-typescript.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/playwright-typescript.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/playwright-typescript.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "playwright typescript playwright test generation instructions **"
+    },
+    {
+      "id": "power-apps-canvas-yaml",
+      "title": "Power Apps Canvas Yaml",
+      "description": "Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power Apps YAML schema v3.0. Covers Power Fx formulas, control structures, data types, and source control best practices.",
+      "applyTo": "**/*.{yaml,yml,md,pa.yaml}",
+      "extensions": [],
+      "path": "instructions/power-apps-canvas-yaml.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-apps-canvas-yaml.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-apps-canvas-yaml.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power apps canvas yaml comprehensive guide for working with power apps canvas apps yaml structure based on microsoft power apps yaml schema v3.0. covers power fx formulas, control structures, data types, and source control best practices. **/*.{yaml,yml,md,pa.yaml}"
+    },
+    {
+      "id": "power-apps-code-apps",
+      "title": "Power Apps Code Apps",
+      "description": "Power Apps Code Apps development standards and best practices for TypeScript, React, and Power Platform integration",
+      "applyTo": "**/*.{ts,tsx,js,jsx}, **/vite.config.*, **/package.json, **/tsconfig.json, **/power.config.json",
+      "extensions": [],
+      "path": "instructions/power-apps-code-apps.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-apps-code-apps.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-apps-code-apps.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power apps code apps power apps code apps development standards and best practices for typescript, react, and power platform integration **/*.{ts,tsx,js,jsx}, **/vite.config.*, **/package.json, **/tsconfig.json, **/power.config.json"
+    },
+    {
+      "id": "power-bi-custom-visuals-development",
+      "title": "Power Bi Custom Visuals Development",
+      "description": "Comprehensive Power BI custom visuals development guide covering React, D3.js integration, TypeScript patterns, testing frameworks, and advanced visualization techniques.",
+      "applyTo": "**/*.{ts,tsx,js,jsx,json,less,css}",
+      "extensions": [],
+      "path": "instructions/power-bi-custom-visuals-development.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi-custom-visuals-development.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-bi-custom-visuals-development.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power bi custom visuals development comprehensive power bi custom visuals development guide covering react, d3.js integration, typescript patterns, testing frameworks, and advanced visualization techniques. **/*.{ts,tsx,js,jsx,json,less,css}"
+    },
+    {
+      "id": "power-bi-data-modeling-best-practices",
+      "title": "Power Bi Data Modeling Best Practices",
+      "description": "Comprehensive Power BI data modeling best practices based on Microsoft guidance for creating efficient, scalable, and maintainable semantic models using star schema principles.",
+      "applyTo": "**/*.{pbix,md,json,txt}",
+      "extensions": [],
+      "path": "instructions/power-bi-data-modeling-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi-data-modeling-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-bi-data-modeling-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power bi data modeling best practices comprehensive power bi data modeling best practices based on microsoft guidance for creating efficient, scalable, and maintainable semantic models using star schema principles. **/*.{pbix,md,json,txt}"
+    },
+    {
+      "id": "power-bi-dax-best-practices",
+      "title": "Power Bi Dax Best Practices",
+      "description": "Comprehensive Power BI DAX best practices and patterns based on Microsoft guidance for creating efficient, maintainable, and performant DAX formulas.",
+      "applyTo": "**/*.{pbix,dax,md,txt}",
+      "extensions": [],
+      "path": "instructions/power-bi-dax-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi-dax-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-bi-dax-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power bi dax best practices comprehensive power bi dax best practices and patterns based on microsoft guidance for creating efficient, maintainable, and performant dax formulas. **/*.{pbix,dax,md,txt}"
+    },
+    {
+      "id": "power-bi-devops-alm-best-practices",
+      "title": "Power Bi Devops Alm Best Practices",
+      "description": "Comprehensive guide for Power BI DevOps, Application Lifecycle Management (ALM), CI/CD pipelines, deployment automation, and version control best practices.",
+      "applyTo": "**/*.{yml,yaml,ps1,json,pbix,pbir}",
+      "extensions": [],
+      "path": "instructions/power-bi-devops-alm-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi-devops-alm-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-bi-devops-alm-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power bi devops alm best practices comprehensive guide for power bi devops, application lifecycle management (alm), ci/cd pipelines, deployment automation, and version control best practices. **/*.{yml,yaml,ps1,json,pbix,pbir}"
+    },
+    {
+      "id": "power-bi-report-design-best-practices",
+      "title": "Power Bi Report Design Best Practices",
+      "description": "Comprehensive Power BI report design and visualization best practices based on Microsoft guidance for creating effective, accessible, and performant reports and dashboards.",
+      "applyTo": "**/*.{pbix,md,json,txt}",
+      "extensions": [],
+      "path": "instructions/power-bi-report-design-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi-report-design-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-bi-report-design-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power bi report design best practices comprehensive power bi report design and visualization best practices based on microsoft guidance for creating effective, accessible, and performant reports and dashboards. **/*.{pbix,md,json,txt}"
+    },
+    {
+      "id": "power-bi-security-rls-best-practices",
+      "title": "Power Bi Security Rls Best Practices",
+      "description": "Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns implementation guide with dynamic security, best practices, and governance strategies.",
+      "applyTo": "**/*.{pbix,dax,md,txt,json,csharp,powershell}",
+      "extensions": [],
+      "path": "instructions/power-bi-security-rls-best-practices.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi-security-rls-best-practices.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-bi-security-rls-best-practices.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power bi security rls best practices comprehensive power bi row-level security (rls) and advanced security patterns implementation guide with dynamic security, best practices, and governance strategies. **/*.{pbix,dax,md,txt,json,csharp,powershell}"
+    },
+    {
+      "id": "power-platform-connector",
+      "title": "Power Platform Connector",
+      "description": "Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.",
+      "applyTo": "**/*.{json,md}",
+      "extensions": [],
+      "path": "instructions/power-platform-connector.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-platform-connector.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-platform-connector.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power platform connector comprehensive development guidelines for power platform custom connectors using json schema definitions. covers api definitions (swagger 2.0), api properties, and settings configuration with microsoft extensions. **/*.{json,md}"
+    },
+    {
+      "id": "power-platform-mcp-development",
+      "title": "Power Platform Mcp Development",
+      "description": "Instructions for developing Power Platform custom connectors with Model Context Protocol (MCP) integration for Microsoft Copilot Studio",
+      "applyTo": "**/*.{json,csx,md}",
+      "extensions": [],
+      "path": "instructions/power-platform-mcp-development.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/power-platform-mcp-development.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/power-platform-mcp-development.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "power platform mcp development instructions for developing power platform custom connectors with model context protocol (mcp) integration for microsoft copilot studio **/*.{json,csx,md}"
+    },
+    {
+      "id": "powershell",
+      "title": "Powershell",
+      "description": "PowerShell cmdlet and scripting best practices based on Microsoft guidelines",
+      "applyTo": "**/*.ps1,**/*.psm1",
+      "extensions": [
+        ".ps1",
+        ".psm1"
+      ],
+      "path": "instructions/powershell.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/powershell.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/powershell.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "powershell powershell cmdlet and scripting best practices based on microsoft guidelines **/*.ps1,**/*.psm1"
+    },
+    {
+      "id": "powershell-pester-5",
+      "title": "Powershell Pester 5",
+      "description": "PowerShell Pester testing best practices based on Pester v5 conventions",
+      "applyTo": "**/*.Tests.ps1",
+      "extensions": [],
+      "path": "instructions/powershell-pester-5.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/powershell-pester-5.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/powershell-pester-5.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "powershell pester 5 powershell pester testing best practices based on pester v5 conventions **/*.tests.ps1"
+    },
+    {
+      "id": "prompt",
+      "title": "Prompt",
+      "description": "Guidelines for creating high-quality prompt files for GitHub Copilot",
+      "applyTo": "**/*.prompt.md",
+      "extensions": [],
+      "path": "instructions/prompt.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/prompt.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/prompt.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "prompt guidelines for creating high-quality prompt files for github copilot **/*.prompt.md"
+    },
+    {
+      "id": "python-mcp-server",
+      "title": "Python Mcp Server",
+      "description": "Instructions for building Model Context Protocol (MCP) servers using the Python SDK",
+      "applyTo": "**/*.py, **/pyproject.toml, **/requirements.txt",
+      "extensions": [
+        ".py"
+      ],
+      "path": "instructions/python-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/python-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/python-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "python mcp server instructions for building model context protocol (mcp) servers using the python sdk **/*.py, **/pyproject.toml, **/requirements.txt"
+    },
+    {
+      "id": "quarkus",
+      "title": "Quarkus",
+      "description": "Quarkus development standards and instructions",
+      "applyTo": "*",
+      "extensions": [],
+      "path": "instructions/quarkus.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/quarkus.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/quarkus.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "quarkus quarkus development standards and instructions *"
+    },
+    {
+      "id": "quarkus-mcp-server-sse",
+      "title": "Quarkus Mcp Server Sse",
+      "description": "Quarkus and MCP Server with HTTP SSE transport development standards and instructions",
+      "applyTo": "*",
+      "extensions": [],
+      "path": "instructions/quarkus-mcp-server-sse.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/quarkus-mcp-server-sse.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/quarkus-mcp-server-sse.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "quarkus mcp server sse quarkus and mcp server with http sse transport development standards and instructions *"
+    },
+    {
+      "id": "r",
+      "title": "R",
+      "description": "R language and document formats (R, Rmd, Quarto): coding standards and Copilot guidance for idiomatic, safe, and consistent code generation.",
+      "applyTo": "**/*.R, **/*.r, **/*.Rmd, **/*.rmd, **/*.qmd",
+      "extensions": [
+        ".R",
+        ".Rmd",
+        ".qmd",
+        ".r",
+        ".rmd"
+      ],
+      "path": "instructions/r.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/r.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/r.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "r r language and document formats (r, rmd, quarto): coding standards and copilot guidance for idiomatic, safe, and consistent code generation. **/*.r, **/*.r, **/*.rmd, **/*.rmd, **/*.qmd"
+    },
+    {
+      "id": "ruby-mcp-server",
+      "title": "Ruby Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Ruby using the official MCP Ruby SDK gem.",
+      "applyTo": "**/*.rb, **/Gemfile, **/*.gemspec, **/Rakefile",
+      "extensions": [
+        ".gemspec",
+        ".rb"
+      ],
+      "path": "instructions/ruby-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/ruby-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/ruby-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ruby mcp server best practices and patterns for building model context protocol (mcp) servers in ruby using the official mcp ruby sdk gem. **/*.rb, **/gemfile, **/*.gemspec, **/rakefile"
+    },
+    {
+      "id": "ruby-on-rails",
+      "title": "Ruby On Rails",
+      "description": "Ruby on Rails coding conventions and guidelines",
+      "applyTo": "**/*.rb",
+      "extensions": [
+        ".rb"
+      ],
+      "path": "instructions/ruby-on-rails.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/ruby-on-rails.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/ruby-on-rails.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ruby on rails ruby on rails coding conventions and guidelines **/*.rb"
+    },
+    {
+      "id": "rust",
+      "title": "Rust",
+      "description": "Rust programming language coding conventions and best practices",
+      "applyTo": "**/*.rs",
+      "extensions": [
+        ".rs"
+      ],
+      "path": "instructions/rust.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/rust.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/rust.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "rust rust programming language coding conventions and best practices **/*.rs"
+    },
+    {
+      "id": "rust-mcp-server",
+      "title": "Rust Mcp Server",
+      "description": "Best practices for building Model Context Protocol servers in Rust using the official rmcp SDK with async/await patterns",
+      "applyTo": "**/*.rs",
+      "extensions": [
+        ".rs"
+      ],
+      "path": "instructions/rust-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/rust-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/rust-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "rust mcp server best practices for building model context protocol servers in rust using the official rmcp sdk with async/await patterns **/*.rs"
+    },
+    {
+      "id": "scala2",
+      "title": "Scala2",
+      "description": "Scala 2.12/2.13 programming language coding conventions and best practices following Databricks style guide for functional programming, type safety, and production code quality.",
+      "applyTo": "**/*.scala, **/build.sbt, **/build.sc",
+      "extensions": [
+        ".scala"
+      ],
+      "path": "instructions/scala2.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/scala2.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/scala2.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "scala2 scala 2.12/2.13 programming language coding conventions and best practices following databricks style guide for functional programming, type safety, and production code quality. **/*.scala, **/build.sbt, **/build.sc"
+    },
+    {
+      "id": "security-and-owasp",
+      "title": "Security And Owasp",
+      "description": "Comprehensive secure coding standards based on OWASP Top 10 2025, with 55+ anti-patterns, detection regex, framework-specific fixes for modern web and backend frameworks, and AI/LLM security guidance.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/security-and-owasp.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/security-and-owasp.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/security-and-owasp.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "security and owasp comprehensive secure coding standards based on owasp top 10 2025, with 55+ anti-patterns, detection regex, framework-specific fixes for modern web and backend frameworks, and ai/llm security guidance. **"
+    },
+    {
+      "id": "self-explanatory-code-commenting",
+      "title": "Self Explanatory Code Commenting",
+      "description": "Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/self-explanatory-code-commenting.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/self-explanatory-code-commenting.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/self-explanatory-code-commenting.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "self explanatory code commenting guidelines for github copilot to write comments to achieve self-explanatory code with less comments. examples are in javascript but it should work on any language that has comments. **"
+    },
+    {
+      "id": "shell",
+      "title": "Shell",
+      "description": "Shell scripting best practices and conventions for bash, sh, zsh, and other shells",
+      "applyTo": "**/*.sh",
+      "extensions": [
+        ".sh"
+      ],
+      "path": "instructions/shell.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/shell.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/shell.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "shell shell scripting best practices and conventions for bash, sh, zsh, and other shells **/*.sh"
+    },
+    {
+      "id": "spec-driven-workflow-v1",
+      "title": "Spec Driven Workflow V1",
+      "description": "Specification-Driven Workflow v1 provides a structured approach to software development, ensuring that requirements are clearly defined, designs are meticulously planned, and implementations are thoroughly documented and validated.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/spec-driven-workflow-v1.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/spec-driven-workflow-v1.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/spec-driven-workflow-v1.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "spec driven workflow v1 specification-driven workflow v1 provides a structured approach to software development, ensuring that requirements are clearly defined, designs are meticulously planned, and implementations are thoroughly documented and validated. **"
+    },
+    {
+      "id": "springboot",
+      "title": "Springboot",
+      "description": "Guidelines for building Spring Boot base applications",
+      "applyTo": "**/*.java, **/*.kt",
+      "extensions": [
+        ".java",
+        ".kt"
+      ],
+      "path": "instructions/springboot.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/springboot.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/springboot.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "springboot guidelines for building spring boot base applications **/*.java, **/*.kt"
+    },
+    {
+      "id": "springboot-4-migration",
+      "title": "Springboot 4 Migration",
+      "description": "Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focusing on Gradle Kotlin DSL and version catalogs",
+      "applyTo": "**/*.java, **/*.kt, **/build.gradle.kts, **/build.gradle, **/settings.gradle.kts, **/gradle/libs.versions.toml, **/*.properties, **/*.yml, **/*.yaml",
+      "extensions": [
+        ".java",
+        ".kt",
+        ".properties",
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/springboot-4-migration.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/springboot-4-migration.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/springboot-4-migration.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "springboot 4 migration comprehensive guide for migrating spring boot applications from 3.x to 4.0, focusing on gradle kotlin dsl and version catalogs **/*.java, **/*.kt, **/build.gradle.kts, **/build.gradle, **/settings.gradle.kts, **/gradle/libs.versions.toml, **/*.properties, **/*.yml, **/*.yaml"
+    },
+    {
+      "id": "sql-sp-generation",
+      "title": "Sql Sp Generation",
+      "description": "Guidelines for generating SQL statements and stored procedures",
+      "applyTo": "**/*.sql",
+      "extensions": [
+        ".sql"
+      ],
+      "path": "instructions/sql-sp-generation.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/sql-sp-generation.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/sql-sp-generation.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "sql sp generation guidelines for generating sql statements and stored procedures **/*.sql"
+    },
+    {
+      "id": "svelte",
+      "title": "Svelte",
+      "description": "Svelte 5 and SvelteKit development standards and best practices for component-based user interfaces and full-stack applications",
+      "applyTo": "**/*.svelte, **/*.ts, **/*.js, **/*.css, **/*.scss, **/*.json",
+      "extensions": [
+        ".css",
+        ".js",
+        ".json",
+        ".scss",
+        ".svelte",
+        ".ts"
+      ],
+      "path": "instructions/svelte.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/svelte.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/svelte.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "svelte svelte 5 and sveltekit development standards and best practices for component-based user interfaces and full-stack applications **/*.svelte, **/*.ts, **/*.js, **/*.css, **/*.scss, **/*.json"
+    },
+    {
+      "id": "swift-mcp-server",
+      "title": "Swift Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Swift using the official MCP Swift SDK package.",
+      "applyTo": "**/*.swift, **/Package.swift, **/Package.resolved",
+      "extensions": [
+        ".swift"
+      ],
+      "path": "instructions/swift-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/swift-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/swift-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "swift mcp server best practices and patterns for building model context protocol (mcp) servers in swift using the official mcp swift sdk package. **/*.swift, **/package.swift, **/package.resolved"
+    },
+    {
+      "id": "tailwind-v4-vite",
+      "title": "Tailwind V4 Vite",
+      "description": "Tailwind CSS v4+ installation and configuration for Vite projects using the official @tailwindcss/vite plugin",
+      "applyTo": "vite.config.ts, vite.config.js, **/*.css, **/*.tsx, **/*.ts, **/*.jsx, **/*.js",
+      "extensions": [
+        ".css",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx"
+      ],
+      "path": "instructions/tailwind-v4-vite.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/tailwind-v4-vite.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/tailwind-v4-vite.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "tailwind v4 vite tailwind css v4+ installation and configuration for vite projects using the official @tailwindcss/vite plugin vite.config.ts, vite.config.js, **/*.css, **/*.tsx, **/*.ts, **/*.jsx, **/*.js"
+    },
+    {
+      "id": "taming-copilot",
+      "title": "Taming Copilot",
+      "description": "Prevent Copilot from wreaking havoc across your codebase, keeping it under control.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/taming-copilot.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/taming-copilot.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/taming-copilot.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "taming copilot prevent copilot from wreaking havoc across your codebase, keeping it under control. **"
+    },
+    {
+      "id": "tanstack-start-shadcn-tailwind",
+      "title": "Tanstack Start Shadcn Tailwind",
+      "description": "Guidelines for building TanStack Start applications",
+      "applyTo": "**/*.ts, **/*.tsx, **/*.js, **/*.jsx, **/*.css, **/*.scss, **/*.json",
+      "extensions": [
+        ".css",
+        ".js",
+        ".json",
+        ".jsx",
+        ".scss",
+        ".ts",
+        ".tsx"
+      ],
+      "path": "instructions/tanstack-start-shadcn-tailwind.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/tanstack-start-shadcn-tailwind.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/tanstack-start-shadcn-tailwind.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "tanstack start shadcn tailwind guidelines for building tanstack start applications **/*.ts, **/*.tsx, **/*.js, **/*.jsx, **/*.css, **/*.scss, **/*.json"
+    },
+    {
+      "id": "task-implementation",
+      "title": "Task Implementation",
+      "description": "Instructions for implementing task plans with progressive tracking and change record - Brought to you by microsoft/edge-ai",
+      "applyTo": "**/.copilot-tracking/changes/*.md",
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/task-implementation.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/task-implementation.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/task-implementation.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "task implementation instructions for implementing task plans with progressive tracking and change record - brought to you by microsoft/edge-ai **/.copilot-tracking/changes/*.md"
+    },
+    {
+      "id": "tasksync",
+      "title": "Tasksync",
+      "description": "TaskSync V5 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
+      "applyTo": "**",
+      "extensions": [],
+      "path": "instructions/tasksync.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/tasksync.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/tasksync.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "tasksync tasksync v5 - allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running. **"
+    },
+    {
+      "id": "terraform",
+      "title": "Terraform",
+      "description": "Terraform Conventions and Guidelines",
+      "applyTo": "**/*.tf",
+      "extensions": [
+        ".tf"
+      ],
+      "path": "instructions/terraform.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/terraform.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/terraform.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "terraform terraform conventions and guidelines **/*.tf"
+    },
+    {
+      "id": "terraform-azure",
+      "title": "Terraform Azure",
+      "description": "Create or modify solutions built using Terraform on Azure.",
+      "applyTo": "**/*.terraform, **/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tfstate, **/*.tf.json, **/*.tfvars.json",
+      "extensions": [
+        ".terraform",
+        ".tf",
+        ".tfstate",
+        ".tfvars"
+      ],
+      "path": "instructions/terraform-azure.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/terraform-azure.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/terraform-azure.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "terraform azure create or modify solutions built using terraform on azure. **/*.terraform, **/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tfstate, **/*.tf.json, **/*.tfvars.json"
+    },
+    {
+      "id": "terraform-sap-btp",
+      "title": "Terraform Sap Btp",
+      "description": "Terraform conventions and guidelines for SAP Business Technology Platform (SAP BTP).",
+      "applyTo": "**/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json",
+      "extensions": [
+        ".tf",
+        ".tfvars"
+      ],
+      "path": "instructions/terraform-sap-btp.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/terraform-sap-btp.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/terraform-sap-btp.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "terraform sap btp terraform conventions and guidelines for sap business technology platform (sap btp). **/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json"
+    },
+    {
+      "id": "typescript-mcp-server",
+      "title": "Typescript Mcp Server",
+      "description": "Instructions for building Model Context Protocol (MCP) servers using the TypeScript SDK",
+      "applyTo": "**/*.ts, **/*.js, **/package.json",
+      "extensions": [
+        ".js",
+        ".ts"
+      ],
+      "path": "instructions/typescript-mcp-server.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/typescript-mcp-server.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/typescript-mcp-server.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "typescript mcp server instructions for building model context protocol (mcp) servers using the typescript sdk **/*.ts, **/*.js, **/package.json"
+    },
+    {
+      "id": "typespec-m365-copilot",
+      "title": "Typespec M365 Copilot",
+      "description": "Guidelines and best practices for building TypeSpec-based declarative agents and API plugins for Microsoft 365 Copilot",
+      "applyTo": "**/*.tsp",
+      "extensions": [
+        ".tsp"
+      ],
+      "path": "instructions/typespec-m365-copilot.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/typespec-m365-copilot.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/typespec-m365-copilot.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "typespec m365 copilot guidelines and best practices for building typespec-based declarative agents and api plugins for microsoft 365 copilot **/*.tsp"
+    },
+    {
+      "id": "update-code-from-shorthand",
+      "title": "Update Code From Shorthand",
+      "description": "Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`.",
+      "applyTo": "**/${input:file}",
+      "extensions": [],
+      "path": "instructions/update-code-from-shorthand.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/update-code-from-shorthand.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/update-code-from-shorthand.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "update code from shorthand shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used to update the code file when the prompt has the text `update code from shorthand`. **/${input:file}"
+    },
+    {
+      "id": "update-docs-on-code-change",
+      "title": "Update Docs On Code Change",
+      "description": "Automatically update README.md and documentation files when application code changes require documentation updates",
+      "applyTo": "**/*.{md,js,mjs,cjs,ts,tsx,jsx,py,java,cs,go,rb,php,rs,cpp,c,h,hpp}",
+      "extensions": [],
+      "path": "instructions/update-docs-on-code-change.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/update-docs-on-code-change.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/update-docs-on-code-change.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "update docs on code change automatically update readme.md and documentation files when application code changes require documentation updates **/*.{md,js,mjs,cjs,ts,tsx,jsx,py,java,cs,go,rb,php,rs,cpp,c,h,hpp}"
+    },
+    {
+      "id": "use-cliche-data-in-docs",
+      "title": "Use Cliche Data In Docs",
+      "description": "Ensure documentation and examples use only generic, cliche placeholder data — never real or sensitive data sourced from local scripts, configuration, task files, or prompt context.",
+      "applyTo": "**/*.{md,js,mjs,cjs,ts,tsx,jsx,py,json}",
+      "extensions": [],
+      "path": "instructions/use-cliche-data-in-docs.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/use-cliche-data-in-docs.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/use-cliche-data-in-docs.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "use cliche data in docs ensure documentation and examples use only generic, cliche placeholder data — never real or sensitive data sourced from local scripts, configuration, task files, or prompt context. **/*.{md,js,mjs,cjs,ts,tsx,jsx,py,json}"
+    },
+    {
+      "id": "vsixtoolkit",
+      "title": "Vsixtoolkit",
+      "description": "Guidelines for Visual Studio extension (VSIX) development using Community.VisualStudio.Toolkit",
+      "applyTo": "**/*.cs, **/*.vsct, **/*.xaml, **/source.extension.vsixmanifest",
+      "extensions": [
+        ".cs",
+        ".vsct",
+        ".xaml"
+      ],
+      "path": "instructions/vsixtoolkit.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/vsixtoolkit.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/vsixtoolkit.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "vsixtoolkit guidelines for visual studio extension (vsix) development using community.visualstudio.toolkit **/*.cs, **/*.vsct, **/*.xaml, **/source.extension.vsixmanifest"
+    },
+    {
+      "id": "winui3",
+      "title": "Winui3",
+      "description": "WinUI 3 and Windows App SDK coding guidelines. Prevents common UWP API misuse, enforces correct XAML namespaces, threading, windowing, and MVVM patterns for desktop Windows apps.",
+      "applyTo": "**/*.xaml, **/*.cs, **/*.csproj",
+      "extensions": [
+        ".cs",
+        ".csproj",
+        ".xaml"
+      ],
+      "path": "instructions/winui3.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/winui3.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/winui3.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "winui3 winui 3 and windows app sdk coding guidelines. prevents common uwp api misuse, enforces correct xaml namespaces, threading, windowing, and mvvm patterns for desktop windows apps. **/*.xaml, **/*.cs, **/*.csproj"
+    },
+    {
+      "id": "wordpress",
+      "title": "Wordpress",
+      "description": "Coding, security, and testing rules for WordPress plugins and themes",
+      "applyTo": "wp-content/plugins/**,wp-content/themes/**,**/*.php,**/*.inc,**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.json",
+      "extensions": [
+        ".css",
+        ".inc",
+        ".js",
+        ".json",
+        ".jsx",
+        ".php",
+        ".scss",
+        ".ts",
+        ".tsx"
+      ],
+      "path": "instructions/wordpress.instructions.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/instructions/wordpress.instructions.md",
+      "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/instructions/wordpress.instructions.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "wordpress coding, security, and testing rules for wordpress plugins and themes wp-content/plugins/**,wp-content/themes/**,**/*.php,**/*.inc,**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.json"
+    }
+  ],
+  "filters": {
+    "extensions": [
+      ".R",
+      ".Rmd",
+      ".astro",
+      ".bicep",
+      ".bicepparam",
+      ".c",
+      ".cc",
+      ".cfc",
+      ".cfm",
+      ".cjs",
+      ".cls",
+      ".cmake",
+      ".conf",
+      ".cpp",
+      ".cs",
+      ".csproj",
+      ".css",
+      ".cxx",
+      ".dart",
+      ".dockerfile",
+      ".drawio",
+      ".gemspec",
+      ".go",
+      ".h",
+      ".hpp",
+      ".html",
+      ".inc",
+      ".java",
+      ".js",
+      ".json",
+      ".jsx",
+      ".kt",
+      ".kts",
+      ".md",
+      ".mdx",
+      ".mjs",
+      ".mk",
+      ".mustache",
+      ".php",
+      ".properties",
+      ".ps1",
+      ".psm1",
+      ".py",
+      ".qmd",
+      ".r",
+      ".razor",
+      ".rb",
+      ".rmd",
+      ".rs",
+      ".scala",
+      ".scss",
+      ".sh",
+      ".sql",
+      ".svelte",
+      ".swift",
+      ".terraform",
+      ".tf",
+      ".tfstate",
+      ".tfvars",
+      ".trigger",
+      ".ts",
+      ".tsp",
+      ".tsx",
+      ".twig",
+      ".vsct",
+      ".xaml",
+      ".xml",
+      ".yaml",
+      ".yml"
+    ]
+  }
+}

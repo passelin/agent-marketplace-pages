@@ -1,0 +1,9 @@
+{
+  "name": "python-linter",
+  "description": "Runs ruff and mypy on your Python code and explains every violation in plain English, suggesting fixes inline.",
+  "version": "1.2.0",
+  "keywords": ["python", "linting", "ruff", "mypy", "type-checking"],
+  "author": { "name": "Dev Fixture" },
+  "license": "MIT",
+  "repository": "https://github.com/example/python-linter"
+}

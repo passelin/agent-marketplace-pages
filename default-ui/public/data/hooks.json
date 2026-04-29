@@ -1,0 +1,175 @@
+{
+  "items": [
+    {
+      "id": "dependency-license-checker",
+      "title": "Dependency License Checker",
+      "description": "Scans newly added dependencies for license compliance (GPL, AGPL, etc.) at session end",
+      "events": [
+        "sessionEnd"
+      ],
+      "tags": [
+        "compliance",
+        "license",
+        "dependencies",
+        "session-end"
+      ],
+      "files": [
+        "README.md",
+        "check-licenses.sh",
+        "hooks.json"
+      ],
+      "path": "hooks/dependency-license-checker",
+      "sourceUrl": "https://github.com/github/awesome-copilot/tree/main/hooks/dependency-license-checker",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "dependency license checker scans newly added dependencies for license compliance (gpl, agpl, etc.) at session end sessionend compliance license dependencies session-end"
+    },
+    {
+      "id": "governance-audit",
+      "title": "Governance Audit",
+      "description": "Scans Copilot agent prompts for threat signals and logs governance events",
+      "events": [
+        "sessionStart",
+        "sessionEnd",
+        "userPromptSubmitted"
+      ],
+      "tags": [
+        "security",
+        "governance",
+        "audit",
+        "safety"
+      ],
+      "files": [
+        "README.md",
+        "audit-prompt.sh",
+        "audit-session-end.sh",
+        "audit-session-start.sh",
+        "hooks.json"
+      ],
+      "path": "hooks/governance-audit",
+      "sourceUrl": "https://github.com/github/awesome-copilot/tree/main/hooks/governance-audit",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "governance audit scans copilot agent prompts for threat signals and logs governance events sessionstart sessionend userpromptsubmitted security governance audit safety"
+    },
+    {
+      "id": "secrets-scanner",
+      "title": "Secrets Scanner",
+      "description": "Scans files modified during a Copilot coding agent session for leaked secrets, credentials, and sensitive data",
+      "events": [
+        "sessionEnd"
+      ],
+      "tags": [
+        "security",
+        "secrets",
+        "scanning",
+        "session-end"
+      ],
+      "files": [
+        "README.md",
+        "hooks.json",
+        "scan-secrets.sh"
+      ],
+      "path": "hooks/secrets-scanner",
+      "sourceUrl": "https://github.com/github/awesome-copilot/tree/main/hooks/secrets-scanner",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "secrets scanner scans files modified during a copilot coding agent session for leaked secrets, credentials, and sensitive data sessionend security secrets scanning session-end"
+    },
+    {
+      "id": "session-auto-commit",
+      "title": "Session Auto-Commit",
+      "description": "Automatically commits and pushes changes when a Copilot coding agent session ends",
+      "events": [
+        "sessionEnd"
+      ],
+      "tags": [
+        "automation",
+        "git",
+        "productivity"
+      ],
+      "files": [
+        "README.md",
+        "auto-commit.sh",
+        "hooks.json"
+      ],
+      "path": "hooks/session-auto-commit",
+      "sourceUrl": "https://github.com/github/awesome-copilot/tree/main/hooks/session-auto-commit",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "session auto-commit automatically commits and pushes changes when a copilot coding agent session ends sessionend automation git productivity"
+    },
+    {
+      "id": "session-logger",
+      "title": "Session Logger",
+      "description": "Logs all Copilot coding agent session activity for audit and analysis",
+      "events": [
+        "sessionStart",
+        "sessionEnd",
+        "userPromptSubmitted"
+      ],
+      "tags": [
+        "logging",
+        "audit",
+        "analytics"
+      ],
+      "files": [
+        "README.md",
+        "hooks.json",
+        "log-prompt.sh",
+        "log-session-end.sh",
+        "log-session-start.sh"
+      ],
+      "path": "hooks/session-logger",
+      "sourceUrl": "https://github.com/github/awesome-copilot/tree/main/hooks/session-logger",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "session logger logs all copilot coding agent session activity for audit and analysis sessionstart sessionend userpromptsubmitted logging audit analytics"
+    },
+    {
+      "id": "tool-guardian",
+      "title": "Tool Guardian",
+      "description": "Blocks dangerous tool operations (destructive file ops, force pushes, DB drops) before the Copilot coding agent executes them",
+      "events": [
+        "preToolUse"
+      ],
+      "tags": [
+        "security",
+        "safety",
+        "preToolUse",
+        "guardrails"
+      ],
+      "files": [
+        "README.md",
+        "guard-tool.sh",
+        "hooks.json"
+      ],
+      "path": "hooks/tool-guardian",
+      "sourceUrl": "https://github.com/github/awesome-copilot/tree/main/hooks/tool-guardian",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "tool guardian blocks dangerous tool operations (destructive file ops, force pushes, db drops) before the copilot coding agent executes them pretooluse security safety pretooluse guardrails"
+    }
+  ],
+  "filters": {
+    "events": [
+      "preToolUse",
+      "sessionEnd",
+      "sessionStart",
+      "userPromptSubmitted"
+    ],
+    "tags": [
+      "analytics",
+      "audit",
+      "automation",
+      "compliance",
+      "dependencies",
+      "git",
+      "governance",
+      "guardrails",
+      "license",
+      "logging",
+      "preToolUse",
+      "productivity",
+      "safety",
+      "scanning",
+      "secrets",
+      "security",
+      "session-end"
+    ]
+  }
+}

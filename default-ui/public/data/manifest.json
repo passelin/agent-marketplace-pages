@@ -1,11 +1,15 @@
 {
   "_schema": "marketplace-ui/1.0",
-  "generated": "2026-04-20T03:15:13.064Z",
-  "marketplaceName": "awesome-copilot",
-  "description": "Community-driven collection of GitHub Copilot plugins, agents, prompts, and skills",
+  "generated": "2026-04-29T04:57:48.004Z",
+  "marketplaceName": "🤖 Awesome GitHub Copilot",
+  "description": "",
   "counts": {
-    "total": 70,
-    "local": 61,
-    "external": 9
+    "agents": 204,
+    "instructions": 177,
+    "skills": 325,
+    "hooks": 6,
+    "workflows": 7,
+    "plugins": 71,
+    "total": 790
   }
 }

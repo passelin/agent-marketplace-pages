@@ -1,0 +1,9 @@
+{
+  "name": "k8s-deploy",
+  "description": "Generates Kubernetes manifests and Helm charts from your service description. Supports multi-env overlays with Kustomize.",
+  "version": "2.0.1",
+  "keywords": ["kubernetes", "k8s", "helm", "devops", "docker", "deploy"],
+  "author": { "name": "Dev Fixture" },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/example/k8s-deploy"
+}

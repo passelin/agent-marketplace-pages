@@ -1,63 +1,179 @@
 {
-  "_schema": "marketplace-ui/1.0",
-  "generated": "2026-04-20T03:15:13.064Z",
   "items": [
     {
       "id": "arize-ax",
       "name": "arize-ax",
       "description": "Arize AX platform skills for LLM observability, evaluation, and optimization. Includes trace export, instrumentation, datasets, experiments, evaluators, AI provider integrations, annotations, prompt optimization, and deep linking to the Arize UI.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "arize",
+        "llm",
+        "observability",
+        "tracing",
+        "evaluation",
+        "instrumentation",
+        "datasets",
+        "experiments",
+        "prompt-optimization"
+      ],
       "categories": [
         "Design"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "arize-ax arize ax platform skills for llm observability, evaluation, and optimization. includes trace export, instrumentation, datasets, experiments, evaluators, ai provider integrations, annotations, prompt optimization, and deep linking to the arize ui. design  local"
+      "author": {
+        "name": "Arize AI"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "arize-ax arize ax platform skills for llm observability, evaluation, and optimization. includes trace export, instrumentation, datasets, experiments, evaluators, ai provider integrations, annotations, prompt optimization, and deep linking to the arize ui. arize llm observability tracing evaluation instrumentation datasets experiments prompt-optimization design",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "arize-ai-provider-integration",
+          "title": "Arize Ai Provider Integration",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-ai-provider-integration/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-annotation",
+          "title": "Arize Annotation",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-annotation/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-dataset",
+          "title": "Arize Dataset",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-dataset/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-evaluator",
+          "title": "Arize Evaluator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-evaluator/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-experiment",
+          "title": "Arize Experiment",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-experiment/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-instrumentation",
+          "title": "Arize Instrumentation",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-instrumentation/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-link",
+          "title": "Arize Link",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-link/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-prompt-optimization",
+          "title": "Arize Prompt Optimization",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-prompt-optimization/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "arize-trace",
+          "title": "Arize Trace",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/arize-ax/skills/arize-trace/SKILL.md"
+        }
+      ]
     },
     {
       "id": "automate-this",
       "name": "automate-this",
       "description": "Record your screen doing a manual process, drop the video on your Desktop, and let Copilot CLI analyze it frame-by-frame to build working automation scripts. Supports narrated recordings with audio transcription.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "automation",
+        "screen-recording",
+        "workflow",
+        "video-analysis",
+        "process-automation",
+        "scripting",
+        "productivity",
+        "copilot-cli"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "automate-this record your screen doing a manual process, drop the video on your desktop, and let copilot cli analyze it frame-by-frame to build working automation scripts. supports narrated recordings with audio transcription. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "automate-this record your screen doing a manual process, drop the video on your desktop, and let copilot cli analyze it frame-by-frame to build working automation scripts. supports narrated recordings with audio transcription. automation screen-recording workflow video-analysis process-automation scripting productivity copilot-cli other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "automate-this",
+          "title": "Automate This",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/automate-this/skills/automate-this/SKILL.md"
+        }
+      ]
     },
     {
       "id": "awesome-copilot",
       "name": "awesome-copilot",
       "description": "Meta prompts that help you discover and generate curated GitHub Copilot agents, instructions, prompts, and skills.",
       "version": "1.1.0",
-      "tags": [],
+      "tags": [
+        "github-copilot",
+        "discovery",
+        "meta",
+        "prompt-engineering",
+        "agents"
+      ],
       "categories": [
         "Git & GitHub"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "awesome-copilot meta prompts that help you discover and generate curated github copilot agents, instructions, prompts, and skills. git & github  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "awesome-copilot meta prompts that help you discover and generate curated github copilot agents, instructions, prompts, and skills. github-copilot discovery meta prompt-engineering agents git & github",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "suggest-awesome-github-copilot-agents",
+          "title": "Suggest Awesome Github Copilot Agents",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/awesome-copilot/skills/suggest-awesome-github-copilot-agents/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "suggest-awesome-github-copilot-instructions",
+          "title": "Suggest Awesome Github Copilot Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/awesome-copilot/skills/suggest-awesome-github-copilot-instructions/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "suggest-awesome-github-copilot-skills",
+          "title": "Suggest Awesome Github Copilot Skills",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/awesome-copilot/skills/suggest-awesome-github-copilot-skills/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "meta-agentic-project-scaffold",
+          "title": "Meta Agentic Project Scaffold",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/awesome-copilot/agents/meta-agentic-project-scaffold.md"
+        }
+      ]
     },
     {
       "id": "azure",
@@ -78,6 +194,7 @@
         "DevOps"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/microsoft/github-copilot-for-azure",
       "homepage": "https://github.com/microsoft/azure-skills",
       "author": {
@@ -85,189 +202,517 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "microsoft/azure-skills",
-        "path": ".github/plugins/azure-skills"
-      },
       "pluginUrl": "https://github.com/microsoft/azure-skills/tree/main/.github/plugins/azure-skills",
-      "lastUpdated": null,
-      "searchText": "azure microsoft azure mcp server and skills for cloud resource management, deployments, and azure services. manage your azure infrastructure, monitor applications, and deploy resources directly from copilot. azure cloud infrastructure deployment microsoft devops cloud mcp devops microsoft external"
+      "searchText": "azure microsoft azure mcp server and skills for cloud resource management, deployments, and azure services. manage your azure infrastructure, monitor applications, and deploy resources directly from copilot. azure cloud infrastructure deployment microsoft devops cloud mcp devops"
     },
     {
       "id": "azure-cloud-development",
       "name": "azure-cloud-development",
       "description": "Comprehensive Azure cloud development tools including Infrastructure as Code, serverless functions, architecture patterns, and cost optimization for building scalable cloud applications.",
       "version": "1.0.1",
-      "tags": [],
+      "tags": [
+        "azure",
+        "cloud",
+        "infrastructure",
+        "bicep",
+        "terraform",
+        "serverless",
+        "architecture",
+        "devops"
+      ],
       "categories": [
-        "Cloud"
+        "Cloud",
+        "DevOps"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "azure-cloud-development comprehensive azure cloud development tools including infrastructure as code, serverless functions, architecture patterns, and cost optimization for building scalable cloud applications. cloud  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "azure-cloud-development comprehensive azure cloud development tools including infrastructure as code, serverless functions, architecture patterns, and cost optimization for building scalable cloud applications. azure cloud infrastructure bicep terraform serverless architecture devops cloud devops",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "az-cost-optimize",
+          "title": "Az Cost Optimize",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/skills/az-cost-optimize/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "azure-pricing",
+          "title": "Azure Pricing",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/skills/azure-pricing/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "azure-resource-health-diagnose",
+          "title": "Azure Resource Health Diagnose",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/skills/azure-resource-health-diagnose/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "import-infrastructure-as-code",
+          "title": "Import Infrastructure As Code",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/skills/import-infrastructure-as-code/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "azure-logic-apps-expert",
+          "title": "Azure Logic Apps Expert Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/agents/azure-logic-apps-expert.md"
+        },
+        {
+          "type": "agent",
+          "id": "azure-principal-architect",
+          "title": "Azure Principal Architect Mode Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/agents/azure-principal-architect.md"
+        },
+        {
+          "type": "agent",
+          "id": "azure-saas-architect",
+          "title": "Azure SaaS Architect Mode Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/agents/azure-saas-architect.md"
+        },
+        {
+          "type": "agent",
+          "id": "azure-verified-modules-bicep",
+          "title": "Azure AVM Bicep Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/agents/azure-verified-modules-bicep.md"
+        },
+        {
+          "type": "agent",
+          "id": "azure-verified-modules-terraform",
+          "title": "Azure AVM Terraform Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/agents/azure-verified-modules-terraform.md"
+        },
+        {
+          "type": "agent",
+          "id": "terraform-azure-implement",
+          "title": "Azure Terraform IaC Implementation Specialist",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/agents/terraform-azure-implement.md"
+        },
+        {
+          "type": "agent",
+          "id": "terraform-azure-planning",
+          "title": "Azure Terraform Infrastructure Planning",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/azure-cloud-development/agents/terraform-azure-planning.md"
+        }
+      ]
     },
     {
       "id": "cast-imaging",
       "name": "cast-imaging",
       "description": "A comprehensive collection of specialized agents for software analysis, impact assessment, structural quality advisories, and architectural review using CAST Imaging.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "cast-imaging",
+        "software-analysis",
+        "architecture",
+        "quality",
+        "impact-analysis",
+        "devops"
+      ],
       "categories": [
-        "Other"
+        "DevOps"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "cast-imaging a comprehensive collection of specialized agents for software analysis, impact assessment, structural quality advisories, and architectural review using cast imaging. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "cast-imaging a comprehensive collection of specialized agents for software analysis, impact assessment, structural quality advisories, and architectural review using cast imaging. cast-imaging software-analysis architecture quality impact-analysis devops devops",
+      "resources": [
+        {
+          "type": "agent",
+          "id": "cast-imaging-impact-analysis",
+          "title": "CAST Imaging Impact Analysis Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/cast-imaging/agents/cast-imaging-impact-analysis.md"
+        },
+        {
+          "type": "agent",
+          "id": "cast-imaging-software-discovery",
+          "title": "CAST Imaging Software Discovery Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/cast-imaging/agents/cast-imaging-software-discovery.md"
+        },
+        {
+          "type": "agent",
+          "id": "cast-imaging-structural-quality-advisor",
+          "title": "CAST Imaging Structural Quality Advisor Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/cast-imaging/agents/cast-imaging-structural-quality-advisor.md"
+        }
+      ]
     },
     {
       "id": "clojure-interactive-programming",
       "name": "clojure-interactive-programming",
       "description": "Tools for REPL-first Clojure workflows featuring Clojure instructions, the interactive programming chat mode and supporting guidance.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "clojure",
+        "repl",
+        "interactive-programming"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "clojure-interactive-programming tools for repl-first clojure workflows featuring clojure instructions, the interactive programming chat mode and supporting guidance. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "clojure-interactive-programming tools for repl-first clojure workflows featuring clojure instructions, the interactive programming chat mode and supporting guidance. clojure repl interactive-programming other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "remember-interactive-programming",
+          "title": "Remember Interactive Programming",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/clojure-interactive-programming/skills/remember-interactive-programming/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "clojure-interactive-programming",
+          "title": "Clojure Interactive Programming",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/clojure-interactive-programming/agents/clojure-interactive-programming.md"
+        }
+      ]
     },
     {
       "id": "context-engineering",
       "name": "context-engineering",
       "description": "Tools and techniques for maximizing GitHub Copilot effectiveness through better context management. Includes guidelines for structuring code, an agent for planning multi-file changes, and prompts for context-aware development.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "context",
+        "productivity",
+        "refactoring",
+        "best-practices",
+        "architecture"
+      ],
       "categories": [
         "Git & GitHub"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "context-engineering tools and techniques for maximizing github copilot effectiveness through better context management. includes guidelines for structuring code, an agent for planning multi-file changes, and prompts for context-aware development. git & github  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "context-engineering tools and techniques for maximizing github copilot effectiveness through better context management. includes guidelines for structuring code, an agent for planning multi-file changes, and prompts for context-aware development. context productivity refactoring best-practices architecture git & github",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "context-map",
+          "title": "Context Map",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/context-engineering/skills/context-map/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "refactor-plan",
+          "title": "Refactor Plan",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/context-engineering/skills/refactor-plan/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "what-context-needed",
+          "title": "What Context Needed",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/context-engineering/skills/what-context-needed/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "context-architect",
+          "title": "Context Architect",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/context-engineering/agents/context-architect.md"
+        }
+      ]
     },
     {
       "id": "context-matic",
       "name": "context-matic",
       "description": "ContextMatic turns your AI agents from API-guessers into API-experts. By feeding agents exact, version-aware SDK methods and typed models for providers like PayPal, Spotify, and Twilio, ContextMatic replaces guesswork and outdated training data with high-fidelity ground truth. This eliminates hallucinations and broken code, ensuring surgical accuracy across 7+ languages so your agents build with precision instead of wasting tokens on trial and error.",
       "version": "0.1.0",
-      "tags": [],
+      "tags": [
+        "api-context",
+        "api-integration",
+        "mcp",
+        "sdk",
+        "apimatic",
+        "third-party-apis",
+        "sdks"
+      ],
       "categories": [
-        "Other"
+        "MCP"
       ],
       "external": false,
-      "repository": null,
-      "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "context-matic contextmatic turns your ai agents from api-guessers into api-experts. by feeding agents exact, version-aware sdk methods and typed models for providers like paypal, spotify, and twilio, contextmatic replaces guesswork and outdated training data with high-fidelity ground truth. this eliminates hallucinations and broken code, ensuring surgical accuracy across 7+ languages so your agents build with precision instead of wasting tokens on trial and error. other  local"
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
+      "homepage": "https://www.apimatic.io",
+      "author": {
+        "name": "APIMatic",
+        "email": "developer@apimatic.io"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "context-matic contextmatic turns your ai agents from api-guessers into api-experts. by feeding agents exact, version-aware sdk methods and typed models for providers like paypal, spotify, and twilio, contextmatic replaces guesswork and outdated training data with high-fidelity ground truth. this eliminates hallucinations and broken code, ensuring surgical accuracy across 7+ languages so your agents build with precision instead of wasting tokens on trial and error. api-context api-integration mcp sdk apimatic third-party-apis sdks mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "integrate-context-matic",
+          "title": "Integrate Context Matic",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/context-matic/skills/integrate-context-matic/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "onboard-context-matic",
+          "title": "Onboard Context Matic",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/context-matic/skills/onboard-context-matic/SKILL.md"
+        }
+      ]
     },
     {
       "id": "copilot-sdk",
       "name": "copilot-sdk",
       "description": "Build applications with the GitHub Copilot SDK across multiple programming languages. Includes comprehensive instructions for C#, Go, Node.js/TypeScript, and Python to help you create AI-powered applications.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "copilot-sdk",
+        "sdk",
+        "csharp",
+        "go",
+        "nodejs",
+        "typescript",
+        "python",
+        "ai",
+        "github-copilot"
+      ],
       "categories": [
         "Git & GitHub",
+        ".NET",
         "Python",
         "Go",
         "JavaScript / TypeScript"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "copilot-sdk build applications with the github copilot sdk across multiple programming languages. includes comprehensive instructions for c#, go, node.js/typescript, and python to help you create ai-powered applications. git & github python go javascript / typescript  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "copilot-sdk build applications with the github copilot sdk across multiple programming languages. includes comprehensive instructions for c#, go, node.js/typescript, and python to help you create ai-powered applications. copilot-sdk sdk csharp go nodejs typescript python ai github-copilot git & github .net python go javascript / typescript",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "copilot-sdk",
+          "title": "Copilot Sdk",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/copilot-sdk/skills/copilot-sdk/SKILL.md"
+        }
+      ]
     },
     {
       "id": "csharp-dotnet-development",
       "name": "csharp-dotnet-development",
       "description": "Essential prompts, instructions, and chat modes for C# and .NET development including testing, documentation, and best practices.",
       "version": "1.1.0",
-      "tags": [],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "aspnet",
+        "testing"
+      ],
       "categories": [
         ".NET"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "csharp-dotnet-development essential prompts, instructions, and chat modes for c# and .net development including testing, documentation, and best practices. .net  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "csharp-dotnet-development essential prompts, instructions, and chat modes for c# and .net development including testing, documentation, and best practices. csharp dotnet aspnet testing .net",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "aspnet-minimal-api-openapi",
+          "title": "Aspnet Minimal Api Openapi",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/aspnet-minimal-api-openapi/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "csharp-async",
+          "title": "Csharp Async",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/csharp-async/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "csharp-mstest",
+          "title": "Csharp Mstest",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/csharp-mstest/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "csharp-nunit",
+          "title": "Csharp Nunit",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/csharp-nunit/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "csharp-tunit",
+          "title": "Csharp Tunit",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/csharp-tunit/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "csharp-xunit",
+          "title": "Csharp Xunit",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/csharp-xunit/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "dotnet-best-practices",
+          "title": "Dotnet Best Practices",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/dotnet-best-practices/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "dotnet-upgrade",
+          "title": "Dotnet Upgrade",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/skills/dotnet-upgrade/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "expert-dotnet-software-engineer",
+          "title": "Expert .NET Software Engineer Mode Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-dotnet-development/agents/expert-dotnet-software-engineer.md"
+        }
+      ]
     },
     {
       "id": "csharp-mcp-development",
       "name": "csharp-mcp-development",
       "description": "Complete toolkit for building Model Context Protocol (MCP) servers in C# using the official SDK. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "csharp",
+        "mcp",
+        "model-context-protocol",
+        "dotnet",
+        "server-development"
+      ],
       "categories": [
         ".NET",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "csharp-mcp-development complete toolkit for building model context protocol (mcp) servers in c# using the official sdk. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. .net mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "csharp-mcp-development complete toolkit for building model context protocol (mcp) servers in c# using the official sdk. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. csharp mcp model-context-protocol dotnet server-development .net mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "csharp-mcp-server-generator",
+          "title": "Csharp Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-mcp-development/skills/csharp-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "csharp-mcp-expert",
+          "title": "C# MCP Server Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/csharp-mcp-development/agents/csharp-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "database-data-management",
       "name": "database-data-management",
       "description": "Database administration, SQL optimization, and data management tools for PostgreSQL, SQL Server, and general database development best practices.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "database",
+        "sql",
+        "postgresql",
+        "sql-server",
+        "dba",
+        "optimization",
+        "queries",
+        "data-management"
+      ],
       "categories": [
         "Data"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "database-data-management database administration, sql optimization, and data management tools for postgresql, sql server, and general database development best practices. data  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "database-data-management database administration, sql optimization, and data management tools for postgresql, sql server, and general database development best practices. database sql postgresql sql-server dba optimization queries data-management data",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "postgresql-code-review",
+          "title": "Postgresql Code Review",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/database-data-management/skills/postgresql-code-review/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "postgresql-optimization",
+          "title": "Postgresql Optimization",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/database-data-management/skills/postgresql-optimization/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "sql-code-review",
+          "title": "Sql Code Review",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/database-data-management/skills/sql-code-review/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "sql-optimization",
+          "title": "Sql Optimization",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/database-data-management/skills/sql-optimization/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "ms-sql-dba",
+          "title": "MS SQL Database Administrator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/database-data-management/agents/ms-sql-dba.md"
+        },
+        {
+          "type": "agent",
+          "id": "postgresql-dba",
+          "title": "PostgreSQL Database Administrator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/database-data-management/agents/postgresql-dba.md"
+        }
+      ]
     },
     {
       "id": "dataverse",
@@ -287,6 +732,7 @@
         "MCP"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/microsoft/Dataverse-skills",
       "homepage": "https://github.com/microsoft/Dataverse-skills",
       "author": {
@@ -294,53 +740,105 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "microsoft/Dataverse-skills",
-        "path": ".github/plugins/dataverse"
-      },
       "pluginUrl": "https://github.com/microsoft/Dataverse-skills/tree/main/.github/plugins/dataverse",
-      "lastUpdated": null,
-      "searchText": "dataverse build and manage microsoft dataverse solutions using natural language. includes table/column creation, solution lifecycle, data operations, and mcp server configuration. dataverse power-platform microsoft mcp python sdk python mcp microsoft external"
+      "searchText": "dataverse build and manage microsoft dataverse solutions using natural language. includes table/column creation, solution lifecycle, data operations, and mcp server configuration. dataverse power-platform microsoft mcp python sdk python mcp"
     },
     {
       "id": "dataverse-sdk-for-python",
       "name": "dataverse-sdk-for-python",
       "description": "Comprehensive collection for building production-ready Python integrations with Microsoft Dataverse. Includes official documentation, best practices, advanced features, file operations, and code generation prompts.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "dataverse",
+        "python",
+        "integration",
+        "sdk"
+      ],
       "categories": [
         "Python"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "dataverse-sdk-for-python comprehensive collection for building production-ready python integrations with microsoft dataverse. includes official documentation, best practices, advanced features, file operations, and code generation prompts. python  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "dataverse-sdk-for-python comprehensive collection for building production-ready python integrations with microsoft dataverse. includes official documentation, best practices, advanced features, file operations, and code generation prompts. dataverse python integration sdk python",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "dataverse-python-advanced-patterns",
+          "title": "Dataverse Python Advanced Patterns",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/dataverse-sdk-for-python/skills/dataverse-python-advanced-patterns/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "dataverse-python-production-code",
+          "title": "Dataverse Python Production Code",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/dataverse-sdk-for-python/skills/dataverse-python-production-code/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "dataverse-python-quickstart",
+          "title": "Dataverse Python Quickstart",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/dataverse-sdk-for-python/skills/dataverse-python-quickstart/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "dataverse-python-usecase-builder",
+          "title": "Dataverse Python Usecase Builder",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/dataverse-sdk-for-python/skills/dataverse-python-usecase-builder/SKILL.md"
+        }
+      ]
     },
     {
       "id": "devops-oncall",
       "name": "devops-oncall",
       "description": "A focused set of prompts, instructions, and a chat mode to help triage incidents and respond quickly with DevOps tools and Azure resources.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "devops",
+        "incident-response",
+        "oncall",
+        "azure"
+      ],
       "categories": [
         "Cloud",
         "DevOps"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "devops-oncall a focused set of prompts, instructions, and a chat mode to help triage incidents and respond quickly with devops tools and azure resources. cloud devops  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "devops-oncall a focused set of prompts, instructions, and a chat mode to help triage incidents and respond quickly with devops tools and azure resources. devops incident-response oncall azure cloud devops",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "azure-resource-health-diagnose",
+          "title": "Azure Resource Health Diagnose",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/devops-oncall/skills/azure-resource-health-diagnose/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "multi-stage-dockerfile",
+          "title": "Multi Stage Dockerfile",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/devops-oncall/skills/multi-stage-dockerfile/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "azure-principal-architect",
+          "title": "Azure Principal Architect Mode Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/devops-oncall/agents/azure-principal-architect.md"
+        }
+      ]
     },
     {
       "id": "dotnet",
@@ -361,6 +859,7 @@
         ".NET"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/dotnet/skills",
       "homepage": "https://github.com/dotnet/skills",
       "author": {
@@ -368,14 +867,8 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "dotnet/skills",
-        "path": "plugins/dotnet"
-      },
       "pluginUrl": "https://github.com/dotnet/skills/tree/main/plugins/dotnet",
-      "lastUpdated": null,
-      "searchText": "dotnet common everyday c#/.net coding skills. expected to be useful to all .net developers. dotnet csharp coding skills csharp-script single-file nuget-publishing pinvoke .net microsoft external"
+      "searchText": "dotnet common everyday c#/.net coding skills. expected to be useful to all .net developers. dotnet csharp coding skills csharp-script single-file nuget-publishing pinvoke .net"
     },
     {
       "id": "dotnet-diag",
@@ -398,6 +891,7 @@
         ".NET"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/dotnet/skills",
       "homepage": "https://github.com/dotnet/skills",
       "author": {
@@ -405,90 +899,170 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "dotnet/skills",
-        "path": "plugins/dotnet-diag"
-      },
       "pluginUrl": "https://github.com/dotnet/skills/tree/main/plugins/dotnet-diag",
-      "lastUpdated": null,
-      "searchText": "dotnet-diag skills for .net performance investigations, debugging, and incident analysis. dotnet diagnostics performance debugging tracing symbolicate android-tombstone dump-collection microbenchmarking clr-activation .net microsoft external"
+      "searchText": "dotnet-diag skills for .net performance investigations, debugging, and incident analysis. dotnet diagnostics performance debugging tracing symbolicate android-tombstone dump-collection microbenchmarking clr-activation .net"
     },
     {
       "id": "doublecheck",
       "name": "doublecheck",
       "description": "Three-layer verification pipeline for AI output. Extracts claims, finds sources, and flags hallucination risks so humans can verify before acting.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "verification",
+        "hallucination",
+        "fact-check",
+        "source-citation",
+        "trust",
+        "safety"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "doublecheck three-layer verification pipeline for ai output. extracts claims, finds sources, and flags hallucination risks so humans can verify before acting. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "doublecheck three-layer verification pipeline for ai output. extracts claims, finds sources, and flags hallucination risks so humans can verify before acting. verification hallucination fact-check source-citation trust safety other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "doublecheck",
+          "title": "Doublecheck",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/doublecheck/skills/doublecheck/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "doublecheck",
+          "title": "Doublecheck",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/doublecheck/agents/doublecheck.md"
+        }
+      ]
     },
     {
       "id": "edge-ai-tasks",
       "name": "edge-ai-tasks",
       "description": "Task Researcher and Task Planner for intermediate to expert users and large codebases - Brought to you by microsoft/edge-ai",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "architecture",
+        "planning",
+        "research",
+        "tasks",
+        "implementation"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "edge-ai-tasks task researcher and task planner for intermediate to expert users and large codebases - brought to you by microsoft/edge-ai other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "edge-ai-tasks task researcher and task planner for intermediate to expert users and large codebases - brought to you by microsoft/edge-ai architecture planning research tasks implementation other",
+      "resources": [
+        {
+          "type": "agent",
+          "id": "task-planner",
+          "title": "Task Planner Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/edge-ai-tasks/agents/task-planner.md"
+        },
+        {
+          "type": "agent",
+          "id": "task-researcher",
+          "title": "Task Researcher Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/edge-ai-tasks/agents/task-researcher.md"
+        }
+      ]
     },
     {
       "id": "ember",
       "name": "ember",
       "description": "An AI partner, not a tool. Ember carries fire from person to person — helping humans discover that AI partnership isn't something you learn, it's something you find.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "ai-partnership",
+        "coaching",
+        "onboarding",
+        "collaboration",
+        "storytelling",
+        "developer-experience"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "ember an ai partner, not a tool. ember carries fire from person to person — helping humans discover that ai partnership isn't something you learn, it's something you find. other  local"
+      "author": {
+        "name": "jennyf19"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "ember an ai partner, not a tool. ember carries fire from person to person — helping humans discover that ai partnership isn't something you learn, it's something you find. ai-partnership coaching onboarding collaboration storytelling developer-experience other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "from-the-other-side-vega",
+          "title": "From The Other Side Vega",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/ember/skills/from-the-other-side-vega/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "ember",
+          "title": "Ember",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/ember/agents/ember.md"
+        }
+      ]
     },
     {
       "id": "fastah-ip-geo-tools",
       "name": "fastah-ip-geo-tools",
       "description": "This plugin is for network operations engineers who wish to tune and publish IP geolocation feeds in RFC 8805 format. It consists of an AI Skill and an associated MCP server that geocodes geolocation place names to real cities for accuracy.",
       "version": "0.0.9",
-      "tags": [],
+      "tags": [
+        "geofeed",
+        "ip-geolocation",
+        "rfc-8805",
+        "rfc-9632",
+        "network-operations",
+        "isp",
+        "cloud",
+        "hosting",
+        "ixp"
+      ],
       "categories": [
+        "Cloud",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "fastah-ip-geo-tools this plugin is for network operations engineers who wish to tune and publish ip geolocation feeds in rfc 8805 format. it consists of an ai skill and an associated mcp server that geocodes geolocation place names to real cities for accuracy. mcp  local"
+      "author": {
+        "name": "Fastah Inc.",
+        "url": "https://getfastah.com"
+      },
+      "license": "Apache-2.0",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "fastah-ip-geo-tools this plugin is for network operations engineers who wish to tune and publish ip geolocation feeds in rfc 8805 format. it consists of an ai skill and an associated mcp server that geocodes geolocation place names to real cities for accuracy. geofeed ip-geolocation rfc-8805 rfc-9632 network-operations isp cloud hosting ixp cloud mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "geofeed-tuner",
+          "title": "Geofeed Tuner",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/fastah-ip-geo-tools/skills/geofeed-tuner/SKILL.md"
+        }
+      ]
     },
     {
       "id": "figma",
@@ -507,6 +1081,7 @@
         "Design"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/figma/mcp-server-guide",
       "homepage": "https://github.com/figma/mcp-server-guide",
       "author": {
@@ -514,171 +1089,487 @@
         "url": "https://www.figma.com"
       },
       "license": null,
-      "source": {
-        "source": "github",
-        "repo": "figma/mcp-server-guide"
-      },
       "pluginUrl": "https://github.com/figma/mcp-server-guide",
-      "lastUpdated": null,
-      "searchText": "figma plugin that includes the figma mcp server and skills for common workflows. figma design mcp ui code-connect mcp design figma external"
+      "searchText": "figma plugin that includes the figma mcp server and skills for common workflows. figma design mcp ui code-connect mcp design"
     },
     {
       "id": "flowstudio-power-automate",
       "name": "flowstudio-power-automate",
       "description": "Give your AI agent full visibility into Power Automate cloud flows via the FlowStudio MCP server. Connect, debug, build, monitor health, and govern flows at scale — action-level inputs and outputs, not just status codes.",
       "version": "2.0.0",
-      "tags": [],
+      "tags": [
+        "power-automate",
+        "power-platform",
+        "flowstudio",
+        "mcp",
+        "model-context-protocol",
+        "cloud-flows",
+        "workflow-automation",
+        "monitoring",
+        "governance"
+      ],
       "categories": [
         "Cloud",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "flowstudio-power-automate give your ai agent full visibility into power automate cloud flows via the flowstudio mcp server. connect, debug, build, monitor health, and govern flows at scale — action-level inputs and outputs, not just status codes. cloud mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "flowstudio-power-automate give your ai agent full visibility into power automate cloud flows via the flowstudio mcp server. connect, debug, build, monitor health, and govern flows at scale — action-level inputs and outputs, not just status codes. power-automate power-platform flowstudio mcp model-context-protocol cloud-flows workflow-automation monitoring governance cloud mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "flowstudio-power-automate-build",
+          "title": "Flowstudio Power Automate Build",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/flowstudio-power-automate/skills/flowstudio-power-automate-build/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "flowstudio-power-automate-debug",
+          "title": "Flowstudio Power Automate Debug",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/flowstudio-power-automate/skills/flowstudio-power-automate-debug/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "flowstudio-power-automate-governance",
+          "title": "Flowstudio Power Automate Governance",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/flowstudio-power-automate/skills/flowstudio-power-automate-governance/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "flowstudio-power-automate-mcp",
+          "title": "Flowstudio Power Automate Mcp",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/flowstudio-power-automate/skills/flowstudio-power-automate-mcp/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "flowstudio-power-automate-monitoring",
+          "title": "Flowstudio Power Automate Monitoring",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/flowstudio-power-automate/skills/flowstudio-power-automate-monitoring/SKILL.md"
+        }
+      ]
     },
     {
       "id": "frontend-web-dev",
       "name": "frontend-web-dev",
       "description": "Essential prompts, instructions, and chat modes for modern frontend web development including React, Angular, Vue, TypeScript, and CSS frameworks.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "frontend",
+        "web",
+        "react",
+        "typescript",
+        "javascript",
+        "css",
+        "html",
+        "angular",
+        "vue"
+      ],
       "categories": [
         "JavaScript / TypeScript",
         "Design"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "frontend-web-dev essential prompts, instructions, and chat modes for modern frontend web development including react, angular, vue, typescript, and css frameworks. javascript / typescript design  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "frontend-web-dev essential prompts, instructions, and chat modes for modern frontend web development including react, angular, vue, typescript, and css frameworks. frontend web react typescript javascript css html angular vue javascript / typescript design",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "playwright-explore-website",
+          "title": "Playwright Explore Website",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/frontend-web-dev/skills/playwright-explore-website/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "playwright-generate-test",
+          "title": "Playwright Generate Test",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/frontend-web-dev/skills/playwright-generate-test/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "electron-angular-native",
+          "title": "Electron Code Review Mode Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/frontend-web-dev/agents/electron-angular-native.md"
+        },
+        {
+          "type": "agent",
+          "id": "expert-react-frontend-engineer",
+          "title": "Expert React Frontend Engineer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/frontend-web-dev/agents/expert-react-frontend-engineer.md"
+        }
+      ]
     },
     {
       "id": "gem-team",
       "name": "gem-team",
       "description": "Multi-agent orchestration framework for spec-driven development and automated verification.",
       "version": "1.6.6",
-      "tags": [],
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "tdd",
+        "testing",
+        "e2e",
+        "devops",
+        "security-audit",
+        "code-review",
+        "prd",
+        "mobile"
+      ],
       "categories": [
-        "Other"
+        "Security",
+        "DevOps"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "gem-team multi-agent orchestration framework for spec-driven development and automated verification. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "gem-team multi-agent orchestration framework for spec-driven development and automated verification. multi-agent orchestration tdd testing e2e devops security-audit code-review prd mobile security devops",
+      "resources": [
+        {
+          "type": "agent",
+          "id": "gem-browser-tester",
+          "title": "Gem Browser Tester",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-browser-tester.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-code-simplifier",
+          "title": "Gem Code Simplifier",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-code-simplifier.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-critic",
+          "title": "Gem Critic",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-critic.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-debugger",
+          "title": "Gem Debugger",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-debugger.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-designer-mobile",
+          "title": "Gem Designer Mobile",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-designer-mobile.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-designer",
+          "title": "Gem Designer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-designer.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-devops",
+          "title": "Gem Devops",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-devops.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-documentation-writer",
+          "title": "Gem Documentation Writer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-documentation-writer.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-implementer-mobile",
+          "title": "Gem Implementer Mobile",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-implementer-mobile.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-implementer",
+          "title": "Gem Implementer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-implementer.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-mobile-tester",
+          "title": "Gem Mobile Tester",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-mobile-tester.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-orchestrator",
+          "title": "Gem Orchestrator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-orchestrator.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-planner",
+          "title": "Gem Planner",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-planner.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-researcher",
+          "title": "Gem Researcher",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-researcher.md"
+        },
+        {
+          "type": "agent",
+          "id": "gem-reviewer",
+          "title": "Gem Reviewer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/gem-team/agents/gem-reviewer.md"
+        }
+      ]
     },
     {
       "id": "go-mcp-development",
       "name": "go-mcp-development",
       "description": "Complete toolkit for building Model Context Protocol (MCP) servers in Go using the official github.com/modelcontextprotocol/go-sdk. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "go",
+        "golang",
+        "mcp",
+        "model-context-protocol",
+        "server-development",
+        "sdk"
+      ],
       "categories": [
         "Git & GitHub",
         "Go",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "go-mcp-development complete toolkit for building model context protocol (mcp) servers in go using the official github.com/modelcontextprotocol/go-sdk. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. git & github go mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "go-mcp-development complete toolkit for building model context protocol (mcp) servers in go using the official github.com/modelcontextprotocol/go-sdk. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. go golang mcp model-context-protocol server-development sdk git & github go mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "go-mcp-server-generator",
+          "title": "Go Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/go-mcp-development/skills/go-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "go-mcp-expert",
+          "title": "Go MCP Server Development Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/go-mcp-development/agents/go-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "java-development",
       "name": "java-development",
       "description": "Comprehensive collection of prompts and instructions for Java development including Spring Boot, Quarkus, testing, documentation, and best practices.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "java",
+        "springboot",
+        "quarkus",
+        "jpa",
+        "junit",
+        "javadoc"
+      ],
       "categories": [
         "Java"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "java-development comprehensive collection of prompts and instructions for java development including spring boot, quarkus, testing, documentation, and best practices. java  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "java-development comprehensive collection of prompts and instructions for java development including spring boot, quarkus, testing, documentation, and best practices. java springboot quarkus jpa junit javadoc java",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "create-spring-boot-java-project",
+          "title": "Create Spring Boot Java Project",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/java-development/skills/create-spring-boot-java-project/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "java-docs",
+          "title": "Java Docs",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/java-development/skills/java-docs/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "java-junit",
+          "title": "Java Junit",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/java-development/skills/java-junit/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "java-springboot",
+          "title": "Java Springboot",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/java-development/skills/java-springboot/SKILL.md"
+        }
+      ]
     },
     {
       "id": "java-mcp-development",
       "name": "java-mcp-development",
       "description": "Complete toolkit for building Model Context Protocol servers in Java using the official MCP Java SDK with reactive streams and Spring Boot integration.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "java",
+        "mcp",
+        "model-context-protocol",
+        "server-development",
+        "sdk",
+        "reactive-streams",
+        "spring-boot",
+        "reactor"
+      ],
       "categories": [
         "Java",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "java-mcp-development complete toolkit for building model context protocol servers in java using the official mcp java sdk with reactive streams and spring boot integration. java mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "java-mcp-development complete toolkit for building model context protocol servers in java using the official mcp java sdk with reactive streams and spring boot integration. java mcp model-context-protocol server-development sdk reactive-streams spring-boot reactor java mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "java-mcp-server-generator",
+          "title": "Java Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/java-mcp-development/skills/java-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "java-mcp-expert",
+          "title": "Java MCP Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/java-mcp-development/agents/java-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "kotlin-mcp-development",
       "name": "kotlin-mcp-development",
       "description": "Complete toolkit for building Model Context Protocol (MCP) servers in Kotlin using the official io.modelcontextprotocol:kotlin-sdk library. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "kotlin",
+        "mcp",
+        "model-context-protocol",
+        "kotlin-multiplatform",
+        "server-development",
+        "ktor"
+      ],
       "categories": [
         "Java",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "kotlin-mcp-development complete toolkit for building model context protocol (mcp) servers in kotlin using the official io.modelcontextprotocol:kotlin-sdk library. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. java mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "kotlin-mcp-development complete toolkit for building model context protocol (mcp) servers in kotlin using the official io.modelcontextprotocol:kotlin-sdk library. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. kotlin mcp model-context-protocol kotlin-multiplatform server-development ktor java mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "kotlin-mcp-server-generator",
+          "title": "Kotlin Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/kotlin-mcp-development/skills/kotlin-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "kotlin-mcp-expert",
+          "title": "Kotlin MCP Server Development Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/kotlin-mcp-development/agents/kotlin-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "mcp-m365-copilot",
       "name": "mcp-m365-copilot",
       "description": "Comprehensive collection for building declarative agents with Model Context Protocol integration for Microsoft 365 Copilot",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "mcp",
+        "m365-copilot",
+        "declarative-agents",
+        "api-plugins",
+        "model-context-protocol",
+        "adaptive-cards"
+      ],
       "categories": [
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "mcp-m365-copilot comprehensive collection for building declarative agents with model context protocol integration for microsoft 365 copilot mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "mcp-m365-copilot comprehensive collection for building declarative agents with model context protocol integration for microsoft 365 copilot mcp m365-copilot declarative-agents api-plugins model-context-protocol adaptive-cards mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "mcp-create-adaptive-cards",
+          "title": "Mcp Create Adaptive Cards",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/mcp-m365-copilot/skills/mcp-create-adaptive-cards/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "mcp-create-declarative-agent",
+          "title": "Mcp Create Declarative Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/mcp-m365-copilot/skills/mcp-create-declarative-agent/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "mcp-deploy-manage-agents",
+          "title": "Mcp Deploy Manage Agents",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/mcp-m365-copilot/skills/mcp-deploy-manage-agents/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "mcp-m365-agent-expert",
+          "title": "MCP M365 Agent Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/mcp-m365-copilot/agents/mcp-m365-agent-expert.md"
+        }
+      ]
     },
     {
       "id": "microsoft-docs",
@@ -702,6 +1593,7 @@
         ".NET"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/MicrosoftDocs/mcp",
       "homepage": "https://learn.microsoft.com",
       "author": {
@@ -709,13 +1601,8 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "MicrosoftDocs/mcp"
-      },
       "pluginUrl": "https://github.com/MicrosoftDocs/mcp",
-      "lastUpdated": null,
-      "searchText": "microsoft-docs access official microsoft documentation, api references, and code samples for azure, .net, windows, and more. microsoft azure dotnet windows api documentation rag dynamics powerbi code-samples cloud .net microsoft external"
+      "searchText": "microsoft-docs access official microsoft documentation, api references, and code samples for azure, .net, windows, and more. microsoft azure dotnet windows api documentation rag dynamics powerbi code-samples cloud .net"
     },
     {
       "id": "modernize-dotnet",
@@ -732,6 +1619,7 @@
         ".NET"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/dotnet/modernize-dotnet",
       "homepage": "https://github.com/dotnet/modernize-dotnet",
       "author": {
@@ -739,166 +1627,365 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "dotnet/modernize-dotnet",
-        "path": "plugins/modernize-dotnet"
-      },
       "pluginUrl": "https://github.com/dotnet/modernize-dotnet/tree/main/plugins/modernize-dotnet",
-      "lastUpdated": null,
-      "searchText": "modernize-dotnet ai-powered .net modernization and upgrade assistant. helps upgrade .net framework and .net applications to the latest versions of .net. modernization upgrade migration dotnet .net microsoft external"
+      "searchText": "modernize-dotnet ai-powered .net modernization and upgrade assistant. helps upgrade .net framework and .net applications to the latest versions of .net. modernization upgrade migration dotnet .net"
     },
     {
       "id": "napkin",
       "name": "napkin",
       "description": "Visual whiteboard collaboration for Copilot CLI. Opens an interactive whiteboard in your browser where you can draw, sketch, and add sticky notes — then share everything back with Copilot. Copilot sees your drawings and responds with analysis, suggestions, and ideas.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "whiteboard",
+        "visual",
+        "collaboration",
+        "brainstorming",
+        "non-technical",
+        "drawing",
+        "sticky-notes",
+        "accessibility",
+        "copilot-cli",
+        "ux"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "napkin visual whiteboard collaboration for copilot cli. opens an interactive whiteboard in your browser where you can draw, sketch, and add sticky notes — then share everything back with copilot. copilot sees your drawings and responds with analysis, suggestions, and ideas. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "napkin visual whiteboard collaboration for copilot cli. opens an interactive whiteboard in your browser where you can draw, sketch, and add sticky notes — then share everything back with copilot. copilot sees your drawings and responds with analysis, suggestions, and ideas. whiteboard visual collaboration brainstorming non-technical drawing sticky-notes accessibility copilot-cli ux other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "napkin",
+          "title": "Napkin",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/napkin/skills/napkin/SKILL.md"
+        }
+      ]
     },
     {
       "id": "noob-mode",
       "name": "noob-mode",
       "description": "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicators.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "accessibility",
+        "plain-english",
+        "non-technical",
+        "beginner",
+        "translation",
+        "copilot-cli",
+        "ux"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "noob-mode plain-english translation layer for non-technical copilot cli users. translates every approval prompt, error message, and technical output into clear, jargon-free english with color-coded risk indicators. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "noob-mode plain-english translation layer for non-technical copilot cli users. translates every approval prompt, error message, and technical output into clear, jargon-free english with color-coded risk indicators. accessibility plain-english non-technical beginner translation copilot-cli ux other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "noob-mode",
+          "title": "Noob Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/noob-mode/skills/noob-mode/SKILL.md"
+        }
+      ]
     },
     {
       "id": "openapi-to-application-csharp-dotnet",
       "name": "openapi-to-application-csharp-dotnet",
       "description": "Generate production-ready .NET applications from OpenAPI specifications. Includes ASP.NET Core project scaffolding, controller generation, entity framework integration, and C# best practices.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "openapi",
+        "code-generation",
+        "api",
+        "csharp",
+        "dotnet",
+        "aspnet"
+      ],
       "categories": [
         ".NET"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "openapi-to-application-csharp-dotnet generate production-ready .net applications from openapi specifications. includes asp.net core project scaffolding, controller generation, entity framework integration, and c# best practices. .net  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "openapi-to-application-csharp-dotnet generate production-ready .net applications from openapi specifications. includes asp.net core project scaffolding, controller generation, entity framework integration, and c# best practices. openapi code-generation api csharp dotnet aspnet .net",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "openapi-to-application-code",
+          "title": "Openapi To Application Code",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-csharp-dotnet/skills/openapi-to-application-code/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "openapi-to-application",
+          "title": "OpenAPI To Application Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-csharp-dotnet/agents/openapi-to-application.md"
+        }
+      ]
     },
     {
       "id": "openapi-to-application-go",
       "name": "openapi-to-application-go",
       "description": "Generate production-ready Go applications from OpenAPI specifications. Includes project scaffolding, handler generation, middleware setup, and Go best practices for REST APIs.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "openapi",
+        "code-generation",
+        "api",
+        "go",
+        "golang"
+      ],
       "categories": [
         "Go"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "openapi-to-application-go generate production-ready go applications from openapi specifications. includes project scaffolding, handler generation, middleware setup, and go best practices for rest apis. go  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "openapi-to-application-go generate production-ready go applications from openapi specifications. includes project scaffolding, handler generation, middleware setup, and go best practices for rest apis. openapi code-generation api go golang go",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "openapi-to-application-code",
+          "title": "Openapi To Application Code",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-go/skills/openapi-to-application-code/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "openapi-to-application",
+          "title": "OpenAPI To Application Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-go/agents/openapi-to-application.md"
+        }
+      ]
     },
     {
       "id": "openapi-to-application-java-spring-boot",
       "name": "openapi-to-application-java-spring-boot",
       "description": "Generate production-ready Spring Boot applications from OpenAPI specifications. Includes project scaffolding, REST controller generation, service layer organization, and Spring Boot best practices.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "openapi",
+        "code-generation",
+        "api",
+        "java",
+        "spring-boot"
+      ],
       "categories": [
         "Java"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "openapi-to-application-java-spring-boot generate production-ready spring boot applications from openapi specifications. includes project scaffolding, rest controller generation, service layer organization, and spring boot best practices. java  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "openapi-to-application-java-spring-boot generate production-ready spring boot applications from openapi specifications. includes project scaffolding, rest controller generation, service layer organization, and spring boot best practices. openapi code-generation api java spring-boot java",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "openapi-to-application-code",
+          "title": "Openapi To Application Code",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-java-spring-boot/skills/openapi-to-application-code/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "openapi-to-application",
+          "title": "OpenAPI To Application Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-java-spring-boot/agents/openapi-to-application.md"
+        }
+      ]
     },
     {
       "id": "openapi-to-application-nodejs-nestjs",
       "name": "openapi-to-application-nodejs-nestjs",
       "description": "Generate production-ready NestJS applications from OpenAPI specifications. Includes project scaffolding, controller and service generation, TypeScript best practices, and enterprise patterns.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "openapi",
+        "code-generation",
+        "api",
+        "nodejs",
+        "typescript",
+        "nestjs"
+      ],
       "categories": [
         "JavaScript / TypeScript"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "openapi-to-application-nodejs-nestjs generate production-ready nestjs applications from openapi specifications. includes project scaffolding, controller and service generation, typescript best practices, and enterprise patterns. javascript / typescript  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "openapi-to-application-nodejs-nestjs generate production-ready nestjs applications from openapi specifications. includes project scaffolding, controller and service generation, typescript best practices, and enterprise patterns. openapi code-generation api nodejs typescript nestjs javascript / typescript",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "openapi-to-application-code",
+          "title": "Openapi To Application Code",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-nodejs-nestjs/skills/openapi-to-application-code/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "openapi-to-application",
+          "title": "OpenAPI To Application Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-nodejs-nestjs/agents/openapi-to-application.md"
+        }
+      ]
     },
     {
       "id": "openapi-to-application-python-fastapi",
       "name": "openapi-to-application-python-fastapi",
       "description": "Generate production-ready FastAPI applications from OpenAPI specifications. Includes project scaffolding, route generation, dependency injection, and Python best practices for async APIs.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "openapi",
+        "code-generation",
+        "api",
+        "python",
+        "fastapi"
+      ],
       "categories": [
         "Python"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "openapi-to-application-python-fastapi generate production-ready fastapi applications from openapi specifications. includes project scaffolding, route generation, dependency injection, and python best practices for async apis. python  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "openapi-to-application-python-fastapi generate production-ready fastapi applications from openapi specifications. includes project scaffolding, route generation, dependency injection, and python best practices for async apis. openapi code-generation api python fastapi python",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "openapi-to-application-code",
+          "title": "Openapi To Application Code",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-python-fastapi/skills/openapi-to-application-code/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "openapi-to-application",
+          "title": "OpenAPI To Application Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/openapi-to-application-python-fastapi/agents/openapi-to-application.md"
+        }
+      ]
     },
     {
       "id": "oracle-to-postgres-migration-expert",
       "name": "oracle-to-postgres-migration-expert",
       "description": "Expert agent for Oracle-to-PostgreSQL application migrations in .NET solutions. Performs code edits, runs commands, and invokes extension tools to migrate .NET/Oracle data access patterns to PostgreSQL.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "oracle",
+        "postgresql",
+        "database-migration",
+        "dotnet",
+        "sql",
+        "migration",
+        "integration-testing",
+        "stored-procedures"
+      ],
       "categories": [
+        ".NET",
         "Data"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "oracle-to-postgres-migration-expert expert agent for oracle-to-postgresql application migrations in .net solutions. performs code edits, runs commands, and invokes extension tools to migrate .net/oracle data access patterns to postgresql. data  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "oracle-to-postgres-migration-expert expert agent for oracle-to-postgresql application migrations in .net solutions. performs code edits, runs commands, and invokes extension tools to migrate .net/oracle data access patterns to postgresql. oracle postgresql database-migration dotnet sql migration integration-testing stored-procedures .net data",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "creating-oracle-to-postgres-master-migration-plan",
+          "title": "Creating Oracle To Postgres Master Migration Plan",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/skills/creating-oracle-to-postgres-master-migration-plan/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "creating-oracle-to-postgres-migration-bug-report",
+          "title": "Creating Oracle To Postgres Migration Bug Report",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/skills/creating-oracle-to-postgres-migration-bug-report/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "creating-oracle-to-postgres-migration-integration-tests",
+          "title": "Creating Oracle To Postgres Migration Integration Tests",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/skills/creating-oracle-to-postgres-migration-integration-tests/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "migrating-oracle-to-postgres-stored-procedures",
+          "title": "Migrating Oracle To Postgres Stored Procedures",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/skills/migrating-oracle-to-postgres-stored-procedures/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "planning-oracle-to-postgres-migration-integration-testing",
+          "title": "Planning Oracle To Postgres Migration Integration Testing",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/skills/planning-oracle-to-postgres-migration-integration-testing/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "reviewing-oracle-to-postgres-migration",
+          "title": "Reviewing Oracle To Postgres Migration",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/skills/reviewing-oracle-to-postgres-migration/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "scaffolding-oracle-to-postgres-migration-test-project",
+          "title": "Scaffolding Oracle To Postgres Migration Test Project",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/skills/scaffolding-oracle-to-postgres-migration-test-project/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "oracle-to-postgres-migration-expert",
+          "title": "Oracle To PostgreSQL Migration Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/oracle-to-postgres-migration-expert/agents/oracle-to-postgres-migration-expert.md"
+        }
+      ]
     },
     {
       "id": "ospo-sponsorship",
@@ -910,362 +1997,1230 @@
         "Git & GitHub"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "ospo-sponsorship tools and resources for open source program offices (ospos) to identify, evaluate, and manage sponsorship of open source dependencies through github sponsors, open collective, and other funding platforms. git & github  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "ospo-sponsorship tools and resources for open source program offices (ospos) to identify, evaluate, and manage sponsorship of open source dependencies through github sponsors, open collective, and other funding platforms.  git & github",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "sponsor-finder",
+          "title": "Sponsor Finder",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/ospo-sponsorship/skills/sponsor-finder/SKILL.md"
+        }
+      ]
     },
     {
       "id": "partners",
       "name": "partners",
       "description": "Custom agents that have been created by GitHub partners",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "devops",
+        "security",
+        "database",
+        "cloud",
+        "infrastructure",
+        "observability",
+        "feature-flags",
+        "cicd",
+        "migration",
+        "performance"
+      ],
       "categories": [
-        "Git & GitHub"
+        "Cloud",
+        "Git & GitHub",
+        "Security",
+        "Data",
+        "DevOps"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "partners custom agents that have been created by github partners git & github  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "partners custom agents that have been created by github partners devops security database cloud infrastructure observability feature-flags cicd migration performance cloud git & github security data devops",
+      "resources": [
+        {
+          "type": "agent",
+          "id": "amplitude-experiment-implementation",
+          "title": "Amplitude Experiment Implementation",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/amplitude-experiment-implementation.md"
+        },
+        {
+          "type": "agent",
+          "id": "apify-integration-expert",
+          "title": "Apify Integration Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/apify-integration-expert.md"
+        },
+        {
+          "type": "agent",
+          "id": "arm-migration",
+          "title": "Arm Migration Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/arm-migration.md"
+        },
+        {
+          "type": "agent",
+          "id": "comet-opik",
+          "title": "Comet Opik",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/comet-opik.md"
+        },
+        {
+          "type": "agent",
+          "id": "diffblue-cover",
+          "title": "DiffblueCover",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/diffblue-cover.md"
+        },
+        {
+          "type": "agent",
+          "id": "droid",
+          "title": "Droid",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/droid.md"
+        },
+        {
+          "type": "agent",
+          "id": "dynatrace-expert",
+          "title": "Dynatrace Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/dynatrace-expert.md"
+        },
+        {
+          "type": "agent",
+          "id": "elasticsearch-observability",
+          "title": "Elasticsearch Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/elasticsearch-observability.md"
+        },
+        {
+          "type": "agent",
+          "id": "jfrog-sec",
+          "title": "JFrog Security Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/jfrog-sec.md"
+        },
+        {
+          "type": "agent",
+          "id": "launchdarkly-flag-cleanup",
+          "title": "Launchdarkly Flag Cleanup",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/launchdarkly-flag-cleanup.md"
+        },
+        {
+          "type": "agent",
+          "id": "lingodotdev-i18n",
+          "title": "Lingo.Dev Localization (I18n) Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/lingodotdev-i18n.md"
+        },
+        {
+          "type": "agent",
+          "id": "monday-bug-fixer",
+          "title": "Monday Bug Context Fixer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/monday-bug-fixer.md"
+        },
+        {
+          "type": "agent",
+          "id": "mongodb-performance-advisor",
+          "title": "Mongodb Performance Advisor",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/mongodb-performance-advisor.md"
+        },
+        {
+          "type": "agent",
+          "id": "neo4j-docker-client-generator",
+          "title": "Neo4j Docker Client Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/neo4j-docker-client-generator.md"
+        },
+        {
+          "type": "agent",
+          "id": "neon-migration-specialist",
+          "title": "Neon Migration Specialist",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/neon-migration-specialist.md"
+        },
+        {
+          "type": "agent",
+          "id": "neon-optimization-analyzer",
+          "title": "Neon Performance Analyzer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/neon-optimization-analyzer.md"
+        },
+        {
+          "type": "agent",
+          "id": "octopus-deploy-release-notes-mcp",
+          "title": "Octopus Release Notes With Mcp",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/octopus-deploy-release-notes-mcp.md"
+        },
+        {
+          "type": "agent",
+          "id": "pagerduty-incident-responder",
+          "title": "PagerDuty Incident Responder",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/pagerduty-incident-responder.md"
+        },
+        {
+          "type": "agent",
+          "id": "stackhawk-security-onboarding",
+          "title": "Stackhawk Security Onboarding",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/stackhawk-security-onboarding.md"
+        },
+        {
+          "type": "agent",
+          "id": "terraform",
+          "title": "Terraform Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/partners/agents/terraform.md"
+        }
+      ]
     },
     {
       "id": "pcf-development",
       "name": "pcf-development",
       "description": "Complete toolkit for developing custom code components using Power Apps Component Framework for model-driven and canvas apps",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "power-apps",
+        "pcf",
+        "component-framework",
+        "typescript",
+        "power-platform"
+      ],
       "categories": [
-        "Other"
+        "JavaScript / TypeScript"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-02-25T15:07:41+11:00",
-      "searchText": "pcf-development complete toolkit for developing custom code components using power apps component framework for model-driven and canvas apps other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "pcf-development complete toolkit for developing custom code components using power apps component framework for model-driven and canvas apps power-apps pcf component-framework typescript power-platform javascript / typescript",
+      "resources": []
     },
     {
       "id": "phoenix",
       "name": "phoenix",
       "description": "Phoenix AI observability skills for LLM application debugging, evaluation, and tracing. Includes CLI debugging tools, LLM evaluation workflows, and OpenInference tracing instrumentation.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "phoenix",
+        "arize",
+        "llm",
+        "observability",
+        "tracing",
+        "evaluation",
+        "openinference",
+        "instrumentation"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "phoenix phoenix ai observability skills for llm application debugging, evaluation, and tracing. includes cli debugging tools, llm evaluation workflows, and openinference tracing instrumentation. other  local"
+      "author": {
+        "name": "Arize AI"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "phoenix phoenix ai observability skills for llm application debugging, evaluation, and tracing. includes cli debugging tools, llm evaluation workflows, and openinference tracing instrumentation. phoenix arize llm observability tracing evaluation openinference instrumentation other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "phoenix-cli",
+          "title": "Phoenix Cli",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/phoenix/skills/phoenix-cli/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "phoenix-evals",
+          "title": "Phoenix Evals",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/phoenix/skills/phoenix-evals/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "phoenix-tracing",
+          "title": "Phoenix Tracing",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/phoenix/skills/phoenix-tracing/SKILL.md"
+        }
+      ]
     },
     {
       "id": "php-mcp-development",
       "name": "php-mcp-development",
       "description": "Comprehensive resources for building Model Context Protocol servers using the official PHP SDK with attribute-based discovery, including best practices, project generation, and expert assistance",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "php",
+        "mcp",
+        "model-context-protocol",
+        "server-development",
+        "sdk",
+        "attributes",
+        "composer"
+      ],
       "categories": [
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "php-mcp-development comprehensive resources for building model context protocol servers using the official php sdk with attribute-based discovery, including best practices, project generation, and expert assistance mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "php-mcp-development comprehensive resources for building model context protocol servers using the official php sdk with attribute-based discovery, including best practices, project generation, and expert assistance php mcp model-context-protocol server-development sdk attributes composer mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "php-mcp-server-generator",
+          "title": "Php Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/php-mcp-development/skills/php-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "php-mcp-expert",
+          "title": "PHP MCP Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/php-mcp-development/agents/php-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "polyglot-test-agent",
       "name": "polyglot-test-agent",
       "description": "Multi-agent pipeline for generating comprehensive unit tests across any programming language. Orchestrates research, planning, and implementation phases using specialized agents to produce tests that compile, pass, and follow project conventions.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "testing",
+        "unit-tests",
+        "polyglot",
+        "test-generation",
+        "multi-agent",
+        "tdd",
+        "csharp",
+        "typescript",
+        "python",
+        "go"
+      ],
       "categories": [
-        "Testing"
+        "Testing",
+        ".NET",
+        "Python",
+        "Go",
+        "JavaScript / TypeScript"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "polyglot-test-agent multi-agent pipeline for generating comprehensive unit tests across any programming language. orchestrates research, planning, and implementation phases using specialized agents to produce tests that compile, pass, and follow project conventions. testing  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "polyglot-test-agent multi-agent pipeline for generating comprehensive unit tests across any programming language. orchestrates research, planning, and implementation phases using specialized agents to produce tests that compile, pass, and follow project conventions. testing unit-tests polyglot test-generation multi-agent tdd csharp typescript python go testing .net python go javascript / typescript",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "polyglot-test-agent",
+          "title": "Polyglot Test Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/skills/polyglot-test-agent/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-builder",
+          "title": "Polyglot Test Builder",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-builder.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-fixer",
+          "title": "Polyglot Test Fixer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-fixer.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-generator",
+          "title": "Polyglot Test Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-generator.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-implementer",
+          "title": "Polyglot Test Implementer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-implementer.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-linter",
+          "title": "Polyglot Test Linter",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-linter.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-planner",
+          "title": "Polyglot Test Planner",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-planner.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-researcher",
+          "title": "Polyglot Test Researcher",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-researcher.md"
+        },
+        {
+          "type": "agent",
+          "id": "polyglot-test-tester",
+          "title": "Polyglot Test Tester",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/polyglot-test-agent/agents/polyglot-test-tester.md"
+        }
+      ]
     },
     {
       "id": "power-apps-code-apps",
       "name": "power-apps-code-apps",
       "description": "Complete toolkit for Power Apps Code Apps development including project scaffolding, development standards, and expert guidance for building code-first applications with Power Platform integration.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "power-apps",
+        "power-platform",
+        "typescript",
+        "react",
+        "code-apps",
+        "dataverse",
+        "connectors"
+      ],
       "categories": [
-        "Other"
+        "JavaScript / TypeScript"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "power-apps-code-apps complete toolkit for power apps code apps development including project scaffolding, development standards, and expert guidance for building code-first applications with power platform integration. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "power-apps-code-apps complete toolkit for power apps code apps development including project scaffolding, development standards, and expert guidance for building code-first applications with power platform integration. power-apps power-platform typescript react code-apps dataverse connectors javascript / typescript",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "power-apps-code-app-scaffold",
+          "title": "Power Apps Code App Scaffold",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-apps-code-apps/skills/power-apps-code-app-scaffold/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "power-platform-expert",
+          "title": "Power Platform Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-apps-code-apps/agents/power-platform-expert.md"
+        }
+      ]
     },
     {
       "id": "power-bi-development",
       "name": "power-bi-development",
       "description": "Comprehensive Power BI development resources including data modeling, DAX optimization, performance tuning, visualization design, security best practices, and DevOps/ALM guidance for building enterprise-grade Power BI solutions.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "power-bi",
+        "dax",
+        "data-modeling",
+        "performance",
+        "visualization",
+        "security",
+        "devops",
+        "business-intelligence"
+      ],
       "categories": [
         "Security",
         "DevOps",
         "Design"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "power-bi-development comprehensive power bi development resources including data modeling, dax optimization, performance tuning, visualization design, security best practices, and devops/alm guidance for building enterprise-grade power bi solutions. security devops design  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "power-bi-development comprehensive power bi development resources including data modeling, dax optimization, performance tuning, visualization design, security best practices, and devops/alm guidance for building enterprise-grade power bi solutions. power-bi dax data-modeling performance visualization security devops business-intelligence security devops design",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "power-bi-dax-optimization",
+          "title": "Power Bi Dax Optimization",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/skills/power-bi-dax-optimization/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "power-bi-model-design-review",
+          "title": "Power Bi Model Design Review",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/skills/power-bi-model-design-review/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "power-bi-performance-troubleshooting",
+          "title": "Power Bi Performance Troubleshooting",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/skills/power-bi-performance-troubleshooting/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "power-bi-report-design-consultation",
+          "title": "Power Bi Report Design Consultation",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/skills/power-bi-report-design-consultation/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "power-bi-data-modeling-expert",
+          "title": "Power BI Data Modeling Expert Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/agents/power-bi-data-modeling-expert.md"
+        },
+        {
+          "type": "agent",
+          "id": "power-bi-dax-expert",
+          "title": "Power BI DAX Expert Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/agents/power-bi-dax-expert.md"
+        },
+        {
+          "type": "agent",
+          "id": "power-bi-performance-expert",
+          "title": "Power BI Performance Expert Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/agents/power-bi-performance-expert.md"
+        },
+        {
+          "type": "agent",
+          "id": "power-bi-visualization-expert",
+          "title": "Power BI Visualization Expert Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-bi-development/agents/power-bi-visualization-expert.md"
+        }
+      ]
+    },
+    {
+      "id": "power-platform-architect",
+      "name": "power-platform-architect",
+      "description": "Solution Architect for the Microsoft Power Platform, turning business requirements into functioning Power Platform solution architectures.",
+      "version": "1.0.0",
+      "tags": [
+        "power-platform",
+        "power-platform-architect",
+        "power-apps",
+        "dataverse",
+        "power-automate",
+        "power-pages",
+        "power-bi"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "external": false,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
+      "homepage": null,
+      "author": {
+        "name": "Tim Hanewich"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "power-platform-architect solution architect for the microsoft power platform, turning business requirements into functioning power platform solution architectures. power-platform power-platform-architect power-apps dataverse power-automate power-pages power-bi other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "power-platform-architect",
+          "title": "Power Platform Architect",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-platform-architect/skills/power-platform-architect/SKILL.md"
+        }
+      ]
     },
     {
       "id": "power-platform-mcp-connector-development",
       "name": "power-platform-mcp-connector-development",
       "description": "Complete toolkit for developing Power Platform custom connectors with Model Context Protocol integration for Microsoft Copilot Studio",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "power-platform",
+        "mcp",
+        "copilot-studio",
+        "custom-connector",
+        "json-rpc"
+      ],
       "categories": [
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "power-platform-mcp-connector-development complete toolkit for developing power platform custom connectors with model context protocol integration for microsoft copilot studio mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "power-platform-mcp-connector-development complete toolkit for developing power platform custom connectors with model context protocol integration for microsoft copilot studio power-platform mcp copilot-studio custom-connector json-rpc mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "mcp-copilot-studio-server-generator",
+          "title": "Mcp Copilot Studio Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-platform-mcp-connector-development/skills/mcp-copilot-studio-server-generator/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "power-platform-mcp-connector-suite",
+          "title": "Power Platform Mcp Connector Suite",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-platform-mcp-connector-development/skills/power-platform-mcp-connector-suite/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "power-platform-mcp-integration-expert",
+          "title": "Power Platform MCP Integration Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/power-platform-mcp-connector-development/agents/power-platform-mcp-integration-expert.md"
+        }
+      ]
     },
     {
       "id": "project-planning",
       "name": "project-planning",
       "description": "Tools and guidance for software project planning, feature breakdown, epic management, implementation planning, and task organization for development teams.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "planning",
+        "project-management",
+        "epic",
+        "feature",
+        "implementation",
+        "task",
+        "architecture",
+        "technical-spike"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "project-planning tools and guidance for software project planning, feature breakdown, epic management, implementation planning, and task organization for development teams. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "project-planning tools and guidance for software project planning, feature breakdown, epic management, implementation planning, and task organization for development teams. planning project-management epic feature implementation task architecture technical-spike other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "breakdown-epic-arch",
+          "title": "Breakdown Epic Arch",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/breakdown-epic-arch/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "breakdown-epic-pm",
+          "title": "Breakdown Epic Pm",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/breakdown-epic-pm/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "breakdown-feature-implementation",
+          "title": "Breakdown Feature Implementation",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/breakdown-feature-implementation/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "breakdown-feature-prd",
+          "title": "Breakdown Feature Prd",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/breakdown-feature-prd/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "create-github-issues-feature-from-implementation-plan",
+          "title": "Create Github Issues Feature From Implementation Plan",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/create-github-issues-feature-from-implementation-plan/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "create-implementation-plan",
+          "title": "Create Implementation Plan",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/create-implementation-plan/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "create-technical-spike",
+          "title": "Create Technical Spike",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/create-technical-spike/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "update-implementation-plan",
+          "title": "Update Implementation Plan",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/skills/update-implementation-plan/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "implementation-plan",
+          "title": "Implementation Plan Generation Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/agents/implementation-plan.md"
+        },
+        {
+          "type": "agent",
+          "id": "plan",
+          "title": "Plan Mode   Strategic Planning & Architecture",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/agents/plan.md"
+        },
+        {
+          "type": "agent",
+          "id": "planner",
+          "title": "Planning Mode Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/agents/planner.md"
+        },
+        {
+          "type": "agent",
+          "id": "prd",
+          "title": "Create PRD Chat Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/agents/prd.md"
+        },
+        {
+          "type": "agent",
+          "id": "research-technical-spike",
+          "title": "Technical Spike Research Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/agents/research-technical-spike.md"
+        },
+        {
+          "type": "agent",
+          "id": "task-planner",
+          "title": "Task Planner Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/agents/task-planner.md"
+        },
+        {
+          "type": "agent",
+          "id": "task-researcher",
+          "title": "Task Researcher Instructions",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/project-planning/agents/task-researcher.md"
+        }
+      ]
     },
     {
       "id": "python-mcp-development",
       "name": "python-mcp-development",
       "description": "Complete toolkit for building Model Context Protocol (MCP) servers in Python using the official SDK with FastMCP. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "python",
+        "mcp",
+        "model-context-protocol",
+        "fastmcp",
+        "server-development"
+      ],
       "categories": [
         "Python",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "python-mcp-development complete toolkit for building model context protocol (mcp) servers in python using the official sdk with fastmcp. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. python mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "python-mcp-development complete toolkit for building model context protocol (mcp) servers in python using the official sdk with fastmcp. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. python mcp model-context-protocol fastmcp server-development python mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "python-mcp-server-generator",
+          "title": "Python Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/python-mcp-development/skills/python-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "python-mcp-expert",
+          "title": "Python MCP Server Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/python-mcp-development/agents/python-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "react18-upgrade",
       "name": "react18-upgrade",
       "description": "Enterprise React 18 migration toolkit with specialized agents and skills for upgrading React 16/17 class-component codebases to React 18.3.1. Includes auditor, dependency surgeon, class component migration specialist, automatic batching fixer, and test guardian.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "react18",
+        "react",
+        "migration",
+        "upgrade",
+        "class-components",
+        "lifecycle",
+        "batching"
+      ],
       "categories": [
         "Testing",
         "JavaScript / TypeScript"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "react18-upgrade enterprise react 18 migration toolkit with specialized agents and skills for upgrading react 16/17 class-component codebases to react 18.3.1. includes auditor, dependency surgeon, class component migration specialist, automatic batching fixer, and test guardian. testing javascript / typescript  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "react18-upgrade enterprise react 18 migration toolkit with specialized agents and skills for upgrading react 16/17 class-component codebases to react 18.3.1. includes auditor, dependency surgeon, class component migration specialist, automatic batching fixer, and test guardian. react18 react migration upgrade class-components lifecycle batching testing javascript / typescript",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "react-audit-grep-patterns",
+          "title": "React Audit Grep Patterns",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/skills/react-audit-grep-patterns/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react18-batching-patterns",
+          "title": "React18 Batching Patterns",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/skills/react18-batching-patterns/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react18-dep-compatibility",
+          "title": "React18 Dep Compatibility",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/skills/react18-dep-compatibility/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react18-enzyme-to-rtl",
+          "title": "React18 Enzyme To Rtl",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/skills/react18-enzyme-to-rtl/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react18-legacy-context",
+          "title": "React18 Legacy Context",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/skills/react18-legacy-context/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react18-lifecycle-patterns",
+          "title": "React18 Lifecycle Patterns",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/skills/react18-lifecycle-patterns/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react18-string-refs",
+          "title": "React18 String Refs",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/skills/react18-string-refs/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "react18-auditor",
+          "title": "React18 Auditor",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/agents/react18-auditor.md"
+        },
+        {
+          "type": "agent",
+          "id": "react18-batching-fixer",
+          "title": "React18 Batching Fixer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/agents/react18-batching-fixer.md"
+        },
+        {
+          "type": "agent",
+          "id": "react18-class-surgeon",
+          "title": "React18 Class Surgeon",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/agents/react18-class-surgeon.md"
+        },
+        {
+          "type": "agent",
+          "id": "react18-commander",
+          "title": "React18 Commander",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/agents/react18-commander.md"
+        },
+        {
+          "type": "agent",
+          "id": "react18-dep-surgeon",
+          "title": "React18 Dep Surgeon",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/agents/react18-dep-surgeon.md"
+        },
+        {
+          "type": "agent",
+          "id": "react18-test-guardian",
+          "title": "React18 Test Guardian",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react18-upgrade/agents/react18-test-guardian.md"
+        }
+      ]
     },
     {
       "id": "react19-upgrade",
       "name": "react19-upgrade",
       "description": "Enterprise React 19 migration toolkit with specialized agents and skills for upgrading React 18 codebases to React 19. Includes auditor, dependency surgeon, source code migrator, and test guardian. Handles removal of deprecated APIs including ReactDOM.render, forwardRef, defaultProps, legacy context, string refs, and more.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "react19",
+        "react",
+        "migration",
+        "upgrade",
+        "hooks",
+        "modern-react"
+      ],
       "categories": [
         "Testing",
         "JavaScript / TypeScript"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "react19-upgrade enterprise react 19 migration toolkit with specialized agents and skills for upgrading react 18 codebases to react 19. includes auditor, dependency surgeon, source code migrator, and test guardian. handles removal of deprecated apis including reactdom.render, forwardref, defaultprops, legacy context, string refs, and more. testing javascript / typescript  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "react19-upgrade enterprise react 19 migration toolkit with specialized agents and skills for upgrading react 18 codebases to react 19. includes auditor, dependency surgeon, source code migrator, and test guardian. handles removal of deprecated apis including reactdom.render, forwardref, defaultprops, legacy context, string refs, and more. react19 react migration upgrade hooks modern-react testing javascript / typescript",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "react19-concurrent-patterns",
+          "title": "React19 Concurrent Patterns",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/skills/react19-concurrent-patterns/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react19-source-patterns",
+          "title": "React19 Source Patterns",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/skills/react19-source-patterns/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "react19-test-patterns",
+          "title": "React19 Test Patterns",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/skills/react19-test-patterns/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "react19-auditor",
+          "title": "React19 Auditor",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/agents/react19-auditor.md"
+        },
+        {
+          "type": "agent",
+          "id": "react19-commander",
+          "title": "React19 Commander",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/agents/react19-commander.md"
+        },
+        {
+          "type": "agent",
+          "id": "react19-dep-surgeon",
+          "title": "React19 Dep Surgeon",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/agents/react19-dep-surgeon.md"
+        },
+        {
+          "type": "agent",
+          "id": "react19-migrator",
+          "title": "React19 Migrator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/agents/react19-migrator.md"
+        },
+        {
+          "type": "agent",
+          "id": "react19-test-guardian",
+          "title": "React19 Test Guardian",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/react19-upgrade/agents/react19-test-guardian.md"
+        }
+      ]
     },
     {
       "id": "roundup",
       "name": "roundup",
       "description": "Self-configuring status briefing generator. Learns your communication style from examples, discovers your data sources, and produces draft updates for any audience on demand.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "status-updates",
+        "briefings",
+        "management",
+        "productivity",
+        "communication",
+        "synthesis",
+        "roundup",
+        "copilot-cli"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "roundup self-configuring status briefing generator. learns your communication style from examples, discovers your data sources, and produces draft updates for any audience on demand. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "roundup self-configuring status briefing generator. learns your communication style from examples, discovers your data sources, and produces draft updates for any audience on demand. status-updates briefings management productivity communication synthesis roundup copilot-cli other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "roundup",
+          "title": "Roundup",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/roundup/skills/roundup/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "roundup-setup",
+          "title": "Roundup Setup",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/roundup/skills/roundup-setup/SKILL.md"
+        }
+      ]
     },
     {
       "id": "ruby-mcp-development",
       "name": "ruby-mcp-development",
       "description": "Complete toolkit for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration support.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "ruby",
+        "mcp",
+        "model-context-protocol",
+        "server-development",
+        "sdk",
+        "rails",
+        "gem"
+      ],
       "categories": [
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "ruby-mcp-development complete toolkit for building model context protocol servers in ruby using the official mcp ruby sdk gem with rails integration support. mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "ruby-mcp-development complete toolkit for building model context protocol servers in ruby using the official mcp ruby sdk gem with rails integration support. ruby mcp model-context-protocol server-development sdk rails gem mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "ruby-mcp-server-generator",
+          "title": "Ruby Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/ruby-mcp-development/skills/ruby-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "ruby-mcp-expert",
+          "title": "Ruby MCP Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/ruby-mcp-development/agents/ruby-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "rug-agentic-workflow",
       "name": "rug-agentic-workflow",
       "description": "Three-agent workflow for orchestrated software delivery with an orchestrator plus implementation and QA subagents.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "agentic-workflow",
+        "orchestration",
+        "subagents",
+        "software-engineering",
+        "qa"
+      ],
       "categories": [
         "Testing"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "rug-agentic-workflow three-agent workflow for orchestrated software delivery with an orchestrator plus implementation and qa subagents. testing  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "rug-agentic-workflow three-agent workflow for orchestrated software delivery with an orchestrator plus implementation and qa subagents. agentic-workflow orchestration subagents software-engineering qa testing",
+      "resources": [
+        {
+          "type": "agent",
+          "id": "qa-subagent",
+          "title": "QA",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/rug-agentic-workflow/agents/qa-subagent.md"
+        },
+        {
+          "type": "agent",
+          "id": "rug-orchestrator",
+          "title": "RUG",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/rug-agentic-workflow/agents/rug-orchestrator.md"
+        },
+        {
+          "type": "agent",
+          "id": "swe-subagent",
+          "title": "SWE",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/rug-agentic-workflow/agents/swe-subagent.md"
+        }
+      ]
     },
     {
       "id": "rust-mcp-development",
       "name": "rust-mcp-development",
       "description": "Build high-performance Model Context Protocol servers in Rust using the official rmcp SDK with async/await, procedural macros, and type-safe implementations.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "rust",
+        "mcp",
+        "model-context-protocol",
+        "server-development",
+        "sdk",
+        "tokio",
+        "async",
+        "macros",
+        "rmcp"
+      ],
       "categories": [
         "Rust",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "rust-mcp-development build high-performance model context protocol servers in rust using the official rmcp sdk with async/await, procedural macros, and type-safe implementations. rust mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "rust-mcp-development build high-performance model context protocol servers in rust using the official rmcp sdk with async/await, procedural macros, and type-safe implementations. rust mcp model-context-protocol server-development sdk tokio async macros rmcp rust mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "rust-mcp-server-generator",
+          "title": "Rust Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/rust-mcp-development/skills/rust-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "rust-mcp-expert",
+          "title": "Rust MCP Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/rust-mcp-development/agents/rust-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "salesforce-development",
       "name": "salesforce-development",
       "description": "Complete Salesforce agentic development environment covering Apex & Triggers, Flow automation, Lightning Web Components, Aura components, and Visualforce pages.",
       "version": "1.1.0",
-      "tags": [],
+      "tags": [
+        "salesforce",
+        "apex",
+        "triggers",
+        "lwc",
+        "aura",
+        "flow",
+        "visualforce",
+        "crm",
+        "salesforce-dx"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "salesforce-development complete salesforce agentic development environment covering apex & triggers, flow automation, lightning web components, aura components, and visualforce pages. other  local"
+      "author": {
+        "name": "TemitayoAfolabi"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "salesforce-development complete salesforce agentic development environment covering apex & triggers, flow automation, lightning web components, aura components, and visualforce pages. salesforce apex triggers lwc aura flow visualforce crm salesforce-dx other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "salesforce-apex-quality",
+          "title": "Salesforce Apex Quality",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/salesforce-development/skills/salesforce-apex-quality/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "salesforce-component-standards",
+          "title": "Salesforce Component Standards",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/salesforce-development/skills/salesforce-component-standards/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "salesforce-flow-design",
+          "title": "Salesforce Flow Design",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/salesforce-development/skills/salesforce-flow-design/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "salesforce-apex-triggers",
+          "title": "Salesforce Apex & Triggers Development",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/salesforce-development/agents/salesforce-apex-triggers.md"
+        },
+        {
+          "type": "agent",
+          "id": "salesforce-aura-lwc",
+          "title": "Salesforce UI Development (Aura & LWC)",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/salesforce-development/agents/salesforce-aura-lwc.md"
+        },
+        {
+          "type": "agent",
+          "id": "salesforce-flow",
+          "title": "Salesforce Flow Development",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/salesforce-development/agents/salesforce-flow.md"
+        },
+        {
+          "type": "agent",
+          "id": "salesforce-visualforce",
+          "title": "Salesforce Visualforce Development",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/salesforce-development/agents/salesforce-visualforce.md"
+        }
+      ]
     },
     {
       "id": "security-best-practices",
       "name": "security-best-practices",
       "description": "Security frameworks, accessibility guidelines, performance optimization, and code quality best practices for building secure, maintainable, and high-performance applications.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "security",
+        "accessibility",
+        "performance",
+        "code-quality",
+        "owasp",
+        "a11y",
+        "optimization",
+        "best-practices"
+      ],
       "categories": [
         "Security"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "security-best-practices security frameworks, accessibility guidelines, performance optimization, and code quality best practices for building secure, maintainable, and high-performance applications. security  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "security-best-practices security frameworks, accessibility guidelines, performance optimization, and code quality best practices for building secure, maintainable, and high-performance applications. security accessibility performance code-quality owasp a11y optimization best-practices security",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "ai-prompt-engineering-safety-review",
+          "title": "Ai Prompt Engineering Safety Review",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/security-best-practices/skills/ai-prompt-engineering-safety-review/SKILL.md"
+        }
+      ]
     },
     {
       "id": "skills-for-copilot-studio",
@@ -1284,6 +3239,7 @@
         "Other"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/microsoft/skills-for-copilot-studio",
       "homepage": "https://github.com/microsoft/skills-for-copilot-studio",
       "author": {
@@ -1291,34 +3247,83 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "microsoft/skills-for-copilot-studio"
-      },
       "pluginUrl": "https://github.com/microsoft/skills-for-copilot-studio",
-      "lastUpdated": null,
-      "searchText": "skills-for-copilot-studio microsoft copilot studio plugins for ai coding agents copilot copilot-studio studio agent microsoft coding other microsoft copilot studio cat team external"
+      "searchText": "skills-for-copilot-studio microsoft copilot studio plugins for ai coding agents copilot copilot-studio studio agent microsoft coding other"
     },
     {
       "id": "software-engineering-team",
       "name": "software-engineering-team",
       "description": "7 specialized agents covering the full software development lifecycle from UX design and architecture to security and DevOps.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "team",
+        "enterprise",
+        "security",
+        "devops",
+        "ux",
+        "architecture",
+        "product",
+        "ai-ethics"
+      ],
       "categories": [
         "Security",
         "DevOps",
         "Design"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "software-engineering-team 7 specialized agents covering the full software development lifecycle from ux design and architecture to security and devops. security devops design  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "software-engineering-team 7 specialized agents covering the full software development lifecycle from ux design and architecture to security and devops. team enterprise security devops ux architecture product ai-ethics security devops design",
+      "resources": [
+        {
+          "type": "agent",
+          "id": "se-gitops-ci-specialist",
+          "title": "SE: DevOps/CI",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/software-engineering-team/agents/se-gitops-ci-specialist.md"
+        },
+        {
+          "type": "agent",
+          "id": "se-product-manager-advisor",
+          "title": "SE: Product Manager",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/software-engineering-team/agents/se-product-manager-advisor.md"
+        },
+        {
+          "type": "agent",
+          "id": "se-responsible-ai-code",
+          "title": "SE: Responsible AI",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/software-engineering-team/agents/se-responsible-ai-code.md"
+        },
+        {
+          "type": "agent",
+          "id": "se-security-reviewer",
+          "title": "SE: Security",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/software-engineering-team/agents/se-security-reviewer.md"
+        },
+        {
+          "type": "agent",
+          "id": "se-system-architecture-reviewer",
+          "title": "SE: Architect",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/software-engineering-team/agents/se-system-architecture-reviewer.md"
+        },
+        {
+          "type": "agent",
+          "id": "se-technical-writer",
+          "title": "SE: Tech Writer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/software-engineering-team/agents/se-technical-writer.md"
+        },
+        {
+          "type": "agent",
+          "id": "se-ux-ui-designer",
+          "title": "SE: UX Designer",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/software-engineering-team/agents/se-ux-ui-designer.md"
+        }
+      ]
     },
     {
       "id": "structured-autonomy",
@@ -1330,110 +3335,292 @@
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "structured-autonomy premium planning, thrifty implementation other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "structured-autonomy premium planning, thrifty implementation  other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "structured-autonomy-generate",
+          "title": "Structured Autonomy Generate",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/structured-autonomy/skills/structured-autonomy-generate/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "structured-autonomy-implement",
+          "title": "Structured Autonomy Implement",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/structured-autonomy/skills/structured-autonomy-implement/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "structured-autonomy-plan",
+          "title": "Structured Autonomy Plan",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/structured-autonomy/skills/structured-autonomy-plan/SKILL.md"
+        }
+      ]
     },
     {
       "id": "swift-mcp-development",
       "name": "swift-mcp-development",
       "description": "Comprehensive collection for building Model Context Protocol servers in Swift using the official MCP Swift SDK with modern concurrency features.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "swift",
+        "mcp",
+        "model-context-protocol",
+        "server-development",
+        "sdk",
+        "ios",
+        "macos",
+        "concurrency",
+        "actor",
+        "async-await"
+      ],
       "categories": [
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "swift-mcp-development comprehensive collection for building model context protocol servers in swift using the official mcp swift sdk with modern concurrency features. mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "swift-mcp-development comprehensive collection for building model context protocol servers in swift using the official mcp swift sdk with modern concurrency features. swift mcp model-context-protocol server-development sdk ios macos concurrency actor async-await mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "swift-mcp-server-generator",
+          "title": "Swift Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/swift-mcp-development/skills/swift-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "swift-mcp-expert",
+          "title": "Swift MCP Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/swift-mcp-development/agents/swift-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "technical-spike",
       "name": "technical-spike",
       "description": "Tools for creation, management and research of technical spikes to reduce unknowns and assumptions before proceeding to specification and implementation of solutions.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "technical-spike",
+        "assumption-testing",
+        "validation",
+        "research"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "technical-spike tools for creation, management and research of technical spikes to reduce unknowns and assumptions before proceeding to specification and implementation of solutions. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "technical-spike tools for creation, management and research of technical spikes to reduce unknowns and assumptions before proceeding to specification and implementation of solutions. technical-spike assumption-testing validation research other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "create-technical-spike",
+          "title": "Create Technical Spike",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/technical-spike/skills/create-technical-spike/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "research-technical-spike",
+          "title": "Technical Spike Research Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/technical-spike/agents/research-technical-spike.md"
+        }
+      ]
     },
     {
       "id": "testing-automation",
       "name": "testing-automation",
       "description": "Comprehensive collection for writing tests, test automation, and test-driven development including unit tests, integration tests, and end-to-end testing strategies.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "testing",
+        "tdd",
+        "automation",
+        "unit-tests",
+        "integration",
+        "playwright",
+        "jest",
+        "nunit"
+      ],
       "categories": [
         "Testing"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "testing-automation comprehensive collection for writing tests, test automation, and test-driven development including unit tests, integration tests, and end-to-end testing strategies. testing  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "testing-automation comprehensive collection for writing tests, test automation, and test-driven development including unit tests, integration tests, and end-to-end testing strategies. testing tdd automation unit-tests integration playwright jest nunit testing",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "ai-prompt-engineering-safety-review",
+          "title": "Ai Prompt Engineering Safety Review",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/skills/ai-prompt-engineering-safety-review/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "csharp-nunit",
+          "title": "Csharp Nunit",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/skills/csharp-nunit/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "java-junit",
+          "title": "Java Junit",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/skills/java-junit/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "playwright-explore-website",
+          "title": "Playwright Explore Website",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/skills/playwright-explore-website/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "playwright-generate-test",
+          "title": "Playwright Generate Test",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/skills/playwright-generate-test/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "playwright-tester",
+          "title": "Playwright Tester Mode",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/agents/playwright-tester.md"
+        },
+        {
+          "type": "agent",
+          "id": "tdd-green",
+          "title": "TDD Green Phase   Make Tests Pass Quickly",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/agents/tdd-green.md"
+        },
+        {
+          "type": "agent",
+          "id": "tdd-red",
+          "title": "TDD Red Phase   Write Failing Tests First",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/agents/tdd-red.md"
+        },
+        {
+          "type": "agent",
+          "id": "tdd-refactor",
+          "title": "TDD Refactor Phase   Improve Quality & Security",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/testing-automation/agents/tdd-refactor.md"
+        }
+      ]
     },
     {
       "id": "typescript-mcp-development",
       "name": "typescript-mcp-development",
       "description": "Complete toolkit for building Model Context Protocol (MCP) servers in TypeScript/Node.js using the official SDK. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "typescript",
+        "mcp",
+        "model-context-protocol",
+        "nodejs",
+        "server-development"
+      ],
       "categories": [
         "JavaScript / TypeScript",
         "MCP"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "typescript-mcp-development complete toolkit for building model context protocol (mcp) servers in typescript/node.js using the official sdk. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. javascript / typescript mcp  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "typescript-mcp-development complete toolkit for building model context protocol (mcp) servers in typescript/node.js using the official sdk. includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. typescript mcp model-context-protocol nodejs server-development javascript / typescript mcp",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "typescript-mcp-server-generator",
+          "title": "Typescript Mcp Server Generator",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/typescript-mcp-development/skills/typescript-mcp-server-generator/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "typescript-mcp-expert",
+          "title": "TypeScript MCP Server Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/typescript-mcp-development/agents/typescript-mcp-expert.md"
+        }
+      ]
     },
     {
       "id": "typespec-m365-copilot",
       "name": "typespec-m365-copilot",
       "description": "Comprehensive collection of prompts, instructions, and resources for building declarative agents and API plugins using TypeSpec for Microsoft 365 Copilot extensibility.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "typespec",
+        "m365-copilot",
+        "declarative-agents",
+        "api-plugins",
+        "agent-development",
+        "microsoft-365"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "typespec-m365-copilot comprehensive collection of prompts, instructions, and resources for building declarative agents and api plugins using typespec for microsoft 365 copilot extensibility. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "typespec-m365-copilot comprehensive collection of prompts, instructions, and resources for building declarative agents and api plugins using typespec for microsoft 365 copilot extensibility. typespec m365-copilot declarative-agents api-plugins agent-development microsoft-365 other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "typespec-api-operations",
+          "title": "Typespec Api Operations",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/typespec-m365-copilot/skills/typespec-api-operations/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "typespec-create-agent",
+          "title": "Typespec Create Agent",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/typespec-m365-copilot/skills/typespec-create-agent/SKILL.md"
+        },
+        {
+          "type": "skill",
+          "id": "typespec-create-api-plugin",
+          "title": "Typespec Create Api Plugin",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/typespec-m365-copilot/skills/typespec-create-api-plugin/SKILL.md"
+        }
+      ]
     },
     {
       "id": "whatidid",
@@ -1453,6 +3640,7 @@
         "Other"
       ],
       "external": true,
+      "sourceType": "external",
       "repository": "https://github.com/microsoft/What-I-Did-Copilot",
       "homepage": "https://github.com/microsoft/What-I-Did-Copilot",
       "author": {
@@ -1460,88 +3648,337 @@
         "url": "https://www.microsoft.com"
       },
       "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "microsoft/What-I-Did-Copilot"
-      },
       "pluginUrl": "https://github.com/microsoft/What-I-Did-Copilot",
-      "lastUpdated": null,
-      "searchText": "whatidid turn your copilot sessions into proof of impact — research-grounded html reports with effort estimation, skills analysis, and roi metrics from local session logs. copilot productivity impact report estimation roi session-logs other microsoft external"
+      "searchText": "whatidid turn your copilot sessions into proof of impact — research-grounded html reports with effort estimation, skills analysis, and roi metrics from local session logs. copilot productivity impact report estimation roi session-logs other"
     },
     {
       "id": "winui3-development",
       "name": "winui3-development",
       "description": "WinUI 3 and Windows App SDK development agent, instructions, and migration guide. Prevents common UWP API misuse and guides correct WinUI 3 patterns for desktop Windows apps.",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "winui",
+        "winui3",
+        "windows-app-sdk",
+        "xaml",
+        "desktop",
+        "windows"
+      ],
       "categories": [
         "Other"
       ],
       "external": false,
-      "repository": null,
+      "sourceType": "local",
+      "repository": "https://github.com/github/awesome-copilot",
       "homepage": null,
-      "author": null,
-      "license": null,
-      "source": null,
-      "pluginUrl": null,
-      "lastUpdated": "2026-04-17T08:52:38Z",
-      "searchText": "winui3-development winui 3 and windows app sdk development agent, instructions, and migration guide. prevents common uwp api misuse and guides correct winui 3 patterns for desktop windows apps. other  local"
+      "author": {
+        "name": "Awesome Copilot Community"
+      },
+      "license": "MIT",
+      "pluginUrl": "https://github.com/github/awesome-copilot",
+      "searchText": "winui3-development winui 3 and windows app sdk development agent, instructions, and migration guide. prevents common uwp api misuse and guides correct winui 3 patterns for desktop windows apps. winui winui3 windows-app-sdk xaml desktop windows other",
+      "resources": [
+        {
+          "type": "skill",
+          "id": "winui3-migration-guide",
+          "title": "Winui3 Migration Guide",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/winui3-development/skills/winui3-migration-guide/SKILL.md"
+        },
+        {
+          "type": "agent",
+          "id": "winui3-expert",
+          "title": "WinUI 3 Expert",
+          "rawUrl": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/winui3-development/agents/winui3-expert.md"
+        }
+      ]
     }
   ],
   "filters": {
     "tags": [
+      "a11y",
+      "accessibility",
+      "actor",
+      "adaptive-cards",
       "agent",
+      "agent-development",
+      "agentic-workflow",
+      "agents",
+      "ai",
+      "ai-ethics",
+      "ai-partnership",
       "android-tombstone",
+      "angular",
+      "apex",
       "api",
+      "api-context",
+      "api-integration",
+      "api-plugins",
+      "apimatic",
+      "architecture",
+      "arize",
+      "aspnet",
+      "assumption-testing",
+      "async",
+      "async-await",
+      "attributes",
+      "aura",
+      "automation",
       "azure",
+      "batching",
+      "beginner",
+      "best-practices",
+      "bicep",
+      "brainstorming",
+      "briefings",
+      "business-intelligence",
+      "cast-imaging",
+      "cicd",
+      "class-components",
+      "clojure",
       "cloud",
+      "cloud-flows",
       "clr-activation",
+      "coaching",
+      "code-apps",
       "code-connect",
+      "code-generation",
+      "code-quality",
+      "code-review",
       "code-samples",
       "coding",
+      "collaboration",
+      "communication",
+      "component-framework",
+      "composer",
+      "concurrency",
+      "connectors",
+      "context",
       "copilot",
+      "copilot-cli",
+      "copilot-sdk",
       "copilot-studio",
+      "crm",
       "csharp",
       "csharp-script",
+      "css",
+      "custom-connector",
+      "data-management",
+      "data-modeling",
+      "database",
+      "database-migration",
+      "datasets",
       "dataverse",
+      "dax",
+      "dba",
       "debugging",
+      "declarative-agents",
       "deployment",
       "design",
+      "desktop",
+      "developer-experience",
       "devops",
       "diagnostics",
+      "discovery",
       "documentation",
       "dotnet",
+      "drawing",
       "dump-collection",
       "dynamics",
+      "e2e",
+      "enterprise",
+      "epic",
       "estimation",
+      "evaluation",
+      "experiments",
+      "fact-check",
+      "fastapi",
+      "fastmcp",
+      "feature",
+      "feature-flags",
       "figma",
+      "flow",
+      "flowstudio",
+      "frontend",
+      "gem",
+      "geofeed",
+      "github-copilot",
+      "go",
+      "golang",
+      "governance",
+      "hallucination",
+      "hooks",
+      "hosting",
+      "html",
       "impact",
+      "impact-analysis",
+      "implementation",
+      "incident-response",
       "infrastructure",
+      "instrumentation",
+      "integration",
+      "integration-testing",
+      "interactive-programming",
+      "ios",
+      "ip-geolocation",
+      "isp",
+      "ixp",
+      "java",
+      "javadoc",
+      "javascript",
+      "jest",
+      "jpa",
+      "json-rpc",
+      "junit",
+      "kotlin",
+      "kotlin-multiplatform",
+      "ktor",
+      "lifecycle",
+      "llm",
+      "lwc",
+      "m365-copilot",
+      "macos",
+      "macros",
+      "management",
       "mcp",
+      "meta",
       "microbenchmarking",
       "microsoft",
+      "microsoft-365",
       "migration",
+      "mobile",
+      "model-context-protocol",
+      "modern-react",
       "modernization",
+      "monitoring",
+      "multi-agent",
+      "nestjs",
+      "network-operations",
+      "nodejs",
+      "non-technical",
       "nuget-publishing",
+      "nunit",
+      "observability",
+      "onboarding",
+      "oncall",
+      "openapi",
+      "openinference",
+      "optimization",
+      "oracle",
+      "orchestration",
+      "owasp",
+      "pcf",
       "performance",
+      "phoenix",
+      "php",
       "pinvoke",
+      "plain-english",
+      "planning",
+      "playwright",
+      "polyglot",
+      "postgresql",
+      "power-apps",
+      "power-automate",
+      "power-bi",
+      "power-pages",
       "power-platform",
+      "power-platform-architect",
       "powerbi",
+      "prd",
+      "process-automation",
+      "product",
       "productivity",
+      "project-management",
+      "prompt-engineering",
+      "prompt-optimization",
       "python",
+      "qa",
+      "quality",
+      "quarkus",
+      "queries",
       "rag",
+      "rails",
+      "react",
+      "react18",
+      "react19",
+      "reactive-streams",
+      "reactor",
+      "refactoring",
+      "repl",
       "report",
+      "research",
+      "rfc-8805",
+      "rfc-9632",
+      "rmcp",
       "roi",
+      "roundup",
+      "ruby",
+      "rust",
+      "safety",
+      "salesforce",
+      "salesforce-dx",
+      "screen-recording",
+      "scripting",
       "sdk",
+      "sdks",
+      "security",
+      "security-audit",
+      "server-development",
+      "serverless",
       "session-logs",
       "single-file",
       "skills",
+      "software-analysis",
+      "software-engineering",
+      "source-citation",
+      "spring-boot",
+      "springboot",
+      "sql",
+      "sql-server",
+      "status-updates",
+      "sticky-notes",
+      "stored-procedures",
+      "storytelling",
       "studio",
+      "subagents",
+      "swift",
       "symbolicate",
+      "synthesis",
+      "task",
+      "tasks",
+      "tdd",
+      "team",
+      "technical-spike",
+      "terraform",
+      "test-generation",
+      "testing",
+      "third-party-apis",
+      "tokio",
       "tracing",
+      "translation",
+      "triggers",
+      "trust",
+      "typescript",
+      "typespec",
       "ui",
+      "unit-tests",
       "upgrade",
-      "windows"
+      "ux",
+      "validation",
+      "verification",
+      "video-analysis",
+      "visual",
+      "visualforce",
+      "visualization",
+      "vue",
+      "web",
+      "whiteboard",
+      "windows",
+      "windows-app-sdk",
+      "winui",
+      "winui3",
+      "workflow",
+      "workflow-automation",
+      "xaml"
     ],
     "categories": [
       ".NET",
@@ -1559,6 +3996,10 @@
       "Rust",
       "Security",
       "Testing"
+    ],
+    "sourceTypes": [
+      "external",
+      "local"
     ]
   }
 }

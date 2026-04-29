@@ -1,0 +1,88 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import skillsData from '../../public/data/skills.json';
+import manifestData from '../../public/data/manifest.json';
+import EmbeddedPageData from '../components/EmbeddedPageData.astro';
+import ResourceNav from '../components/ResourceNav.astro';
+import { renderSkillsHtml } from '../scripts/skills-render';
+
+const initialItems = skillsData.items;
+const repoPath = (skillsData as Record<string, unknown>).repoPath as string | null ?? null;
+const marketplaceName = manifestData.marketplaceName || 'this marketplace';
+---
+
+<StarlightPage frontmatter={{ title: 'Skills', description: 'Self-contained skill folders with instructions and resources', template: 'splash', prev: false, next: false, editUrl: false }}>
+  <div id="main-content">
+    <div class="page-content">
+      <div class="container">
+        <ResourceNav currentType="skill" />
+        <div class="page-header">
+          <div class="page-header-row">
+            <div>
+              <h1>Skills</h1>
+              <p>Self-contained skill folders with instructions and resources from {marketplaceName}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-toolbar">
+          <div class="search-bar">
+            <label for="search-input" class="sr-only">Search skills</label>
+            <input type="text" id="search-input" placeholder="Search skills..." autocomplete="off" />
+          </div>
+          <div class="filters-bar" id="filters-bar">
+            <div class="filter-group">
+              <label for="filter-category">Category:</label>
+              <select id="filter-category" multiple aria-label="Filter by category"></select>
+            </div>
+            <div class="filter-group filter-group-check">
+              <label class="filter-checkbox-label" for="filter-assets">
+                <input type="checkbox" id="filter-assets" />
+                Has Bundled Assets
+              </label>
+            </div>
+            <div class="filter-group">
+              <label for="filter-sort" class="sr-only">Sort</label>
+              <select id="filter-sort" class="filter-sort-native" aria-label="Sort skills">
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="updated">Recently Updated</option>
+              </select>
+            </div>
+            <button id="clear-filters" class="btn btn-secondary btn-small">Clear Filters</button>
+          </div>
+        </div>
+
+        <div class="results-count" id="results-count" aria-live="polite">
+          {initialItems.length} of {initialItems.length} skills
+        </div>
+        <div class="resource-list" id="resource-list" role="list" set:html={renderSkillsHtml(initialItems, { repoPath })}></div>
+      </div>
+    </div>
+  </div>
+
+  <EmbeddedPageData filename="skills.json" data={skillsData} />
+  <script>import '../scripts/skills';</script>
+
+  <style>
+    .btn-copy-install {
+      font-family: var(--font-mono, monospace);
+      font-size: 0.8rem;
+      background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);
+      color: var(--color-accent);
+      border-radius: 6px;
+      padding: 6px 12px;
+      cursor: pointer;
+      transition: background var(--transition), color var(--transition);
+      white-space: nowrap;
+    }
+    .btn-copy-install:hover {
+      background: color-mix(in srgb, var(--color-accent) 22%, transparent);
+    }
+    .btn-copy-install:disabled {
+      opacity: 0.7;
+      cursor: default;
+    }
+  </style>
+</StarlightPage>

@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "daily-issues-report",
+      "title": "Daily Issues Report",
+      "description": "Generates a daily summary of open issues and recent activity as a GitHub issue",
+      "triggers": [
+        "schedule"
+      ],
+      "path": "workflows/daily-issues-report.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/workflows/daily-issues-report.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "daily issues report generates a daily summary of open issues and recent activity as a github issue schedule"
+    },
+    {
+      "id": "ospo-contributors-report",
+      "title": "OSPO Contributors Report",
+      "description": "Monthly contributor activity metrics across an organization''s repositories.",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-contributors-report.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/workflows/ospo-contributors-report.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ospo contributors report monthly contributor activity metrics across an organization''s repositories. schedule workflow_dispatch"
+    },
+    {
+      "id": "ospo-org-health",
+      "title": "OSPO Organization Health Report",
+      "description": "Comprehensive weekly health report for a GitHub organization. Surfaces stale issues/PRs, merge time analysis, contributor leaderboards, and actionable items needing human attention.",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-org-health.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/workflows/ospo-org-health.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ospo organization health report comprehensive weekly health report for a github organization. surfaces stale issues/prs, merge time analysis, contributor leaderboards, and actionable items needing human attention. schedule workflow_dispatch"
+    },
+    {
+      "id": "ospo-stale-repos",
+      "title": "OSPO Stale Repository Report",
+      "description": "Identifies inactive repositories in your organization and generates an archival recommendation report.",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-stale-repos.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/workflows/ospo-stale-repos.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "ospo stale repository report identifies inactive repositories in your organization and generates an archival recommendation report. schedule workflow_dispatch"
+    },
+    {
+      "id": "ospo-release-compliance-checker",
+      "title": "OSS Release Compliance Checker",
+      "description": "Analyzes a target repository against open source release requirements and posts a detailed compliance report as an issue comment.",
+      "triggers": [
+        "issues",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-release-compliance-checker.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/workflows/ospo-release-compliance-checker.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "oss release compliance checker analyzes a target repository against open source release requirements and posts a detailed compliance report as an issue comment. issues workflow_dispatch"
+    },
+    {
+      "id": "relevance-check",
+      "title": "Relevance Check",
+      "description": "Slash command to evaluate whether an issue or pull request is still relevant to the project",
+      "triggers": [
+        "slash_command",
+        "roles"
+      ],
+      "path": "workflows/relevance-check.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/workflows/relevance-check.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "relevance check slash command to evaluate whether an issue or pull request is still relevant to the project slash_command roles"
+    },
+    {
+      "id": "relevance-summary",
+      "title": "Relevance Summary",
+      "description": "Manually triggered workflow that summarizes all open issues and PRs with a /relevance-check response into a single issue",
+      "triggers": [
+        "workflow_dispatch"
+      ],
+      "path": "workflows/relevance-summary.md",
+      "sourceUrl": "https://github.com/github/awesome-copilot/blob/main/workflows/relevance-summary.md",
+      "lastUpdated": "2026-04-20T05:09:42Z",
+      "searchText": "relevance summary manually triggered workflow that summarizes all open issues and prs with a /relevance-check response into a single issue workflow_dispatch"
+    }
+  ],
+  "filters": {
+    "triggers": [
+      "issues",
+      "roles",
+      "schedule",
+      "slash_command",
+      "workflow_dispatch"
+    ]
+  }
+}

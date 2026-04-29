@@ -1,0 +1,38 @@
+---
+import manifestData from '../../public/data/manifest.json';
+import { RESOURCE_TYPES } from '../scripts/resource-types';
+
+interface Props {
+  currentType: string;
+}
+
+const { currentType } = Astro.props;
+const counts = manifestData.counts as Record<string, number>;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const navItems = Object.entries(RESOURCE_TYPES)
+  .map(([key, meta]) => ({
+    key,
+    icon: meta.icon,
+    label: meta.labelPlural,
+    color: meta.color,
+    href: `${base}/${meta.href}`,
+    count: counts[meta.labelPlural.toLowerCase()] ?? 0,
+    isActive: key === currentType,
+  }))
+  .filter(item => item.count > 0);
+---
+
+<nav class="resource-type-nav" aria-label="Resource types">
+  {navItems.map(item => (
+    <a
+      href={item.href}
+      class:list={['resource-nav-link', { active: item.isActive }]}
+      style={`--nav-color: ${item.color}`}
+      aria-current={item.isActive ? 'page' : undefined}
+    >
+      <span class="resource-nav-icon" aria-hidden="true">{item.icon}</span>
+      <span class="resource-nav-label">{item.label}</span>
+    </a>
+  ))}
+</nav>
