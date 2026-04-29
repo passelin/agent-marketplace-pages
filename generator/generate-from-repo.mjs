@@ -810,10 +810,13 @@ async function main() {
     agents.items.length + instructions.items.length + skills.items.length +
     hooks.items.length + workflows.items.length + plugins.items.length;
 
+  const githubRepo = REPO_URL ? REPO_URL.replace("https://github.com/", "") : null;
+
   write("manifest.json", {
     _schema: SCHEMA_VERSION,
     generated: new Date().toISOString(),
     marketplaceName,
+    githubRepo,
     description,
     counts: {
       agents:       agents.items.length,

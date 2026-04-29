@@ -8,6 +8,8 @@ import { renderPluginsHtml } from '../scripts/plugins-render';
 
 const initialItems = pluginsData.items;
 const marketplaceName = manifestData.marketplaceName || 'this marketplace';
+const githubRepo = (manifestData as { githubRepo?: string | null }).githubRepo || null;
+const installTarget = githubRepo || marketplaceName;
 ---
 
 <StarlightPage frontmatter={{ title: 'Plugins', description: 'Browse and install plugins', template: 'splash', prev: false, next: false, editUrl: false }}>
@@ -25,7 +27,7 @@ const marketplaceName = manifestData.marketplaceName || 'this marketplace';
         </div>
 
         <div class="how-to-install">
-          <p>Install any plugin with: <code>copilot plugin install &lt;plugin-name&gt;@{marketplaceName}</code></p>
+          <p>Install any plugin with: <code>copilot plugin install &lt;plugin-name&gt;@{installTarget}</code></p>
         </div>
 
         <div class="listing-toolbar">
@@ -55,12 +57,12 @@ const marketplaceName = manifestData.marketplaceName || 'this marketplace';
           {initialItems.length} of {initialItems.length} plugins
         </div>
 
-        <div class="resource-list" id="resource-list" role="list" set:html={renderPluginsHtml(initialItems, { marketplaceName })}></div>
+        <div class="resource-list" id="resource-list" role="list" set:html={renderPluginsHtml(initialItems, { marketplaceName: installTarget })}></div>
       </div>
     </div>
   </div>
 
-  <div id="marketplace-config" data-marketplace-name={marketplaceName} hidden></div>
+  <div id="marketplace-config" data-marketplace-name={installTarget} hidden></div>
 
   <EmbeddedPageData filename="plugins.json" data={pluginsData} />
 

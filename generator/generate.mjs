@@ -365,6 +365,7 @@ async function generateData() {
         _schema: SCHEMA_VERSION,
         generated,
         marketplaceName: marketplace.name,
+        githubRepo: process.env.GITHUB_REPOSITORY || null,
         description: marketplace.metadata?.description || "",
         counts: {
           plugins: items.length,
