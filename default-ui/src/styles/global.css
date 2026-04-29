@@ -634,10 +634,15 @@ mark {
 }
 .gs-result {
   display: block;
+  width: 100%;
   padding: 6px 10px;
+  border: none;
   border-radius: 6px;
+  background: none;
   text-decoration: none;
+  text-align: left;
   color: var(--color-text);
+  cursor: pointer;
   transition: background var(--transition);
 }
 .gs-result:hover {
