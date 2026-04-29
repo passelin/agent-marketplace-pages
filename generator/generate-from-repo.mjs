@@ -7,8 +7,10 @@
  *   workflows/*.md, plugins/<name>/.github/plugin/plugin.json
  *
  * Environment variables:
- *   MARKETPLACE_REPO       Path to the repository to scan (required)
- *   MARKETPLACE_DIST_DIR   Output directory for generated JSON files (default: "dist/data")
+ *   MARKETPLACE_REPO         Path to the repository to scan (required)
+ *   MARKETPLACE_DIST_DIR     Output directory for generated JSON files (default: "dist/data")
+ *   MARKETPLACE_NAME         Marketplace display name (falls back to README h1, then directory name)
+ *   MARKETPLACE_DESCRIPTION  Marketplace description (falls back to first README paragraph)
  *   MARKETPLACE_REMOTES_FILE JSON file listing remote repos to merge for skills
  */
 
@@ -741,15 +743,26 @@ function generatePlugins() {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
-  // Try to read name/description from the repo's README
-  let marketplaceName = path.basename(REPO_ROOT);
-  let description = "";
+  // Name/description: env vars take precedence, then fall back to README
+  let marketplaceName = process.env.MARKETPLACE_NAME || "";
+  let description = process.env.MARKETPLACE_DESCRIPTION || "";
+
   const readmePath = path.join(REPO_ROOT, "README.md");
   if (fs.existsSync(readmePath)) {
     const readme = fs.readFileSync(readmePath, "utf8");
-    const h1 = readme.match(/^#\s+(.+)/m);
-    if (h1) marketplaceName = h1[1].trim();
+    if (!marketplaceName) {
+      const h1 = readme.match(/^#\s+(.+)/m);
+      if (h1) marketplaceName = h1[1].trim();
+    }
+    if (!description) {
+      // First non-empty paragraph after the H1
+      const afterH1 = readme.replace(/^#\s+.+/m, "").trim();
+      const para = afterH1.match(/^([^#\n].+)/m);
+      if (para) description = para[1].trim();
+    }
   }
+
+  if (!marketplaceName) marketplaceName = path.basename(REPO_ROOT);
 
   REPO_URL = getGithubRepoUrl(REPO_ROOT);
   FILE_DATES = buildFileDateMap(REPO_ROOT);
