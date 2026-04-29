@@ -1,10 +1,7 @@
 import { getEmbeddedData as getEmbeddedPageData } from "./embedded-data";
 
 export function getBasePath(): string {
-  if (typeof document !== "undefined") {
-    return document.body.dataset.basePath || "/";
-  }
-  return "/";
+  return import.meta.env.BASE_URL ?? "/";
 }
 
 export async function fetchData<T = unknown>(filename: string): Promise<T | null> {
