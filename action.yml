@@ -63,6 +63,14 @@ inputs:
     description: 'GitHub token for deploying to gh-pages branch'
     required: true
     default: ${{ github.token }}
+  repo-resources:
+    description: 'Scan the repository for agents, instructions, skills, hooks, and workflows in addition to plugins. Set to "auto" to detect automatically, "true" to always enable, or "false" to use plugins-only mode.'
+    required: false
+    default: 'auto'
+  remotes-file:
+    description: 'Path to a remotes.json file listing external repositories to pull skills from (only used in repo-resources mode)'
+    required: false
+    default: ''
   dry-run:
     description: 'Set to "true" to build without deploying (useful for CI validation)'
     required: false
@@ -115,7 +123,40 @@ runs:
           git push
         fi
 
+    - name: Detect generator mode
+      id: detect-gen
+      shell: bash
+      run: |
+        WS="${{ github.workspace }}"
+        MODE="${{ inputs.repo-resources }}"
+        if [ "$MODE" = "true" ]; then
+          echo "use-repo-gen=true" >> "$GITHUB_OUTPUT"
+        elif [ "$MODE" = "false" ]; then
+          echo "use-repo-gen=false" >> "$GITHUB_OUTPUT"
+        else
+          # auto: enable if any resource-type directories exist
+          if [ -d "$WS/agents" ] || [ -d "$WS/instructions" ] || \
+             [ -d "$WS/skills" ] || [ -d "$WS/hooks" ] || [ -d "$WS/workflows" ]; then
+            echo "use-repo-gen=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "use-repo-gen=false" >> "$GITHUB_OUTPUT"
+          fi
+        fi
+
+    - name: Generate UI data files from repository structure
+      if: steps.detect-gen.outputs.use-repo-gen == 'true'
+      shell: bash
+      env:
+        MARKETPLACE_REPO: ${{ github.workspace }}
+        MARKETPLACE_DIST_DIR: ${{ github.workspace }}/_marketplace_dist/data
+        MARKETPLACE_NAME: ${{ inputs.marketplace-name }}
+        MARKETPLACE_DESCRIPTION: ${{ inputs.marketplace-description }}
+        MARKETPLACE_REMOTES_FILE: ${{ inputs.remotes-file }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      run: node "${{ github.action_path }}/generator/generate-from-repo.mjs"
+
     - name: Generate UI data files from marketplace.json
+      if: steps.detect-gen.outputs.use-repo-gen != 'true'
       shell: bash
       env:
         GITHUB_WORKSPACE: ${{ github.workspace }}
