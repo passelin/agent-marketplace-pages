@@ -3,24 +3,95 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Agent%20Marketplace%20Pages-blue?logo=github)](https://github.com/marketplace/actions/agent-marketplace-pages)
 
-A reusable GitHub Action that generates and deploys a static plugin marketplace browser site to GitHub Pages — works with any repository that conforms to the [GitHub Copilot CLI](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference) or [Claude Code](https://code.claude.com/docs/en/plugin-marketplaces) plugin marketplace spec.
+A reusable GitHub Action that generates and deploys a static agent marketplace browser site to GitHub Pages — works with [GitHub Copilot CLI](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference) plugin repos and [Claude Code](https://code.claude.com/docs/en/plugin-marketplaces) agent repos.
 
 ## How it works
 
 The action runs a two-step pipeline:
 
-1. **Generate data** — reads `marketplace.json` and produces optimized JSON files (plugins, categories, search index, manifest)
+1. **Generate data** — scans your repository and produces optimized JSON files (resources, categories, search index, manifest)
 2. **Build & deploy** — builds an Astro + Starlight site from those files and pushes it to the `gh-pages` branch
 
-`marketplace.json` is the source of truth that GitHub Copilot CLI reads to discover plugins. It must be committed to your repository's default branch.
+There are two generator modes, selected automatically based on your repo structure:
+
+| Mode | Trigger | What it generates |
+| --- | --- | --- |
+| **Repo-resources** | `agents/`, `skills/`, `instructions/`, `hooks/`, or `workflows/` directory exists at repo root | Full multi-type marketplace: agents, instructions, skills, hooks, workflows, and plugins |
+| **Plugin-only** | None of the above directories exist | Plugin-only marketplace from `marketplace.json` |
+
+You can override auto-detection with `repo-resources: 'true'` or `repo-resources: 'false'`.
 
 ---
 
-## Recommended setup: two workflows
+## Repo-resources mode
 
-### Workflow 1 — Keep `marketplace.json` up to date
+If your repository contains any of the standard resource directories at its root, the action automatically scans them all:
 
-Runs whenever plugin files change on main. Generates `marketplace.json` from your plugin directory structure and commits it back to the repo so Copilot can always read it.
+```text
+your-repo/
+├── agents/
+│   └── my-agent/
+│       ├── agent.md         ← description, system prompt, model, tools
+│       └── README.md
+├── instructions/
+│   └── coding-standards.md
+├── skills/
+│   └── my-skill/
+│       ├── SKILL.md
+│       └── README.md
+├── hooks/
+│   └── my-hook/
+│       ├── hook.json
+│       └── README.md
+├── workflows/
+│   └── my-workflow.yml
+└── plugins/                 ← optional; scanned alongside other resource types
+    └── my-plugin/
+        └── .github/plugin/plugin.json
+```
+
+The generated site has a page for each resource type with search, filters, and a detail modal that lets users copy install commands or view raw file content.
+
+### Recommended workflow (repo-resources)
+
+```yaml
+# .github/workflows/deploy-marketplace.yml
+name: Deploy marketplace site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: passelin/agent-marketplace-pages@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          marketplace-name: My Agent Marketplace
+          base-path: /my-repo/
+```
+
+---
+
+## Plugin-only mode
+
+Use this mode when your repo's only resource type is plugins defined in `marketplace.json`.
+
+### Recommended setup: two workflows
+
+**Workflow 1 — Keep `marketplace.json` up to date**
+
+Runs whenever plugin files change on main. Generates `marketplace.json` from your plugin directory structure and commits it back to the repo.
 
 ```yaml
 # .github/workflows/update-marketplace.yml
@@ -49,15 +120,11 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           plugin-root: plugins
           marketplace-json: .github/plugin/marketplace.json
-          site-title: My Plugin Marketplace
-          dry-run: 'true'   # generate + commit marketplace.json, but skip site deploy
+          marketplace-name: My Plugin Marketplace
+          dry-run: 'true'   # generate + commit marketplace.json, skip site deploy
 ```
 
-> **Note:** Set `dry-run: 'true'` here so only `marketplace.json` is updated — site deployment is handled by Workflow 2.
-
-### Workflow 2 — Deploy the site on release
-
-Runs when you publish a GitHub release. Reads the already-committed `marketplace.json` and deploys the full site to GitHub Pages.
+#### Workflow 2 — Deploy the site on release
 
 ```yaml
 # .github/workflows/deploy-marketplace.yml
@@ -87,9 +154,7 @@ jobs:
           base-path: /my-repo/
 ```
 
----
-
-## Plugin directory structure
+### Plugin directory structure
 
 When using `plugin-root`, the action scans subdirectories and reads a manifest from each one.
 
@@ -113,34 +178,32 @@ Each `plugin.json`:
 }
 ```
 
-`remotes.json` — pull in all plugins from other marketplace repos:
+### Remote marketplaces
+
+Pull in plugins from other marketplace repos via `remoteMarketplaces` in `marketplace.json`:
 
 ```json
-[
-  { "name": "awesome-copilot", "label": "GitHub Copilot Extensions", "repo": "github/awesome-copilot" },
-  { "name": "my-team", "url": "https://raw.githubusercontent.com/acme/plugins/main/.github/plugin/marketplace.json" }
-]
+{
+  "remoteMarketplaces": [
+    { "name": "awesome-copilot", "label": "GitHub Copilot Extensions", "repo": "github/awesome-copilot" },
+    { "name": "my-team", "url": "https://raw.githubusercontent.com/acme/plugins/main/.github/plugin/marketplace.json" }
+  ]
+}
 ```
 
-Use `repo` for GitHub repos — the generator tries `.github/plugin/marketplace.json` then `.claude-plugin/marketplace.json` automatically. Use `url` when you need an exact path; if that URL returns 404 the other standard path is tried as a fallback.
+Use `repo` for GitHub repos — the generator tries `.github/plugin/marketplace.json` then `.claude-plugin/marketplace.json` automatically. Use `url` for an exact path; if it returns 404 the other standard path is tried as a fallback.
 
-Plugins from remote marketplaces appear in the site with a "From: X" badge linking back to the source. If a plugin name conflicts with a local one, the local plugin wins. Remote plugins are fetched at build time — no runtime requests.
+Plugins from remote marketplaces appear in the site with a "From: X" badge linking back to the source. If a plugin name conflicts with a local one, the local plugin wins.
 
-`external.json` — individual externally-hosted plugins:
+### Plugin install command
 
-```json
-[
-  {
-    "name": "external-plugin",
-    "description": "Hosted elsewhere",
-    "version": "2.0.0",
-    "source": {
-      "source": "https://github.com/other-org/external-plugin",
-      "installSource": "https://github.com/other-org/external-plugin"
-    }
-  }
-]
+The install command on the plugins page uses the repository path as the `@` target:
+
+```sh
+copilot plugin install <plugin-name>@owner/repo
 ```
+
+This matches what GitHub Copilot CLI expects. The repo path is derived automatically from the repository's git remote.
 
 ---
 
@@ -151,14 +214,18 @@ Plugins from remote marketplaces appear in the site with a "From: X" badge linki
 | `plugin-root` | `""` | Directory of plugin subdirectories. If set, `marketplace.json` is generated and committed back to the repo. |
 | `plugin-json-path` | `.github/plugin/plugin.json` | Relative path inside each plugin dir to its manifest |
 | `marketplace-json` | `.github/plugin/marketplace.json` | Path to `marketplace.json` (input when pre-committed, output when `plugin-root` is set) |
-| `marketplace-name` | repo name | Name written into generated `marketplace.json` |
-| `marketplace-description` | `""` | Description written into generated `marketplace.json` |
-| `site-title` | marketplace name | Browser tab title for the site |
+| `marketplace-name` | repo name | Display name for the marketplace; used as the site title and in `marketplace.json` |
+| `marketplace-description` | `""` | Marketplace description |
+| `marketplace-owner-name` | repo owner | `owner.name` field in generated `marketplace.json` |
+| `marketplace-owner-email` | `""` | `owner.email` field in generated `marketplace.json` |
+| `site-title` | marketplace name | Browser tab / nav title (falls back to `marketplace-name` when not set) |
 | `site-description` | `""` | Meta description for the site |
 | `base-path` | `/` | Base URL path (e.g. `/my-repo/` for GitHub Pages project sites) |
 | `deploy-branch` | `gh-pages` | Branch the built site is pushed to |
 | `custom-ui-dir` | `ui` | Path to a custom UI with its own `package.json` + build script |
 | `github-token` | `github.token` | Token for pushing to `deploy-branch` — needs `contents: write` |
+| `repo-resources` | `auto` | `auto` detects resource directories; `true` always uses repo-resources mode; `false` always uses plugin-only mode |
+| `remotes-file` | `""` | Path to a remotes.json listing external repos to pull skills from (repo-resources mode only). Defaults to `plugins/remotes.json` if that file exists. |
 | `dry-run` | `false` | Build without deploying. When `plugin-root` is set, `marketplace.json` is still committed. |
 
 ---
@@ -166,8 +233,6 @@ Plugins from remote marketplaces appear in the site with a "From: X" badge linki
 ## Custom UI
 
 If your repo contains a directory with a `package.json` that has a `build` script (default: `ui/`), the action uses it instead of the built-in Astro UI. The generated data files are copied into `{custom-ui-dir}/public/data/` before the build.
-
-Set `custom-ui-dir` to point at your directory:
 
 ```yaml
 - uses: passelin/agent-marketplace-pages@v1
